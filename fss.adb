@@ -62,7 +62,13 @@ package body fss is
     task collision_Detector is 
       pragma Priority(1);
     end collision_Detector;
+    task changeMode is 
+      pragma Priority(1);
+    end changeMode;
 
+    task visualizacion is 
+      pragma Priority(1);
+    end visualizacion;
     -----------------------------------------------------------------------
     ------------- body of tasks 
     -----------------------------------------------------------------------
@@ -85,7 +91,6 @@ package body fss is
 
     end loop;
     end read_Joystick_task;
-
 
 
     task body check_Jostick is 
@@ -208,8 +213,39 @@ package body fss is
     end loop;
     end collision_Detector;
 
+    --Si pilot 0 esta en modo manual si 1 esta en auto
+    task body changeMode is
+      mode : PilotButton_Samples_Type;
+    begin
+      mode := Read_PilotButton;
+    end changeMode;
 
 
+
+    task body visualizacion is 
+
+      Siguiente_Instante : Time;
+      Intervalo : Time_Span := Milliseconds(1000);
+
+
+    begin      
+      Siguiente_Instante := Clock + Intervalo;
+      loop
+        Start_Activity("Monitoreo");
+        
+        Display_Altitude(Read_Altitude);
+        
+        Display_Pilot_Power(Read_Power);
+        
+        Display_Speed(Read_Speed);
+
+        Display_Joystick(read_Joystick_task.getJoystick);
+
+        Finish_Activity("Monitoreo");
+        delay until Siguiente_Instante;
+        Siguiente_Instante := Siguiente_Instante + Intervalo;
+      end loop;
+    end visualizacion;
     ----------------------------------------------------------------------
     ------------- procedimientos para probar los dispositivos 
     ------------- SE DEBERÁN QUITAR PARA EL PROYECTO
