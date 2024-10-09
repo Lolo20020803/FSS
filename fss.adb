@@ -32,8 +32,11 @@ package body fss is
     protected joystick_compartido is
       function getJoystick return Joystick_Samples_Type;
       procedure updateJoystick(setJoystick: in Joystick_Samples_Type); 
+      function getPotencia return Power_Samples_Type;
+      procedure updatePotencia (setPotencia: in Power_Samples_Type);
       private 
         joystick: Joystick_Samples_Type;
+        potencia : Power_Samples_Type;
     end joystick_compartido;
 
     protected body joystick_compartido is
@@ -41,10 +44,21 @@ package body fss is
       begin
         return joystick;
       end getJoystick;
+
       procedure updateJoystick(setJoystick: in Joystick_Samples_Type) is 
       begin
         joystick := setJoystick;
       end updateJoystick;
+
+      function getPotencia return Power_Samples_Type is
+      begin
+        return potencia;
+      end getPotencia;
+
+      procedure updatePotencia (setPotencia: in Power_Samples_Type);
+      begin
+        potencia:= setPotencia;
+      end updatePotencia;
     end joystick_compartido;
     -----------------------------------------------------------------------
     ------------- declaration of tasks 
@@ -226,7 +240,7 @@ package body fss is
 
       Siguiente_Instante : Time;
       Intervalo : Time_Span := Milliseconds(1000);
-
+      power : Power_Samples_Type;
 
     begin      
       Siguiente_Instante := Clock + Intervalo;
@@ -235,11 +249,11 @@ package body fss is
         
         Display_Altitude(Read_Altitude);
         
-        Display_Pilot_Power(Read_Power);
-        
+        Read_Power(power);
+        Display_Pilot_Power(power);        
         Display_Speed(Read_Speed);
 
-        Display_Joystick(read_Joystick_task.getJoystick);
+        Display_Joystick(joystick_compartido.getJoystick);
 
         Finish_Activity("Monitoreo");
         delay until Siguiente_Instante;
