@@ -173,6 +173,7 @@ package body fss is
     loop
       
       Read_Distance(Distancia_obstaculo);
+      Set_Speed(1100);
       Velocidad:= Read_Speed;
       modo_esquiva := Read_PilotPresence;
       Read_Light_Intensity(visibilidad);
@@ -180,14 +181,20 @@ package body fss is
         tesquiva := 10.0;
         tesquiva1 := 15.0;
       end if;
+      Display_Message("Distancia Impacto "& Float'Image(Float(Distancia_obstaculo)));
       if Distancia_obstaculo <= 5000 then 
-        tiempo_Impacto :=   Float((Float(Distancia_obstaculo)/Float(Velocidad))) * Float(3600) ;      
+        Display_Message("Obstaculo Detectado");
+        Display_Message("Velocidad "& Float'Image(Float(Velocidad)));
+        tiempo_Impacto :=   Float((Float(Distancia_obstaculo)/Float(Velocidad)));
+        Display_Message("Tiempo Colision "& Float'Image(tiempo_Impacto));
         if tiempo_Impacto <= tesquiva then
           altitud:= Read_Altitude;
           if altitud > 8500 and iteraciones < 12   then 
+            Display_Message("Esquiva Pitch");
             Set_Aircraft_Pitch(45);
             iteraciones := iteraciones + 1;
           else
+            Display_Message("Esquiva Roll");
             Set_Aircraft_Roll(20);
             iteraciones := iteraciones + 1;
           end if;
