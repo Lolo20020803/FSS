@@ -171,13 +171,15 @@ package body fss is
       modo_esquiva : PilotPresence_Samples_Type;
       tesquiva : Float := 5.0;
       tesquiva1 : Float := 10.0;
+      visibilidad: Light_Samples_Type;
     begin
     loop
       
       Read_Distance(Distancia_obstaculo);
       Velocidad:= Read_Speed;
       modo_esquiva := Read_PilotPresence;
-      if natural(modo_esquiva) = 1 then 
+      Read_Light_Intensity(visibilidad);
+      if natural(modo_esquiva) = 1 or natural(visibilidad)< 500 then 
         tesquiva := 10.0;
         tesquiva1 := 15.0;
       end if;
