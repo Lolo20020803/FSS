@@ -29,7 +29,7 @@ package body fss is
     -----------------------------------------------------------------------
 
     -- Aqui se declaran los objetos protegidos para los datos compartidos  
-    protected joystick_compartido is
+    protected objeto_compartido is
       function getJoystick return Joystick_Samples_Type;
       procedure updateJoystick(setJoystick: in Joystick_Samples_Type); 
       function getPotencia return Power_Samples_Type;
@@ -37,9 +37,9 @@ package body fss is
       private 
         joystick: Joystick_Samples_Type;
         potencia : Power_Samples_Type;
-    end joystick_compartido;
+    end objeto_compartido;
 
-    protected body joystick_compartido is
+    protected body objeto_compartido is
       function getJoystick return Joystick_Samples_Type is 
       begin
         return joystick;
@@ -55,11 +55,11 @@ package body fss is
         return potencia;
       end getPotencia;
 
-      procedure updatePotencia (setPotencia: in Power_Samples_Type);
+      procedure updatePotencia (setPotencia: in Power_Samples_Type) is
       begin
         potencia:= setPotencia;
       end updatePotencia;
-    end joystick_compartido;
+    end objeto_compartido;
     -----------------------------------------------------------------------
     ------------- declaration of tasks 
     -----------------------------------------------------------------------
@@ -83,6 +83,12 @@ package body fss is
     task visualizacion is 
       pragma Priority(1);
     end visualizacion;
+
+    --
+    task control_Velocidad is 
+      pragma Priority(1);
+    end control_Velocidad;
+
     -----------------------------------------------------------------------
     ------------- body of tasks 
     -----------------------------------------------------------------------
@@ -98,7 +104,7 @@ package body fss is
     loop
       Start_Activity ("Leer Joystick");    
       Read_Joystick(Current_Joystick);
-      joystick_compartido.updateJoystick(Current_Joystick);
+     objeto_compartido.updateJoystick(Current_Joystick);
       Finish_Activity("Leer Joystick");
       delay until Siguiente_Instante;
       Siguiente_Instante := Siguiente_Instante + Intervalo;
@@ -124,7 +130,7 @@ package body fss is
         Start_Activity ("Prueba_Altitud");    
         -- Lee Joystick del piloto
 
-        Current_J := joystick_compartido.getJoystick;        
+        Current_J := objeto_compartido.getJoystick;        
         -- establece Pitch y Roll en la aeronave
         Target_Pitch := Pitch_Samples_Type (Current_J(x));
         Target_Roll := Roll_Samples_Type (Current_J(y));
@@ -234,8 +240,6 @@ package body fss is
       mode := Read_PilotButton;
     end changeMode;
 
-
-
     task body visualizacion is 
 
       Siguiente_Instante : Time;
@@ -253,39 +257,27 @@ package body fss is
         Display_Pilot_Power(power);        
         Display_Speed(Read_Speed);
 
-        Display_Joystick(joystick_compartido.getJoystick);
+        Display_Joystick (objeto_compartido.getJoystick);
 
         Finish_Activity("Monitoreo");
         delay until Siguiente_Instante;
         Siguiente_Instante := Siguiente_Instante + Intervalo;
       end loop;
     end visualizacion;
-    ----------------------------------------------------------------------
-    ------------- procedimientos para probar los dispositivos 
-    ------------- SE DEBERÁN QUITAR PARA EL PROYECTO
-    ----------------------------------------------------------------------
-    Procedure Prueba_Sensores_Piloto is
-        Current_Pp: PilotPresence_Samples_Type := 1;
-        Current_Pb: PilotButton_Samples_Type := 0;
+
+    task body control_Velocidad is
+      pilot_Power : Power_Samples_Type;
+      velocidad : Speed_Samples_Type;
     begin
+      pilot_Power := objeto_compartido.getPotencia;
+      velocidad := Speed_Samples_Type(Integer(pilot_Power)*1.2);
+      if velocidad > 1000 then 
+        Light_2(On);
+      else 
+        Set_Speed(velocidad);
+      end if;
 
-         for I in 1..120 loop
-            Start_Activity ("Prueba_Piloto");                
-            -- Prueba presencia piloto
-            Current_Pp := Read_PilotPresence;
-            if (Current_Pp = 0) then Alarm (1); end if;   
-            Display_Pilot_Presence (Current_Pp);
-                 
-            -- Prueba botón para selección de modo 
-            Current_Pb := Read_PilotButton;            
-            Display_Pilot_Button (Current_Pb); 
-            
-            Finish_Activity ("Prueba_Piloto");  
-         delay until (Clock + To_time_Span(0.1));
-         end loop;
-
-         Finish_Activity ("Prueba_Piloto");
-    end Prueba_Sensores_Piloto;
+    end control_Velocidad;
 
 
 begin
