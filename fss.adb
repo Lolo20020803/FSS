@@ -167,19 +167,34 @@ package body fss is
       Velocidad : Speed_Samples_Type := 0;
       tiempo_Impacto : Float := 0.0;
       altitud : Altitude_Samples_Type := 0;
+      iteraciones : Integer := 0;
+      modo_esquiva : PilotPresence_Samples_Type;
+      tesquiva : Float := 5.0;
+      tesquiva1 : Float := 10.0;
     begin
     loop
-      Read_Distance(Distancia_obstaculo);
-      Read_Speed(Velocidad);
       
+      Read_Distance(Distancia_obstaculo);
+      Velocidad:= Read_Speed;
+      modo_esquiva := Read_PilotPresence;
+      if natural(modo_esquiva) = 1 then 
+        tesquiva := 10.0;
+        tesquiva1 := 15.0;
+      end if;
       if Distancia_obstaculo <= 5000 then 
-        tiempo_Impacto :=   (Distancia_obstaculo/Velocidad) * 3600;
-        if tiempo_Impacto <= 5 then
-          Read_Altitude(altitud);
-              
-        else if tiempo_Impacto <= 10 then
-            Alarm(4);
+        tiempo_Impacto :=   Float((Float(Distancia_obstaculo)/Float(Velocidad))) * Float(3600) ;      
+        if tiempo_Impacto <= tesquiva then
+          altitud:= Read_Altitude;
+          if altitud > 8500 and iteraciones < 12   then 
+            Set_Aircraft_Pitch(45);
+            iteraciones := iteraciones + 1;
+          else
+            Set_Aircraft_Roll(20);
+            iteraciones := iteraciones + 1;
           end if;
+        else if tiempo_Impacto <= tesquiva1 then
+          Alarm(4);
+        end if;
         end if;
       end if;
     end loop;
