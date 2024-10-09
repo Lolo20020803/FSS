@@ -31,7 +31,7 @@ package body fss is
     -- Aqui se declaran los objetos protegidos para los datos compartidos  
     protected joystick_compartido is
       function getJoystick return Joystick_Samples_Type;
-      procedure updateJoystick(setJoystick: Joystick_Samples_Type); 
+      procedure updateJoystick(setJoystick: in Joystick_Samples_Type); 
       private 
         joystick: Joystick_Samples_Type;
     end joystick_compartido;
@@ -41,7 +41,7 @@ package body fss is
       begin
         return joystick;
       end getJoystick;
-      procedure updateJoystick(setJoystick: Joystick_Samples_Type) is 
+      procedure updateJoystick(setJoystick: in Joystick_Samples_Type) is 
       begin
         joystick := setJoystick;
       end updateJoystick;
@@ -55,9 +55,9 @@ package body fss is
       pragma Priority(1);
     end check_Jostick;
 
-    task read_Joystick is 
+    task read_Joystick_task is 
       pragma Priority(1);
-    end read_Joystick;
+    end read_Joystick_task;
     
     task collision_Detector is 
       pragma Priority(1);
@@ -67,7 +67,7 @@ package body fss is
     ------------- body of tasks 
     -----------------------------------------------------------------------
     -- Aqui se escriben los cuerpos de las tareas 
-    task body read_Joystick is 
+    task body read_Joystick_task is 
       Siguiente_Instante : Time;
       Intervalo : Time_Span := Milliseconds(10);
 
@@ -77,14 +77,14 @@ package body fss is
       Siguiente_Instante := Clock + Intervalo;
     loop
       Start_Activity ("Leer Joystick");    
-      --Read_Joystick(Current_Joystick);
+      Read_Joystick(Current_Joystick);
       joystick_compartido.updateJoystick(Current_Joystick);
       Finish_Activity("Leer Joystick");
       delay until Siguiente_Instante;
       Siguiente_Instante := Siguiente_Instante + Intervalo;
 
     end loop;
-    end read_Joystick;
+    end read_Joystick_task;
 
 
 
@@ -152,16 +152,7 @@ package body fss is
       Finish_Activity("check_Jostick_task");
     end check_Jostick;
 
-    -- dist > 5000 no obs
-    -- si timpac < 10 s alarma 4 
-    -- si timpac < 5 s esquiva
-    -- si visib < 500 / no piloto lo de nates pasa a 15 y 10 s respec
-    -- Esquivo: si alt <= 8500 cabeceo +20 en 3 seg 
-    --          si alt > 8500 alabeo = 45º derecha en 3 seg 
-    -- Luego estabiliza 
-    -- Cada 250 ms 
-          
-
+    
     task body collision_Detector is 
       Distancia_obstaculo: Distance_Samples_Type := 0;
       Velocidad : Speed_Samples_Type := 0;
@@ -172,7 +163,13 @@ package body fss is
       tesquiva : Float := 5.0;
       tesquiva1 : Float := 10.0;
       visibilidad: Light_Samples_Type;
+
+      Siguiente_Instante : Time;
+      Intervalo : Time_Span := Milliseconds(250);
+
+
     begin
+      Siguiente_Instante := Clock + Intervalo;
     loop
       
       Read_Distance(Distancia_obstaculo);
@@ -199,6 +196,8 @@ package body fss is
         end if;
         end if;
       end if;
+      delay until Siguiente_Instante;
+      Siguiente_Instante := Siguiente_Instante + Intervalo;
     end loop;
     end collision_Detector;
 
