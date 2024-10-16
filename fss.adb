@@ -70,24 +70,24 @@ package body fss is
     end check_Jostick;
 
     task read_Joystick_task is 
-      pragma Priority(1);
+      pragma Priority(2);
     end read_Joystick_task;
     
     task collision_Detector is 
-      pragma Priority(1);
+      pragma Priority(4);
     end collision_Detector;
     
     task changeMode is 
-      pragma Priority(1);
+      pragma Priority(6);
     end changeMode;
 
     task visualizacion is 
-      pragma Priority(1);
+      pragma Priority(5);
     end visualizacion;
 
     --
     task control_Velocidad is 
-      pragma Priority(1);
+      pragma Priority(3);
     end control_Velocidad;
 
     -----------------------------------------------------------------------
