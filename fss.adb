@@ -64,28 +64,32 @@ package body fss is
     ------------- declaration of tasks 
     -----------------------------------------------------------------------
 
-    -- Aqui se declaran las tareas que forman el STR
+    --Comprueba la incliancion del joystick y comprueba que no pase de 45º de roll y 30º de pitch
     task check_Jostick is 
-      pragma Priority(1);
+      pragma Priority(2);
     end check_Jostick;
 
+    --Actualiza el objeto protegido del joystick cada 10 ms
     task read_Joystick_task is 
-      pragma Priority(2);
+      pragma Priority(1);
     end read_Joystick_task;
     
+    --Detecta la colsision con un objeto y avisa con una luz
     task collision_Detector is 
       pragma Priority(4);
     end collision_Detector;
     
+    --Comprueba el modo del avion
     task changeMode is 
       pragma Priority(6);
     end changeMode;
 
+    --Hace un display de las variables del avion
     task visualizacion is 
       pragma Priority(5);
     end visualizacion;
 
-    --
+    --Varias cosas
     task control_Velocidad is 
       pragma Priority(3);
     end control_Velocidad;
