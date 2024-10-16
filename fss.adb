@@ -66,7 +66,7 @@ package body fss is
 
     --Comprueba la incliancion del joystick y comprueba que no pase de 45º de roll y 30º de pitch
     task check_Jostick is 
-      pragma Priority(2);
+      pragma Priority(1);
     end check_Jostick;
 
     --Actualiza el objeto protegido del joystick cada 10 ms
@@ -76,22 +76,22 @@ package body fss is
     
     --Detecta la colsision con un objeto y avisa con una luz
     task collision_Detector is 
-      pragma Priority(4);
+      pragma Priority(1);
     end collision_Detector;
     
     --Comprueba el modo del avion
     task changeMode is 
-      pragma Priority(6);
+      pragma Priority(1);
     end changeMode;
 
     --Hace un display de las variables del avion
     task visualizacion is 
-      pragma Priority(5);
+      pragma Priority(1);
     end visualizacion;
 
     --Varias cosas
     task control_Velocidad is 
-      pragma Priority(3);
+      pragma Priority(1);
     end control_Velocidad;
 
     -----------------------------------------------------------------------
@@ -128,14 +128,17 @@ package body fss is
         Current_A: Altitude_Samples_Type := 8000;
         Siguiente_Instante : Time;
         Intervalo :  Time_Span := Milliseconds(50);
+        Leer: Boolean := True;
     begin
       Siguiente_Instante := Clock + Intervalo;
       Start_Activity("check_Jostick_task");
       loop
         Start_Activity ("Prueba_Altitud");    
         -- Lee Joystick del piloto
-
+        
+     
         Current_J := objeto_compartido.getJoystick;        
+    
         -- establece Pitch y Roll en la aeronave
         Target_Pitch := Pitch_Samples_Type (Current_J(x));
         Target_Roll := Roll_Samples_Type (Current_J(y));
@@ -164,7 +167,23 @@ package body fss is
           Display_Message("No se puede reducir los -45º de roll");
         end if;
         end if;
-
+        if (Current_A >= 10000 and Target_Pitch > 0 ) then 
+          Target_Pitch:=0;
+          Target_Roll:=0;
+          Display_Message ("To high");
+        else if (Current_A>=9500 and Current_A < 10000) then 
+          Light_1(On);
+        else if (Current_A <=2500 and Current_A > 2000) then
+          Light_1(On);
+        else if (Current_A <=2000 and Target_Pitch < 0) then 
+          Target_Pitch:=0;
+          Target_Roll:=0;
+        else 
+          Light_1(Off);
+        end if;
+        end if;
+        end if;
+        end if; 
         Set_Aircraft_Pitch (Target_Pitch);  -- transfiere el movimiento pitch a la aeronave
         Set_Aircraft_Roll (Target_Roll);    -- transfiere el movimiento roll  a la aeronave 
                        
@@ -179,9 +198,6 @@ package body fss is
         Current_A := Read_Altitude;         -- lee y muestra por display la altitud de la aeronave  
         Display_Altitude (Current_A);
             
-        if (Current_A >= 10000) then Alarm (2); 
-          Display_Message ("To high");
-        end if; 
         Finish_Activity ("Prueba_Altitud");   
         delay until Siguiente_Instante;
         Siguiente_Instante := Siguiente_Instante + Intervalo;
