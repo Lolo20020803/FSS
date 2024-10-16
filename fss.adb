@@ -76,6 +76,7 @@ package body fss is
     task collision_Detector is 
       pragma Priority(1);
     end collision_Detector;
+    
     task changeMode is 
       pragma Priority(1);
     end changeMode;
@@ -141,6 +142,13 @@ package body fss is
           else if Target_Pitch < -30 then 
             Target_Pitch := -30;
             Display_Message("No se puede reducir los -30º de pitch");
+        end if;
+        end if;
+        
+        if (Target_Roll > 35) then 
+            Display_Message("Se esta superando los 35º de pitch");
+          else if Target_Roll < -30 then 
+            Display_Message("Se esta reduciendo los -35º de pitch");
         end if;
         end if;
 
@@ -265,18 +273,96 @@ package body fss is
       end loop;
     end visualizacion;
 
+
+
     task body control_Velocidad is
       pilot_Power : Power_Samples_Type;
       velocidad : Speed_Samples_Type;
+      Current_JT : Joystick_Samples_Type;
+      required_power : Power_Samples_Type;
+      Siguiente_Instante : Time;
+      Intervalo : Time_Span := Milliseconds(5);  -- Intervalo ajustable
+
     begin
+      loop
       pilot_Power := objeto_compartido.getPotencia;
-      velocidad := Speed_Samples_Type(Integer(pilot_Power)*1.2);
-      if velocidad > 1000 then 
+      --velocidad := Speed_Samples_Type(Integer(pilot_Power) * 1.2);
+      velocidad := Read_Speed;
+
+      if velocidad >= 1000 then
         Light_2(On);
-      else 
+        Set_Speed(Speed_Samples_Type(Float(1000)));
+      elsif velocidad <= 300 then
+          Light_2(On);
+          Set_Speed(Speed_Samples_Type(Float(300)));
+      else
         Set_Speed(velocidad);
       end if;
 
+      velocidad := Read_Speed;
+      Current_JT := objeto_compartido.getJoystick;
+
+      if Current_JT(y) > 0 then
+          if velocidad + 150 > 1000 then
+              Set_Speed(1000);
+          else
+              Set_Speed(Speed_Samples_Type(Float(velocidad)) + 150);
+          end if;
+      end if;
+
+
+      velocidad := Read_Speed;
+      if Current_JT(x) /= 0 then
+          if  pilot_Power < 1000 then
+        if pilot_Power + 100 > 1000 then
+            objeto_compartido.updatePotencia(1000);
+        else
+            objeto_compartido.updatePotencia(pilot_Power + 100);
+        end if;
+
+        velocidad := Read_Speed;
+        if velocidad > 1000 then
+            Set_Speed(1000);
+        else
+            Set_Speed(velocidad);
+        end if;
+     end if;
+     end if;
+
+    velocidad := Read_Speed;
+    if Current_JT(x) /= 0 and Current_JT(y) > 0 then
+        if  pilot_Power < 1000 then
+            if pilot_Power + 250 > 1000 then
+            objeto_compartido.updatePotencia(1000);
+        else
+            objeto_compartido.updatePotencia(pilot_Power + 250);
+        end if;
+
+        velocidad := Read_Speed;
+        if velocidad > 1000 then
+            Set_Speed(1000);
+        else
+            Set_Speed(velocidad);
+        end if;
+     end if;
+     end if;
+
+     velocidad := Read_Speed;
+     if pilot_Power < 300 then
+         Alarm (5);
+     end if;
+
+     if velocidad < 250 then
+    	required_power := Power_Samples_Type(Float(300)/Float(1.2));
+    	objeto_compartido.updatePotencia(required_power);
+    	Set_Speed(Speed_Samples_Type(Float(required_power) * Float(1.2)));
+     end if;
+
+     Finish_Activity("control_Velocidad");
+        delay until Siguiente_Instante;
+        Siguiente_Instante := Siguiente_Instante + Intervalo;
+
+     end loop;
     end control_Velocidad;
 
 
