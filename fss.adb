@@ -242,7 +242,7 @@ package body fss is
         Display_Message("Tiempo Colision "& Float'Image(tiempo_Impacto));
         if tiempo_Impacto <= tesquiva then
           altitud:= Read_Altitude;
-          if altitud > 8500 and iteraciones < 12   then 
+          if  (altitud > 8500 and iteraciones < 12)   then 
             Display_Message("Esquiva Pitch");
             Set_Aircraft_Pitch(45);
             iteraciones := iteraciones + 1;
@@ -253,6 +253,8 @@ package body fss is
           end if;
         else if tiempo_Impacto <= tesquiva1 then
           Alarm(4);
+        else 
+          iteraciones := 0;
         end if;
         end if;
       end if;

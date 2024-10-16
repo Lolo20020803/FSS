@@ -3,7 +3,7 @@ A -g
 P LC TF
 R nnvvrnvvnnnnvvvvnvvvnnnnvnnnnnvnnnnnnnnnnnn
 
-U fss%b			fss.adb			171B5E9B PK IL
+U fss%b			fss.adb			2E4ED975 PK IL
 W ada%s			ada.ads			ada.ali
 W ada.exceptions%s	a-except.adb		a-except.ali
 W ada.real_time%s	a-reatim.adb		a-reatim.ali
@@ -22,7 +22,7 @@ W system.task_info%s	s-tasinf.adb		s-tasinf.ali
 W system.tasking%s	s-taskin.adb		s-taskin.ali
 W system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
 W system.tasking.restricted.stages%s  s-tarest.adb  s-tarest.ali
-W tools%s		tools.adb		tools.ali  ED
+W tools%s		tools.adb		tools.ali
 
 U fss%s			fss.ads			40408672 NE PK IL
 
@@ -34,9 +34,9 @@ D a-reatim.ads		20000718095948 5DBAB303
 D a-retide.ads		20000718095948 7F3C479C
 D a-stream.ads		20000718095948 5F7C277B
 D a-tags.ads		20000718095948 45EF7E4E
-D devicesfss_v1.ads	20241015070604 65131FAE
-D fss.ads		20241015070604 40408672
-D fss.adb		20241016073147 1310D0A9
+D devicesfss_v1.ads	20240930123456 65131FAE
+D fss.ads		20240921223654 40408672
+D fss.adb		20241016084236 2A455747
 D kernel.ads		20010312182047 56BBE4F1
 D kernel-cpu_primitives.ads  20010312182047 5746D7AD
 D kernel-interrupts.ads	20010312182047 72CD7AA3
@@ -67,112 +67,61 @@ D s-taprob.ads		20000718095949 1D5668B3
 D s-tasres.ads		20000718095949 62B4C0AB
 D s-tarest.ads		20000718095949 1D177686
 D s-unstyp.ads		20000718095949 78AFB91D
-D tools.ads		20241015070604 40AA26E7
+D tools.ads		20240928193923 40AA26E7
 D unchconv.ads		20000718095949 72DC4539
 X 1 ada.ads
 18U9*Ada 11|3r6 3r25
 X 5 a-reatim.ads
 43U13*Real_Time 11|3r10 3r29
-45O9*Time 11|98r28 125r30 200r28 253r28 283r28
-50O9*Time_Span 11|99r19 126r22 201r19 254r19 284r19
-57U13*Clock 11|104r29 128r29 205r29 258r29
-59U13*"+" 11|104r35 111r48 128r35 183r50 205r35 240r48 258r35 272r50 363r50
-89U13*Milliseconds 11|99r32 126r35 201r32 254r32 284r32
+45O9*Time 11|90r28
+50O9*Time_Span 11|91r19
+57U13*Clock 11|95r29
+59U13*"+" 11|95r35 130r48
+89U13*Milliseconds 11|91r32
 X 9 devicesfss_v1.ads
 4U9*devicesFSS_V1 11|6r6 6r25
-11I10*Distance_Samples_Type 11|190r28
-12U15*Read_Distance 11|208r7
-15I10*Light_Samples_Type 11|198r20
-16U15*Read_Light_Intensity 11|212r7
-24I10*Altitude_Samples_Type 11|124r20 193r17
-26U14*Read_Altitude 11|175r22 224r21 262r26
-31I10*Speed_Samples_Type 11|191r19 280r19 294r19 297r21 309r25 358r19
-33U14*Read_Speed 11|210r19 266r23 290r20 302r20 314r20 323r22 332r18 341r22
-. 350r19
-34U15*Set_Speed 11|209r7 294r9 297r11 299r9 307r15 309r15 325r13 327r13 343r13
-. 345r13 358r9
-39I10*Pitch_Samples_Type 11|119r23 121r25 136r25
-41U14*Read_Pitch 11|167r27
-42U15*Set_Aircraft_Pitch 11|164r9 227r13
-44I10*Roll_Samples_Type 11|120r22 122r24 137r24
-46U14*Read_Roll 11|168r26
-47U15*Set_Aircraft_Roll 11|165r9 231r13
-54I10*Power_Samples_Type 11|35r35 36r49 39r20 53r35 58r49 255r15 279r21 282r24
-. 356r27
-55U15*Read_Power 11|264r9
-58N37*x 11|136r55 315r21 333r19
-58N39*y 11|137r53 305r21 333r42
-60A10*Joystick_Samples_Type 11|33r35 34r48 38r19 43r35 48r48 101r25 118r20
-. 281r20
-62U15*Read_Joystick 11|107r7
-68I10*PilotPresence_Samples_Type 11|195r22
-69U14*Read_PilotPresence 11|211r23
-72I10*PilotButton_Samples_Type 11|246r14
-73U14*Read_PilotButton 11|248r15
-80N27*On 11|293r17 296r19
-82U15*Light_2 11|293r9 296r11
-86U15*Alarm 11|178r38 235r11 352r10
-90U15*Display_Altitude 11|176r9 262r9
-91U15*Display_Speed 11|266r9
-93U15*Display_Pitch 11|171r9
-94U15*Display_Roll 11|172r9
-96U15*Display_Pilot_Power 11|265r9
-97U15*Display_Joystick 11|170r9 268r9
-100U15*Display_Message 11|141r13 144r13 149r13 151r13 157r11 160r11 179r11
-. 217r7 219r9 220r9 222r9 226r13 230r13
+11I10*Distance_Samples_Type 11|80r28
+12U15*Read_Distance 11|98r7
+15I10*Light_Samples_Type 11|88r20
+16U15*Read_Light_Intensity 11|102r7
+24I10*Altitude_Samples_Type 11|83r17
+26U14*Read_Altitude 11|114r21
+31I10*Speed_Samples_Type 11|81r19
+33U14*Read_Speed 11|100r19
+34U15*Set_Speed 11|99r7
+42U15*Set_Aircraft_Pitch 11|117r13
+47U15*Set_Aircraft_Roll 11|121r13
+54I10*Power_Samples_Type 11|35r35 36r49 39r20 53r35 58r49
+60A10*Joystick_Samples_Type 11|33r35 34r48 38r19 43r35 48r48
+68I10*PilotPresence_Samples_Type 11|85r22
+69U14*Read_PilotPresence 11|101r23
+86U15*Alarm 11|125r11
+100U15*Display_Message 11|107r7 109r9 110r9 112r9 116r13 120r13
 X 10 fss.ads
 1U9*fss 11|14b14
 2U13*Background 11|19b15
 X 11 fss.adb
-32w15 objeto_compartido 108r6 134r22 268r27 288r22 303r21 318r13 320r13 336r13
-. 338r13 357r9
-33U16 getJoystick 43b16 134r40 268r45 303r39
-34U17 updateJoystick 48b17 108r24
+32w15 objeto_compartido
+33U16 getJoystick 43b16
+34U17 updateJoystick 48b17
 34a32 setJoystick 48b32 50r21
-35U16 getPotencia 53b16 288r40
-36U17 updatePotencia 58b17 318r31 320r31 336r31 338r31 357r27
+35U16 getPotencia 53b16
+36U17 updatePotencia 58b17
 36i33 setPotencia 58b33 60r20
 38a9 joystick 45r16 50r9
 39i9 potencia 55r16 60r9
-68t10 check_Jostick
-72t10 read_Joystick_task
-76t10 collision_Detector
-80t10 changeMode
-84t10 visualizacion
-89t10 control_Velocidad
-98O7 Siguiente_Instante 104m7 110r19 111m7 111r29
-99O7 Intervalo 104r37 111r50
-101a7 Current_Joystick 107m21 108r39
-118a9 Current_J 134m9 136r45 137r43 170r27
-119i9 Target_Pitch 136m9 139r13 140m11 142r19 143m13 164r29
-120i9 Target_Roll 137m9 148r13 150r19 155r13 156m11 158r17 159m11 165r28
-121i9 Aircraft_Pitch 167m9 171r24
-122i9 Aircraft_Roll 168m9 172r23
-124i9 Current_A 175m9 176r27 178r13
-125O9 Siguiente_Instante 128m7 182r21 183m9 183r31
-126O9 Intervalo 128r37 183r52
-190i7 Distancia_obstaculo 208m21 217r63 218r10 221r42
-191i7 Velocidad 210m7 220r57 221r69
-192f7 tiempo_Impacto 221m9 222r57 223r12 234r17
-193i7 altitud 224m11 225r14
-194i7 iteraciones 225r33 228m13 228r28 232m13 232r28
-195i7 modo_esquiva 211m7 213r18
-196f7 tesquiva 214m9 223r30
-197f7 tesquiva1 215m9 234r35
-198i7 visibilidad 212m28 213r47
-200O7 Siguiente_Instante 205m7 239r19 240m7 240r29
-201O7 Intervalo 205r37 240r50
-246i7 mode 248m7
-253O7 Siguiente_Instante 258m7 271r21 272m9 272r31
-254O7 Intervalo 258r37 272r52
-255i7 power 264m20 265r29
-279i7 pilot_Power 288m7 316r15 317r12 320r46 334r13 335r16 338r46 351r9
-280i7 velocidad 290m7 292r10 295r13 299r19 302m7 306r14 309r50 314m7 323m9
-. 324r12 327r23 332m5 341m9 342r12 345r23 350m6 355r9
-281a7 Current_JT 303m7 305r10 315r10 333r8 333r31
-282i7 required_power 356m9 357r42 358r44
-283O7 Siguiente_Instante 362r21 363m9 363r31
-284O7 Intervalo 363r52
+69t10 collision_Detector
+80i7 Distancia_obstaculo 98m21 107r63 108r10 111r42
+81i7 Velocidad 100m7 110r57 111r69
+82f7 tiempo_Impacto 111m9 112r57 113r12 124r17
+83i7 altitud 114m11 115r14
+84i7 iteraciones 115r33 118m13 118r28 122m13 122r28
+85i7 modo_esquiva 101m7 103r18
+86f7 tesquiva 104m9 113r30
+87f7 tesquiva1 105m9 124r35
+88i7 visibilidad 102m28 103r47
+90O7 Siguiente_Instante 95m7 129r19 130m7 130r29
+91O7 Intervalo 95r37 130r50
 X 12 kernel.ads
 36U9*Kernel 11|2r6 2r32
 X 17 kernel-serial_output.ads
@@ -181,6 +130,4 @@ X 20 system.ads
 46U9*System 11|4r6 4r18
 X 42 tools.ads
 6U9*tools 11|5r6 5r17
-15U15*Start_Activity 11|106r7 129r7 131r9 260r9
-16U15*Finish_Activity 11|109r7 181r9 185r7 270r9 361r6
 
