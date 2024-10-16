@@ -265,7 +265,7 @@ package body fss is
         
         Display_Altitude(Read_Altitude);
         
-        Read_Power(power);
+        power := objeto_compartido.getPotencia;
         Display_Pilot_Power(power);        
         Display_Speed(Read_Speed);
 
