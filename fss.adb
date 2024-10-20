@@ -66,17 +66,17 @@ package body fss is
 
     --Comprueba la incliancion del joystick y comprueba que no pase de 45º de roll y 30º de pitch
     task check_Jostick is 
-      pragma Priority(1);
+      pragma Priority(3);
     end check_Jostick;
 
     --Actualiza el objeto protegido del joystick cada 10 ms
     task read_Joystick_task is 
-      pragma Priority(1);
+      pragma Priority(3);
     end read_Joystick_task;
     
     --Detecta la colsision con un objeto y avisa con una luz
     task collision_Detector is 
-      pragma Priority(1);
+      pragma Priority(6);
     end collision_Detector;
     
     --Comprueba el modo del avion
@@ -86,12 +86,12 @@ package body fss is
 
     --Hace un display de las variables del avion
     task visualizacion is 
-      pragma Priority(1);
+      pragma Priority(3);
     end visualizacion;
 
     --Varias cosas
     task control_Velocidad is 
-      pragma Priority(1);
+      pragma Priority(6);
     end control_Velocidad;
 
     -----------------------------------------------------------------------
@@ -322,6 +322,7 @@ package body fss is
           Light_2(On);
           Set_Speed(Speed_Samples_Type(Float(300)));
       else
+        Light_2(Off);
         Set_Speed(velocidad);
       end if;
 

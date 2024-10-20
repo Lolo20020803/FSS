@@ -3,7 +3,7 @@ A -g
 P LC TF
 R nnvvrnvvnnnnvvvvnvvvnnnnvnnnnnvnnnnnnnnnnnn
 
-U fss%b			fss.adb			6F2BC4E3 PK IL
+U fss%b			fss.adb			16CFCA2F PK IL
 W ada%s			ada.ads			ada.ali
 W ada.exceptions%s	a-except.adb		a-except.ali
 W ada.real_time%s	a-reatim.adb		a-reatim.ali
@@ -36,7 +36,7 @@ D a-stream.ads		20000718095948 5F7C277B
 D a-tags.ads		20000718095948 45EF7E4E
 D devicesfss_v1.ads	20241020143713 65131FAE
 D fss.ads		20241020143713 40408672
-D fss.adb		20241020172730 6B204AD1
+D fss.adb		20241020174554 12C4441D
 D kernel.ads		20010312182047 56BBE4F1
 D kernel-cpu_primitives.ads  20010312182047 5746D7AD
 D kernel-interrupts.ads	20010312182047 72CD7AA3
@@ -77,7 +77,7 @@ X 5 a-reatim.ads
 50O9*Time_Span 11|103r19 130r22 221r19 279r19 309r19
 57U13*Clock 11|108r29 133r29 225r29 283r29 312r29
 59U13*"+" 11|108r35 115r48 133r35 203r50 225r35 263r48 283r35 297r50 312r35
-. 386r50
+. 387r50
 89U13*Milliseconds 11|103r32 130r35 221r32 279r32 309r32
 X 9 devicesfss_v1.ads
 4U9*devicesFSS_V1 11|6r6 6r25
@@ -87,10 +87,10 @@ X 9 devicesfss_v1.ads
 16U15*Read_Light_Intensity 11|232r7
 24I10*Altitude_Samples_Type 11|128r20 213r17
 26U14*Read_Altitude 11|198r22 244r21 287r26
-31I10*Speed_Samples_Type 11|211r19 305r19 316r20 320r19 323r21 335r25 381r19
-33U14*Read_Speed 11|230r19 291r23 328r20 348r22
-34U15*Set_Speed 11|229r7 320r9 323r11 325r9 333r15 335r15 350r13 352r13 367r13
-. 369r13 381r9
+31I10*Speed_Samples_Type 11|211r19 305r19 316r20 320r19 323r21 336r25 382r19
+33U14*Read_Speed 11|230r19 291r23 329r20 349r22
+34U15*Set_Speed 11|229r7 320r9 323r11 326r9 334r15 336r15 351r13 353r13 368r13
+. 370r13 382r9
 39I10*Pitch_Samples_Type 11|123r23 125r25 143r25
 41U14*Read_Pitch 11|190r27
 42U15*Set_Aircraft_Pitch 11|187r9 247r13
@@ -98,9 +98,9 @@ X 9 devicesfss_v1.ads
 46U14*Read_Roll 11|191r26
 47U15*Set_Aircraft_Roll 11|188r9 251r13
 54I10*Power_Samples_Type 11|35r35 36r49 39r20 53r35 58r49 280r15 304r21 307r24
-. 379r27
-58N37*x 11|143r55 340r21 357r19
-58N39*y 11|144r53 331r21 357r42
+. 380r27
+58N37*x 11|143r55 341r21 358r19
+58N39*y 11|144r53 332r21 358r42
 60A10*Joystick_Samples_Type 11|33r35 34r48 38r19 43r35 48r48 105r25 122r20
 . 306r20
 62U15*Read_Joystick 11|111r7
@@ -109,10 +109,10 @@ X 9 devicesfss_v1.ads
 72I10*PilotButton_Samples_Type 11|269r14
 73U14*Read_PilotButton 11|272r15
 80N27*On 11|175r19 177r19 319r17 322r19
-80N31*Off 11|182r19
+80N31*Off 11|182r19 325r17
 81U15*Light_1 11|175r11 177r11 182r11
-82U15*Light_2 11|319r9 322r11
-86U15*Alarm 11|255r11 375r10
+82U15*Light_2 11|319r9 322r11 325r9
+86U15*Alarm 11|255r11 376r10
 90U15*Display_Altitude 11|199r9 287r9
 91U15*Display_Speed 11|291r9
 93U15*Display_Pitch 11|194r9
@@ -125,13 +125,13 @@ X 10 fss.ads
 1U9*fss 11|14b14
 2U13*Background 11|19b15
 X 11 fss.adb
-32w15 objeto_compartido 112r6 140r22 289r18 293r27 315r22 329r21 343r13 345r13
-. 360r13 362r13 380r9
-33U16 getJoystick 43b16 140r40 293r45 329r39
+32w15 objeto_compartido 112r6 140r22 289r18 293r27 315r22 330r21 344r13 346r13
+. 361r13 363r13 381r9
+33U16 getJoystick 43b16 140r40 293r45 330r39
 34U17 updateJoystick 48b17 112r24
 34a32 setJoystick 48b32 50r21
 35U16 getPotencia 53b16 289r36 315r40
-36U17 updatePotencia 58b17 343r31 345r31 360r31 362r31 380r27
+36U17 updatePotencia 58b17 344r31 346r31 361r31 363r31 381r27
 36i33 setPotencia 58b33 60r20
 38a9 joystick 45r16 50r9
 39i9 potencia 55r16 60r9
@@ -170,14 +170,14 @@ X 11 fss.adb
 278O7 Siguiente_Instante 283m7 296r21 297m9 297r31
 279O7 Intervalo 283r37 297r52
 280i7 power 289m9 290r29
-304i7 pilot_Power 315m7 316r47 341r15 342r12 345r46 358r13 359r16 362r46
-. 374r9
-305i7 velocidad 316m7 318r10 321r13 325r19 328m7 332r14 335r50 348m9 349r12
-. 352r23 366r12 369r23 378r9
-306a7 Current_JT 329m7 331r10 340r10 357r8 357r31
-307i7 required_power 379m9 380r42 381r44
-308O7 Siguiente_Instante 312m7 385r21 386m9 386r31
-309O7 Intervalo 312r37 386r52
+304i7 pilot_Power 315m7 316r47 342r15 343r12 346r46 359r13 360r16 363r46
+. 375r9
+305i7 velocidad 316m7 318r10 321r13 326r19 329m7 333r14 336r50 349m9 350r12
+. 353r23 367r12 370r23 379r9
+306a7 Current_JT 330m7 332r10 341r10 358r8 358r31
+307i7 required_power 380m9 381r42 382r44
+308O7 Siguiente_Instante 312m7 386r21 387m9 387r31
+309O7 Intervalo 312r37 387r52
 X 12 kernel.ads
 36U9*Kernel 11|2r6 2r32
 X 17 kernel-serial_output.ads
@@ -187,5 +187,5 @@ X 20 system.ads
 X 42 tools.ads
 6U9*tools 11|5r6 5r17
 15U15*Start_Activity 11|110r7 134r7 136r9 227r7 271r7 285r9 314r7
-16U15*Finish_Activity 11|113r7 201r9 205r7 261r7 273r7 295r9 384r9
+16U15*Finish_Activity 11|113r7 201r9 205r7 261r7 273r7 295r9 385r9
 
