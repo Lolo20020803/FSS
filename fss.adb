@@ -7,8 +7,8 @@ with devicesFSS_V1; use devicesFSS_V1;
 
 -- NO ACTIVAR ESTE PAQUETE MIENTRAS NO SE TENGA PROGRAMADA LA INTERRUPCION
 -- Packages needed to generate button interrupts       
--- with Ada.Interrupts.Names;
--- with Button_Interrupt; use Button_Interrupt;
+ with Ada.Interrupts.Names;
+with Button_Interrupt; use Button_Interrupt;
 
 
 package body fss is
@@ -61,6 +61,21 @@ package body fss is
       end updatePotencia;
     end objeto_compartido;
     -----------------------------------------------------------------------
+    ------------- declaration of interruptions 
+    -----------------------------------------------------------------------
+    protected Objeto_Interrupcion is
+      pragma Priority (Prioridad_Interrupcion);
+      procedure interrupcion;
+      pragma Attach_Handler (interrupcion,
+      Ada.Interrupts.Names.Id_Interrupcion);
+      entry Esperar_evento;
+    private
+      Barrera : Boolean := False;
+    end Objeto_Interrupcion;
+    
+
+
+    -----------------------------------------------------------------------
     ------------- declaration of tasks 
     -----------------------------------------------------------------------
 
@@ -98,10 +113,35 @@ package body fss is
       pragma Priority(6);
     end control_Velocidad;
 
+
+    -----------------------------------------------------------------------
+    ------------- body of interruptions------------------------------------ 
+    -----------------------------------------------------------------------
+    protected body Objeto_Interrupcion is
+      procedure Interrupcion is
+      begin
+        Barrera := True;
+      end Interrupcion;
+      entry Esperar_Evento when Barrera is
+      begin
+        Barrera := False;
+      end Llamada_Pendiente;
+    end Objeto_Interrupcion;
     -----------------------------------------------------------------------
     ------------- body of tasks 
     -----------------------------------------------------------------------
     -- Aqui se escriben los cuerpos de las tareas 
+
+    task body changeMode is
+      
+    begin
+      loop
+
+      end loop;
+    end changeMode;
+
+
+
     task body read_power_task is
       Siguiente_Instante : Time;
       Intervalo : Time_Span := Milliseconds(10);
@@ -120,9 +160,7 @@ package body fss is
     task body read_Joystick_task is 
       Siguiente_Instante : Time;
       Intervalo : Time_Span := Milliseconds(10);
-
       Current_Joystick: Joystick_Samples_Type:= (0,0);
-     
     begin
       Siguiente_Instante := Clock + Intervalo;
     loop
@@ -132,7 +170,6 @@ package body fss is
       Finish_Activity("Leer Joystick");
       delay until Siguiente_Instante;
       Siguiente_Instante := Siguiente_Instante + Intervalo;
-
     end loop;
     end read_Joystick_task;
 
