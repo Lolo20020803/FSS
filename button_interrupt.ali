@@ -1,0 +1,110 @@
+V "GNAT Lib v3.13 "
+A -g
+P LC TF
+R nnvvrnvvnnnnvvvvnvvvnnnnnnnnnnvnnnnnnnvnnnn
+
+U button_interrupt%b	button_interrupt.adb	688B2CF3 PK IL
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.real_time.delays%s  a-retide.adb		a-retide.ali
+W force_external_interrupt_2%b  force_external_interrupt_2.adb  force_external_interrupt_2.ali
+W kernel%s		kernel.ads		kernel.ali
+W kernel.serial_output%s  kernel-serial_output.adb  kernel-serial_output.ali
+W system%s		system.ads		system.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W tools%s		tools.adb		tools.ali
+
+U button_interrupt%s	button_interrupt.ads	04A07AA7 PK
+W ada%s			ada.ads			ada.ali
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+W system%s		system.ads		system.ali
+W system.parameters%s	s-parame.adb		s-parame.ali
+W system.task_info%s	s-tasinf.adb		s-tasinf.ali
+W system.tasking%s	s-taskin.adb		s-taskin.ali
+W system.tasking.restricted.stages%s  s-tarest.adb  s-tarest.ali
+
+D ada.ads		20000718095948 2359F9ED
+D a-except.ads		20000718095948 287FCF69
+D a-finali.ads		20000718095948 3F32DEEF
+D a-filico.ads		20000718095948 1DECB9AC
+D a-reatim.ads		20000718095948 5DBAB303
+D a-retide.ads		20000718095948 7F3C479C
+D a-stream.ads		20000718095948 5F7C277B
+D a-tags.ads		20000718095948 45EF7E4E
+D a-unccon.ads		20000718095948 751D104C
+D button_interrupt.ads	20241023081031 73FF735A
+D button_interrupt.adb	20240927171647 416749B7
+D force_external_interrupt_2.adb  20191007063732 26F1B2F3
+D kernel.ads		20010312182047 56BBE4F1
+D kernel-cpu_primitives.ads  20010312182047 5746D7AD
+D kernel-interrupts.ads	20010312182047 72CD7AA3
+D kernel-parameters.ads	20010312182047 0D1B8F78
+D kernel-peripherals.ads  20010312182047 089544EF
+D kernel-peripherals-registers.ads  20010312182047 3D2FDF01
+D kernel-serial_output.ads  20010312182047 16AD38F4
+D kernel-threads.ads	20010312182047 234DAE87
+D kernel-time.ads	20010312182047 7A57ECF4
+D system.ads		20010312182047 2AE5BAFE
+D s-exctab.ads		20000718095948 7A25F5F9
+D s-finimp.ads		20000718095949 1C201C0F
+D s-finroo.ads		20000718095949 166D4EDA
+D s-osinte.ads		20010312182047 7BFC1094
+D s-parame.ads		20000718095949 25FE086A
+D s-secsta.ads		20000718095949 60A2A5CD
+D s-soflin.ads		20000718095949 006B24D7
+D s-stache.ads		20000718095949 42B57F2A
+D s-stalib.ads		20000718095949 438B3864
+D s-stoele.ads		20000718095949 131D4539
+D s-stratt.ads		20000718095949 1761725B
+D s-tasinf.ads		20000718095949 0F7BBEC5
+D s-taspri.ads		20010312182047 3235B2AC
+D s-taprop.ads		20010312182047 36F12025
+D s-taskin.ads		20000718095949 09146F23
+D s-tasres.ads		20000718095949 62B4C0AB
+D s-tarest.ads		20000718095949 1D177686
+D s-unstyp.ads		20000718095949 78AFB91D
+D tools.ads		20240928193923 40AA26E7
+D unchconv.ads		20000718095949 72DC4539
+X 1 ada.ads
+18U9*Ada 10|3r6 3r25 11|17r18 21r56
+X 5 a-reatim.ads
+43U13*Real_Time 10|3r10 3r29 11|17r22 21r60
+45O9*Time 11|17r32
+50O9*Time_Span 10|12r23 13r23 14r23 15r23 16r23 17r23 18r23 19r23 20r23 21r24
+. 11|21r70
+59U13*"+" 11|27r33
+85U13*To_Time_Span 10|12r36 13r36 14r36 15r36 16r36 17r36 18r36 19r36 20r36
+. 21r37
+X 10 button_interrupt.ads
+6U9*Button_interrupt 11|10b14
+12O4*Interr_1 11|22r46
+13O4*Interr_2 11|22r55
+14O4*Interr_3 11|22r64
+15O4*Interr_4 11|22r73
+16O4*Interr_5 11|22r82
+17O4*Interr_6 11|23r46
+18O4*Interr_7 11|23r55
+19O4*Interr_8 11|23r64
+20O4*Interr_9 11|23r73
+21O4*Interr_10 11|23r82
+28i4*Priority_Of_External_Interrupts_2 32r24
+31t9*Interrupt
+X 11 button_interrupt.adb
+17O6 Next_Time 27m10 27r23 28r22
+19i6 Tamanio_Tabla_Retardos 20r34
+20M11 Indice_Retardos 21r36 24r10 24r29
+21A11 Tabla_Retardos 22r27
+22a6 periodoInterrupcion 27r35
+24m6 j 27r55 30m10 30r15
+X 12 force_external_interrupt_2.adb
+7U11*Force_External_Interrupt_2 11|5r6 29r10
+X 13 kernel.ads
+36U9*Kernel 11|2r6 2r32
+X 19 kernel-serial_output.ads
+36U16*Serial_Output 11|2r13 2r39
+X 22 system.ads
+46U9*System 10|4r6 4r18 28r49 29r43 11|4r6 4r18
+117I12*Interrupt_Priority 10|28r56 29r50
+X 41 tools.ads
+6U9*tools 11|8r6 8r17
+8O5*Big_Bang 11|17r40
+

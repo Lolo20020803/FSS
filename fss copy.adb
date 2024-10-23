@@ -7,8 +7,8 @@ with devicesFSS_V1; use devicesFSS_V1;
 
 -- NO ACTIVAR ESTE PAQUETE MIENTRAS NO SE TENGA PROGRAMADA LA INTERRUPCION
 -- Packages needed to generate button interrupts       
--- with Ada.Interrupts.Names;
--- with Button_Interrupt; use Button_Interrupt;
+ with Ada.Interrupts.Names;
+with Button_Interrupt; use Button_Interrupt;
 
 
 package body fss is
@@ -34,9 +34,13 @@ package body fss is
       procedure updateJoystick(setJoystick: in Joystick_Samples_Type); 
       function getPotencia return Power_Samples_Type;
       procedure updatePotencia (setPotencia: in Power_Samples_Type);
+      procedure changeModo;
+      function getModo return Boolean;
       private 
         joystick: Joystick_Samples_Type;
         potencia : Power_Samples_Type;
+        --Si el modo esta en true esta en modo automatico
+        modo: Boolean := False; 
     end objeto_compartido;
 
     protected body objeto_compartido is
@@ -59,61 +63,129 @@ package body fss is
       begin
         potencia:= setPotencia;
       end updatePotencia;
+
+      procedure changeModo  is 
+      begin
+        modo := not modo;
+      end changeModo;
+
+      function getModo return Boolean is 
+      begin
+        return modo;
+      end getModo;
     end objeto_compartido;
+    -----------------------------------------------------------------------
+    ------------- declaration of interruptions 
+    -----------------------------------------------------------------------
+    protected Objeto_Interrupcion is
+      pragma Priority (System.Interrupt_Priority'First+9);
+      procedure interrupcion;
+      pragma Attach_Handler (interrupcion,
+      Ada.Interrupts.Names.External_Interrupt_2);
+      entry Esperar_evento;
+    private
+      Barrera : Boolean := False;
+    end Objeto_Interrupcion;
+    
+
+
     -----------------------------------------------------------------------
     ------------- declaration of tasks 
     -----------------------------------------------------------------------
 
     --Comprueba la incliancion del joystick y comprueba que no pase de 45º de roll y 30º de pitch
     task check_Jostick is 
-      pragma Priority(1);
+      pragma Priority(3);
     end check_Jostick;
 
     --Actualiza el objeto protegido del joystick cada 10 ms
     task read_Joystick_task is 
-      pragma Priority(1);
+      pragma Priority(3);
     end read_Joystick_task;
-    
+
+    task read_power_task is 
+      pragma Priority(3);
+    end read_power_task;
+
     --Detecta la colsision con un objeto y avisa con una luz
     task collision_Detector is 
-      pragma Priority(1);
+      pragma Priority(6);
     end collision_Detector;
     
     --Comprueba el modo del avion
     task changeMode is 
-      pragma Priority(1);
+      pragma Priority(7);
     end changeMode;
 
     --Hace un display de las variables del avion
     task visualizacion is 
-      pragma Priority(1);
+      pragma Priority(3);
     end visualizacion;
 
     --Varias cosas
     task control_Velocidad is 
-      pragma Priority(1);
+      pragma Priority(6);
     end control_Velocidad;
 
+
+    -----------------------------------------------------------------------
+    ------------- body of interruptions------------------------------------ 
+    -----------------------------------------------------------------------
+    protected body Objeto_Interrupcion is
+      procedure Interrupcion is
+      begin
+        Barrera := True;
+      end Interrupcion;
+      entry Esperar_Evento when Barrera is
+      begin
+        Barrera := False;
+      end Esperar_Evento;
+    end Objeto_Interrupcion;
     -----------------------------------------------------------------------
     ------------- body of tasks 
     -----------------------------------------------------------------------
     -- Aqui se escriben los cuerpos de las tareas 
+
+    task body changeMode is
+    begin
+      loop
+      Start_Activity("Change Mode");
+      Objeto_Interrupcion.Esperar_evento;
+      objeto_compartido.changeModo;
+      Finish_Activity("Change Mode");
+      end loop;
+    end changeMode;
+
+
+
+    task body read_power_task is
+      Siguiente_Instante : Time;
+      Intervalo : Time_Span := Milliseconds(10);
+      Current_Power: Power_Samples_Type;
+
+    begin
+      Siguiente_Instante := Clock + Intervalo;
+    loop
+      Read_Power(Current_Power);
+      objeto_compartido.updatePotencia(Current_Power);
+      delay until Siguiente_Instante;
+      Siguiente_Instante := Siguiente_Instante + Intervalo;
+    end loop;
+    end read_power_task;
+
     task body read_Joystick_task is 
       Siguiente_Instante : Time;
       Intervalo : Time_Span := Milliseconds(10);
-
       Current_Joystick: Joystick_Samples_Type:= (0,0);
-     
     begin
       Siguiente_Instante := Clock + Intervalo;
     loop
       Start_Activity ("Leer Joystick");    
       Read_Joystick(Current_Joystick);
-     objeto_compartido.updateJoystick(Current_Joystick);
+      objeto_compartido.updateJoystick(Current_Joystick);
       Finish_Activity("Leer Joystick");
       delay until Siguiente_Instante;
       Siguiente_Instante := Siguiente_Instante + Intervalo;
-
     end loop;
     end read_Joystick_task;
 
@@ -154,7 +226,7 @@ package body fss is
         
         if (Target_Roll > 35) then 
             Display_Message("Se esta superando los 35º de pitch");
-          else if Target_Roll < -30 then 
+        else if Target_Roll < -30 then 
             Display_Message("Se esta reduciendo los -35º de pitch");
         end if;
         end if;
@@ -167,6 +239,9 @@ package body fss is
           Display_Message("No se puede reducir los -45º de roll");
         end if;
         end if;
+      --El sistema de altura solo funciona en modo automatico es decir modo = true
+      if objeto_compartido.getModo then
+        Display_Message("Altura en modo automatico");
         if (Current_A >= 10000 and Target_Pitch > 0 ) then 
           Target_Pitch:=0;
           Target_Roll:=0;
@@ -183,7 +258,7 @@ package body fss is
         end if;
         end if;
         end if;
-        end if; 
+        end if;
         Set_Aircraft_Pitch (Target_Pitch);  -- transfiere el movimiento pitch a la aeronave
         Set_Aircraft_Roll (Target_Roll);    -- transfiere el movimiento roll  a la aeronave 
                        
@@ -193,7 +268,9 @@ package body fss is
         Display_Joystick (Current_J);       -- muestra por display el joystick  
         Display_Pitch (Aircraft_Pitch);     -- muestra por display la posición de la aeronave  
         Display_Roll (Aircraft_Roll);
-
+      else 
+      Display_Message("Altura modo manual");
+      end if;
         -- Comprueba altitud
         Current_A := Read_Altitude;         -- lee y muestra por display la altitud de la aeronave  
         Display_Altitude (Current_A);
@@ -226,7 +303,6 @@ package body fss is
     loop
       Start_Activity ("collision_Detector");  
       Read_Distance(Distancia_obstaculo);
-      Set_Speed(1100);
       Velocidad:= Read_Speed;
       modo_esquiva := Read_PilotPresence;
       Read_Light_Intensity(visibilidad);
@@ -240,6 +316,8 @@ package body fss is
         Display_Message("Velocidad "& Float'Image(Float(Velocidad)));
         tiempo_Impacto :=   Float((Float(Distancia_obstaculo)/Float(Velocidad)));
         Display_Message("Tiempo Colision "& Float'Image(tiempo_Impacto));
+      --El sistema solo actua para esquivar en modo automatico es decir modo = true
+      if objeto_compartido.getModo then
         if tiempo_Impacto <= tesquiva then
           altitud:= Read_Altitude;
           if  (altitud > 8500 and iteraciones < 12)   then 
@@ -257,6 +335,7 @@ package body fss is
           iteraciones := 0;
         end if;
         end if;
+        end if;
       end if;
       Finish_Activity ("collision_Detector");
       delay until Siguiente_Instante;
@@ -265,14 +344,7 @@ package body fss is
     end collision_Detector;
 
     --Si pilot 0 esta en modo manual si 1 esta en auto
-    task body changeMode is
-      mode : PilotButton_Samples_Type;
-    begin
-      Start_Activity("change mode");
-      mode := Read_PilotButton;
-      Finish_Activity("change mode");
-    end changeMode;
-
+    
     task body visualizacion is 
 
       Siguiente_Instante : Time;
@@ -314,20 +386,26 @@ package body fss is
       Start_Activity("control_Velocidad");
       pilot_Power := objeto_compartido.getPotencia;
       velocidad := Speed_Samples_Type(Integer(pilot_Power) * 1.2);
-
-      if velocidad >= 1000 then
-        Light_2(On);
-        Set_Speed(Speed_Samples_Type(Float(1000)));
-      elsif velocidad <= 300 then
+      --Las actuaciones sobre la velocidad solo son en modo automatico modo = true
+      if objeto_compartido.getModo then
+        if velocidad >= 1000 then
           Light_2(On);
-          Set_Speed(Speed_Samples_Type(Float(300)));
+            Set_Speed(Speed_Samples_Type(Float(1000)));
+        elsif velocidad <= 300 then
+            Light_2(On);
+            Set_Speed(Speed_Samples_Type(Float(300)));
+        else
+          Light_2(Off);
+          Set_Speed(velocidad);
+        end if;
       else
         Set_Speed(velocidad);
       end if;
 
+
       velocidad := Read_Speed;
       Current_JT := objeto_compartido.getJoystick;
-
+    if objeto_compartido.getModo then
       if Current_JT(y) > 0 then
           if velocidad + 150 > 1000 then
               Set_Speed(1000);
@@ -336,7 +414,7 @@ package body fss is
           end if;
       end if;
 
-
+    
       if Current_JT(x) /= 0 then
           if  pilot_Power < 1000 then
         if pilot_Power + 100 > 1000 then
@@ -354,7 +432,7 @@ package body fss is
      end if;
      end if;
 
-    if Current_JT(x) /= 0 and Current_JT(y) > 0 then
+      if Current_JT(x) /= 0 and Current_JT(y) > 0 then
         if  pilot_Power < 1000 then
             if pilot_Power + 250 > 1000 then
             objeto_compartido.updatePotencia(1000);
@@ -368,9 +446,8 @@ package body fss is
         else
             Set_Speed(velocidad);
         end if;
-     end if;
-     end if;
-
+      end if;
+      end if;
      if pilot_Power < 300 then
          Alarm (5);
      end if;
@@ -380,7 +457,7 @@ package body fss is
         objeto_compartido.updatePotencia(required_power);
         Set_Speed(Speed_Samples_Type(Float(required_power) * Float(1.2)));
      end if;
-
+    end if;
         Finish_Activity("control_Velocidad");
         delay until Siguiente_Instante;
         Siguiente_Instante := Siguiente_Instante + Intervalo;
@@ -392,6 +469,3 @@ package body fss is
 begin
    null;
 end fss;
-
-
-

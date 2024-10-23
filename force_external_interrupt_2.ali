@@ -1,0 +1,42 @@
+V "GNAT Lib v3.13 "
+M P W=b
+A -g
+P
+R nnnnrnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnn
+
+U force_external_interrupt_2%b  force_external_interrupt_2.adb  1BDE6DF2 NE SU
+W kernel%s		kernel.ads		kernel.ali
+W kernel.peripherals%s	kernel-peripherals.adb	kernel-peripherals.ali
+W kernel.peripherals.registers%s  kernel-peripherals-registers.ads  kernel-peripherals-registers.ali
+
+D ada.ads		20000718095948 2359F9ED
+D a-unccon.ads		20000718095948 751D104C
+D force_external_interrupt_2.adb  20191007063732 26F1B2F3
+D kernel.ads		20010312182047 56BBE4F1
+D kernel-parameters.ads	20010312182047 0D1B8F78
+D kernel-peripherals.ads  20010312182047 089544EF
+D kernel-peripherals-registers.ads  20010312182047 3D2FDF01
+D system.ads		20010312182047 2AE5BAFE
+D s-unstyp.ads		20000718095949 78AFB91D
+X 3 force_external_interrupt_2.adb
+7U11*Force_External_Interrupt_2
+9U12 KPR 16r29 17r29 18r31 19r31 20r32 21r32 29r4 30r4 31r4
+16r4 Test_Control_Auxiliary 25r4 25m27 29r24
+18r4 Interrupt_Mask_Auxiliary 26r4 26m29 30r26
+20r4 Interrupt_Force_Auxiliary 27r4 27m30 31r27
+X 4 kernel.ads
+36U9*Kernel 3|1r6 9r24
+X 6 kernel-peripherals.ads
+43U16*Peripherals 3|1r13 9r31
+X 7 kernel-peripherals-registers.ads
+58U28*Registers 3|1r25 9r43
+355R9*Test_Control_Register 3|16r33
+367e10*Interrupt_Force_Register_Write_Enable 3|25r27
+397r4*Test_Control 3|17r33 29m8
+620R9*Interrupt_Mask_Register 3|18r35
+634e14*External_Interrupt_2 3|26r29
+676r4*Interrupt_Mask 3|19r35 30m8
+680R9*Interrupt_Force_Register 3|20r36
+694e14*External_Interrupt_2 3|27r30
+732r4*Interrupt_Force 3|21r36 31m8
+
