@@ -336,6 +336,8 @@ package body fss is
         end if;
         end if;
         end if;
+      else
+        Display_Message("Actuacion sobre colision desactivado");
       end if;
       Finish_Activity ("collision_Detector");
       delay until Siguiente_Instante;
@@ -457,6 +459,8 @@ package body fss is
         objeto_compartido.updatePotencia(required_power);
         Set_Speed(Speed_Samples_Type(Float(required_power) * Float(1.2)));
      end if;
+    else 
+      Display_Message("Control de velocidad desactivado");
     end if;
         Finish_Activity("control_Velocidad");
         delay until Siguiente_Instante;
