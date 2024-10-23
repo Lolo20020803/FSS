@@ -73,7 +73,11 @@ package body fss is
     task read_Joystick_task is 
       pragma Priority(3);
     end read_Joystick_task;
-    
+
+    task read_power_task is 
+      pragma Priority(3);
+    end read_power_task;
+
     --Detecta la colsision con un objeto y avisa con una luz
     task collision_Detector is 
       pragma Priority(6);
@@ -81,7 +85,7 @@ package body fss is
     
     --Comprueba el modo del avion
     task changeMode is 
-      pragma Priority(1);
+      pragma Priority(7);
     end changeMode;
 
     --Hace un display de las variables del avion
@@ -98,6 +102,21 @@ package body fss is
     ------------- body of tasks 
     -----------------------------------------------------------------------
     -- Aqui se escriben los cuerpos de las tareas 
+    task body read_power_task is
+      Siguiente_Instante : Time;
+      Intervalo : Time_Span := Milliseconds(10);
+      Current_Power: Power_Samples_Type;
+
+    begin
+      Siguiente_Instante := Clock + Intervalo;
+    loop
+      Read_Power(Current_Power);
+      objeto_compartido.setPotencia(Current_Power);
+      delay until Siguiente_Instante;
+      Siguiente_Instante := Siguiente_Instante + Intervalo;
+    end loop;
+    end read_power_task;
+
     task body read_Joystick_task is 
       Siguiente_Instante : Time;
       Intervalo : Time_Span := Milliseconds(10);
@@ -109,7 +128,7 @@ package body fss is
     loop
       Start_Activity ("Leer Joystick");    
       Read_Joystick(Current_Joystick);
-     objeto_compartido.updateJoystick(Current_Joystick);
+      objeto_compartido.updateJoystick(Current_Joystick);
       Finish_Activity("Leer Joystick");
       delay until Siguiente_Instante;
       Siguiente_Instante := Siguiente_Instante + Intervalo;
