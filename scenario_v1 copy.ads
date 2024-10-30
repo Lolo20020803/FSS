@@ -215,31 +215,31 @@ package Scenario_V1 is
     ---------------------------------------------------------------------
     ------ PILOT'S BUTTON -----------------------------------------------
 
-    cantidad_datos_PilotButton: constant := 200;
-    type Indice_Secuencia_PilotButton is mod cantidad_datos_PilotButton;
-    type tipo_Secuencia_PilotButton is array (Indice_Secuencia_PilotButton) of PilotButton_Samples_Type;
+      cantidad_datos_PilotButton: constant := 200;
+      type Indice_Secuencia_PilotButton is mod cantidad_datos_PilotButton;
+      type tipo_Secuencia_PilotButton is array (Indice_Secuencia_PilotButton) of PilotButton_Samples_Type;
 
-    PilotButton_Simulation: tipo_Secuencia_PilotButton :=  -- 1 muestra cada 100ms.
-                 ( 0,0,0,0,0, 0,0,0,0,0,   -- 1s. 
-                   0,0,0,0,0, 1,1,1,0,0,   -- 2s.
-                   0,0,0,0,0, 0,0,0,0,0,   -- 3s.
-                   0,0,0,0,0, 0,0,0,0,0,   -- 4s. 
-                   1,1,1,1,0, 0,0,0,0,0,   -- 5s.
-                   0,0,0,0,0, 0,0,0,0,0,   -- 6s.
-                   0,0,0,0,0, 0,0,0,0,0,   -- 7s.
-                   0,0,0,0,0, 0,0,0,0,0,   -- 8s. 
-                   0,0,0,0,0, 0,0,0,0,0,   -- 9s.
-                   0,0,0,0,0, 0,0,0,0,0,  -- 10s.                   
-                   0,0,0,0,0, 0,0,0,0,0,   -- 11s. 
-                   0,0,0,0,0, 1,1,1,1,1,   -- 12s.
-                   0,0,0,0,0, 0,0,0,0,0,   -- 13s.
-                   0,0,0,0,0, 0,0,0,0,0,   -- 14s. 
-                   0,0,0,0,0, 0,0,0,0,0,   -- 15s.
-                   0,0,0,0,0, 0,0,0,0,0,   -- 16s.
-                   0,0,0,0,0, 0,0,0,0,0,   -- 17s.
-                   0,0,0,0,0, 0,0,0,0,0,   -- 18s. 
-                   0,0,0,0,0, 0,0,0,0,0,   -- 19s.
-                   0,0,0,0,0, 0,0,0,0,0);  -- 20s.
+      PilotButton_Simulation: tipo_Secuencia_PilotButton :=  -- 1 muestra cada 100ms.
+                  ( 0,0,0,0,0, 0,0,0,0,0,   -- 1s. 
+                    0,0,0,0,0, 1,1,1,0,0,   -- 2s.
+                    0,0,0,0,0, 0,0,0,0,0,   -- 3s.
+                    0,0,0,0,0, 0,0,0,0,0,   -- 4s. 
+                    1,1,1,1,0, 0,0,0,0,0,   -- 5s.
+                    0,0,0,0,0, 0,0,0,0,0,   -- 6s.
+                    0,0,0,0,0, 0,0,0,0,0,   -- 7s.
+                    0,0,0,0,0, 0,0,0,0,0,   -- 8s. 
+                    0,0,0,0,0, 0,0,0,0,0,   -- 9s.
+                    0,0,0,0,0, 0,0,0,0,0,  -- 10s.                   
+                    0,0,0,0,0, 0,0,0,0,0,   -- 11s. 
+                    0,0,0,0,0, 1,1,1,1,1,   -- 12s.
+                    0,0,0,0,0, 0,0,0,0,0,   -- 13s.
+                    0,0,0,0,0, 0,0,0,0,0,   -- 14s. 
+                    0,0,0,0,0, 0,0,0,0,0,   -- 15s.
+                    0,0,0,0,0, 0,0,0,0,0,   -- 16s.
+                    0,0,0,0,0, 0,0,0,0,0,   -- 17s.
+                    0,0,0,0,0, 0,0,0,0,0,   -- 18s. 
+                    0,0,0,0,0, 0,0,0,0,0,   -- 19s.
+                    0,0,0,0,0, 0,0,0,0,0);  -- 20s.
 end Scenario_V1;
 
 

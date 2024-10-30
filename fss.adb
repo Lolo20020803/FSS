@@ -94,9 +94,9 @@ package body fss is
     -----------------------------------------------------------------------
 
     --Comprueba la incliancion del joystick y comprueba que no pase de 45º de roll y 30º de pitch
-    task check_Jostick is 
+    task altura_y_cabeceo is 
       pragma Priority(3);
-    end check_Jostick;
+    end altura_y_cabeceo;
 
     --Actualiza el objeto protegido del joystick cada 10 ms
     task read_Joystick_task is 
@@ -190,7 +190,7 @@ package body fss is
     end read_Joystick_task;
 
 
-    task body check_Jostick is 
+    task body altura_y_cabeceo is 
         Current_J: Joystick_Samples_Type := (0,0);
         Target_Pitch: Pitch_Samples_Type := 0;
         Target_Roll: Roll_Samples_Type := 0; 
@@ -203,9 +203,8 @@ package body fss is
         Leer: Boolean := True;
     begin
       Siguiente_Instante := Clock + Intervalo;
-      Start_Activity("check_Jostick_task");
       loop
-        Start_Activity ("Prueba_Altitud");    
+        Start_Activity ("Prueba_Altitud y Cabeceo");    
         -- Lee Joystick del piloto
         
      
@@ -241,7 +240,7 @@ package body fss is
         end if;
       --El sistema de altura solo funciona en modo automatico es decir modo = true
       if objeto_compartido.getModo then
-        Display_Message("Altura en modo automatico");
+        Display_Message("Altura en modo automatico actua sobre la nave");
         if (Current_A >= 10000 and Target_Pitch > 0 ) then 
           Target_Pitch:=0;
           Target_Roll:=0;
@@ -269,18 +268,18 @@ package body fss is
         Display_Pitch (Aircraft_Pitch);     -- muestra por display la posición de la aeronave  
         Display_Roll (Aircraft_Roll);
       else 
-      Display_Message("Altura modo manual");
+      Display_Message("Altura modo manual no actua sobre la nave");
       end if;
-        -- Comprueba altitud
-        Current_A := Read_Altitude;         -- lee y muestra por display la altitud de la aeronave  
-        Display_Altitude (Current_A);
-            
-        Finish_Activity ("Prueba_Altitud");   
-        delay until Siguiente_Instante;
-        Siguiente_Instante := Siguiente_Instante + Intervalo;
+      -- Comprueba altitud
+      Current_A := Read_Altitude;         -- lee y muestra por display la altitud de la aeronave  
+      Display_Altitude (Current_A);
+      Finish_Activity ("Prueba_Altitud");   
+
+      delay until Siguiente_Instante;
+      Siguiente_Instante := Siguiente_Instante + Intervalo;
       end loop;
-      Finish_Activity("check_Jostick_task");
-    end check_Jostick;
+      Finish_Activity("Prueba_Altitud y Cabeceo");
+    end altura_y_cabeceo;
 
     
     task body collision_Detector is 
@@ -310,7 +309,7 @@ package body fss is
         tesquiva := 10.0;
         tesquiva1 := 15.0;
       end if;
-      Display_Message("Distancia Impacto "& Float'Image(Float(Distancia_obstaculo)));
+      --Display_Message("Distancia Impacto "& Float'Image(Float(Distancia_obstaculo)));
       if Distancia_obstaculo <= 5000 then 
         Display_Message("Obstaculo Detectado");
         Display_Message("Velocidad "& Float'Image(Float(Velocidad)));
@@ -336,8 +335,8 @@ package body fss is
         end if;
         end if;
         end if;
-      else
-        Display_Message("Actuacion sobre colision desactivado");
+      --else
+        --Display_Message("Actuacion sobre colision desactivado");
       end if;
       Finish_Activity ("collision_Detector");
       delay until Siguiente_Instante;
@@ -459,8 +458,8 @@ package body fss is
         objeto_compartido.updatePotencia(required_power);
         Set_Speed(Speed_Samples_Type(Float(required_power) * Float(1.2)));
      end if;
-    else 
-      Display_Message("Control de velocidad desactivado");
+    --else 
+      --Display_Message("Control de velocidad desactivado");
     end if;
         Finish_Activity("control_Velocidad");
         delay until Siguiente_Instante;
