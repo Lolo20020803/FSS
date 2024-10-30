@@ -114,7 +114,7 @@ package body fss is
     
     --Comprueba el modo del avion
     task changeMode is 
-      pragma Priority(7);
+      pragma Priority(4);
     end changeMode;
 
     --Hace un display de las variables del avion
