@@ -40,7 +40,7 @@ package body fss is
         joystick: Joystick_Samples_Type;
         potencia : Power_Samples_Type;
         --Si el modo esta en true esta en modo automatico
-        modo: Boolean := False; 
+        modo: Boolean := True; 
     end objeto_compartido;
 
     protected body objeto_compartido is
@@ -98,33 +98,25 @@ package body fss is
       pragma Priority(2);
     end altura_y_cabeceo;
 
-    --Actualiza el objeto protegido del joystick cada 10 ms
-    task read_Joystick_task is 
-      pragma Priority(2);
-    end read_Joystick_task;
-
-    task read_power_task is 
-      pragma Priority(3);
-    end read_power_task;
 
     --Detecta la colsision con un objeto y avisa con una luz
     task collision_Detector is 
-      pragma Priority(6);
+      pragma Priority(4);
     end collision_Detector;
     
     --Comprueba el modo del avion
     task changeMode is 
-      pragma Priority(4);
+      pragma Priority(5);
     end changeMode;
 
     --Hace un display de las variables del avion
     task visualizacion is 
-      pragma Priority(3);
+      pragma Priority(1);
     end visualizacion;
 
     --Varias cosas
     task control_Velocidad is 
-      pragma Priority(5);
+      pragma Priority(3);
     end control_Velocidad;
 
 
@@ -156,40 +148,6 @@ package body fss is
       end loop;
     end changeMode;
 
-
-
-    task body read_power_task is
-      Siguiente_Instante : Time;
-      Intervalo : Time_Span := Milliseconds(10);
-      Current_Power: Power_Samples_Type;
-
-    begin
-      Siguiente_Instante := Clock + Intervalo;
-    loop
-      Read_Power(Current_Power);
-      objeto_compartido.updatePotencia(Current_Power);
-      delay until Siguiente_Instante;
-      Siguiente_Instante := Siguiente_Instante + Intervalo;
-    end loop;
-    end read_power_task;
-
-    task body read_Joystick_task is 
-      Siguiente_Instante : Time;
-      Intervalo : Time_Span := Milliseconds(10);
-      Current_Joystick: Joystick_Samples_Type:= (0,0);
-    begin
-      Siguiente_Instante := Clock + Intervalo;
-    loop
-      Start_Activity ("Leer Joystick");    
-      Read_Joystick(Current_Joystick);
-      objeto_compartido.updateJoystick(Current_Joystick);
-      Finish_Activity("Leer Joystick");
-      delay until Siguiente_Instante;
-      Siguiente_Instante := Siguiente_Instante + Intervalo;
-    end loop;
-    end read_Joystick_task;
-
-
     task body altura_y_cabeceo is 
         Current_J: Joystick_Samples_Type := (0,0);
         Target_Pitch: Pitch_Samples_Type := 0;
@@ -199,7 +157,7 @@ package body fss is
 
         Current_A: Altitude_Samples_Type := 8000;
         Siguiente_Instante : Time;
-        Intervalo :  Time_Span := Milliseconds(50);
+        Intervalo :  Time_Span := Milliseconds(200);
         Leer: Boolean := True;
     begin
       Siguiente_Instante := Clock + Intervalo;
@@ -273,12 +231,11 @@ package body fss is
       -- Comprueba altitud
       Current_A := Read_Altitude;         -- lee y muestra por display la altitud de la aeronave  
       Display_Altitude (Current_A);
-      Finish_Activity ("Prueba_Altitud");   
-
+      Finish_Activity("Prueba_Altitud y Cabeceo");
       delay until Siguiente_Instante;
       Siguiente_Instante := Siguiente_Instante + Intervalo;
       end loop;
-      Finish_Activity("Prueba_Altitud y Cabeceo");
+      
     end altura_y_cabeceo;
 
     
@@ -376,8 +333,9 @@ package body fss is
      task body control_Velocidad is
       pilot_Power : Power_Samples_Type;
       velocidad : Speed_Samples_Type;
-      Current_JT : Joystick_Samples_Type;
       required_power : Power_Samples_Type;
+      pitch : Pitch_Samples_Type;
+      roll : Roll_Samples_Type;
       Siguiente_Instante : Time;
       Intervalo : Time_Span := Milliseconds(300);  -- Intervalo ajustable
 
@@ -405,9 +363,10 @@ package body fss is
 
 
       velocidad := Read_Speed;
-      Current_JT := objeto_compartido.getJoystick;
+      pitch := Read_Pitch;
+      roll := Read_Roll;
     if objeto_compartido.getModo then
-      if Current_JT(y) > 0 then
+      if roll > 0 then
           if velocidad + 150 > 1000 then
               Set_Speed(1000);
           else
@@ -416,7 +375,7 @@ package body fss is
       end if;
 
     
-      if Current_JT(x) /= 0 then
+      if pitch /= 0 then
           if  pilot_Power < 1000 then
         if pilot_Power + 100 > 1000 then
             objeto_compartido.updatePotencia(1000);
@@ -433,7 +392,7 @@ package body fss is
      end if;
      end if;
 
-      if Current_JT(x) /= 0 and Current_JT(y) > 0 then
+      if pitch /= 0 and roll > 0 then
         if  pilot_Power < 1000 then
             if pilot_Power + 250 > 1000 then
             objeto_compartido.updatePotencia(1000);
