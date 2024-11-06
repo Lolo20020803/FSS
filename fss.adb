@@ -95,12 +95,12 @@ package body fss is
 
     --Comprueba la incliancion del joystick y comprueba que no pase de 45º de roll y 30º de pitch
     task altura_y_cabeceo is 
-      pragma Priority(3);
+      pragma Priority(2);
     end altura_y_cabeceo;
 
     --Actualiza el objeto protegido del joystick cada 10 ms
     task read_Joystick_task is 
-      pragma Priority(3);
+      pragma Priority(2);
     end read_Joystick_task;
 
     task read_power_task is 
