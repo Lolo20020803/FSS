@@ -124,7 +124,7 @@ package body fss is
 
     --Varias cosas
     task control_Velocidad is 
-      pragma Priority(6);
+      pragma Priority(5);
     end control_Velocidad;
 
 
