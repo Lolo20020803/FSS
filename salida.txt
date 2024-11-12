@@ -9,1239 +9,1280 @@ libreadline.so.3: cannot open shared object file: No such file or directory
 serial port A on stdin/stdout
 allocated 4096 K RAM memory
 allocated 2048 K ROM memory
-section: .text at 0x2000000, size 216832 bytes
-section: .data at 0x2034f00, size 11788 bytes
+section: .text at 0x2000000, size 216640 bytes
+section: .data at 0x2034e40, size 11788 bytes
 tsim> resuming at 0x02000000
 
 [ 0.0047] >>> Change Mode
 [ 0.0180] >>> collision_Detector
 [ 0.0411] --- collision_Detector
 [ 0.0580] >>> Prueba_Altitud y Cabeceo
-[ 0.0780] ..# MSSG: Altura en modo automatico actua sobre la nave
-[ 0.1157] %L(1): off
-[ 0.1560] --- Prueba_Altitud y Cabeceo
-[ 0.1760] >>> control_Velocidad
-[ 0.1923] %Light(2): ON
-[ 0.2215] %BEEEEEEEEEEEEP 5
-[ 0.2364] --- control_Velocidad
-[ 0.2527] 
+[ 0.0780] %L(1): off
+[ 0.1184] --- Prueba_Altitud y Cabeceo
+[ 0.1383] >>> control_Velocidad
+[ 0.1547] %Light(2): ON
+[ 0.1839] %BEEEEEEEEEEEEP 5
+[ 0.1988] --- control_Velocidad
+[ 0.2151] >>> Monitoreo
+[ 0.2320] ..# Altitude:  8000
+[ 0.2513] ..#
 [ 0.2584] >>> Prue
-[ 0.2681] >>> collision_Detector
-[ 0.2912] --- collision_Detectorba_Altitud y Cabeceo
-[ 0.3184] ..# MSSG: Altura en modo automatico actua sobre la nave
-[ 0.3560] %L(1): off
-[ 0.3964] --- Prueba_Altitud y Cabeceo>>> Monitoreo
-[ 0.4276] ..# Altitude:  8000
-[ 0.4469] ..# Pilot_P
-[ 0.4581] >>> Prueba_Altitud y Cabeceo
-[ 0.4781] ..# MSSG: Altura en modo automatico actua sobre la nave
-[ 0.
-[ 0.5183] >>> collision_Detector
-[ 0.5414] --- collision_Detector5158] %L(1): off
-[ 0.5961] --- Prueba_Altitud y Cabeceo
-[ 0.6161] >>> control_Velocidad
-[ 0.6324] %Light(2): ON
-[ 0.6618] >>> Prueba_Altitud y Cabeceo
-[ 0.6818] ..# MSSG: Altura en modo automatico actua sobre la nave
-[ 0.7194] %L(1): off
-[ 0.7598] --- Pr
-[ 0.7685] >>> collision_Detector
-[ 0.7916] --- collision_Detectorueba_Altitud y Cabeceo
-[ 0.8197] %BEEEEEEEEEEEEP 5
-[ 0.8346] --- control_Velocidad
-[ 0.8510] >>>
-[ 0.8582] >>> Prueba_Altitud y Cabeceo
-[ 0.8781] ..# MSSG: Altura en modo automatico actua sobre la nave
-[ 0.9158] %L(1): off
-[ 0.9562] --- Prueba_Altitud y Cabeceo control_Velocidad
-[ 0.9853] %Light(2): ON
-[ 1.01
-[ 1.0181] >>> collision_Detector
-[ 1.0412] --- collision_Detector
-[ 1.0581] >>> Prueba_Altitud y Cabeceo
-[ 1.0780] ..# MSSG: Altura en modo automatico actua sobre la nave
-[ 1.1157] %L(1): off
-[ 1.1561] --- Prueba_Altitud y Cabeceo45] %BEEEEEEEEEEEEP 5
-[ 1.1873] --- control_Velocidad
-[ 1.2037] >>> control_Velocidad
-[ 1.2201] %Light(2): ON
-[ 1.2492] %BEEEEE
+[ 0.2682] >>> collision_Detector
+[ 0.2913] --- collision_Detectorba_Altitud y Cabeceo
+[ 0.3184] %L(1): off
+[ 0.3588] --- Prueba_Altitud y Cabeceo Pilot_Power:  0
+[ 0.3931] ..# Speed:  300
+[ 0.4103] ..# Joystick:  0 0
+[ 0.4290] --- Moni
+[ 0.4387] >>> control_Velocidad
+[ 0.4
+[ 0.4582] >>> Prueba_Altitud y Cabeceo
+[ 0.4781] %L(1): off
+[ 0.5187] >>> collision_Detector
+[ 0.5418] --- collision_Detector
+[ 0.5587] --- Prueba_Altitud y Cabeceo551] %Light(2): ON
+[ 0.6048] %BEEEEEEEEEEEEP 5
+[ 0.6196] --- control_Velocidadtoreo
+[ 0.6578] >>> Prueba_Altitud y Cabeceo
+[ 0.6777] %L(1): off
+[ 0.7181] --- Prueba_Altitud y Cabeceo
+[ 0.7381] >>> control_Velocidad
+[ 0.7545] %Light(2): ON
+[ 0.7698] >>> collision_Detector
+[ 0.7930] --- collision_Detector
+[ 0.8231] %BEEEEEEEEEEEEP 5
+[ 0.8380] --- control_Velocidad
+[ 0.8577] >>> Prueba_Altitud y Cabeceo
+[ 0.8776] %L(1): off
+[ 0.9180] --- Prueba_Altitud y Cabeceo
+[ 1.0178] >>> collision_Detector
+[ 1.0411] --- collision_Detector
+
+[ 1.0585] >>> Prueba_Altitud y Cabeceo
+[ 1.0785] %L(1): off
+[ 1.1189] --- Prueba_Altitud y Cabeceo[ 1.1383] >>> control_Velocidad
+[ 1.1547] %Light(2): ON
+[ 1.1839] %BEEEEEEEEEEEEP 5
+[ 1.1987] --- control_Velocidad
+[ 1.2151] >>> Monitoreo
+[ 1.2320] ..# Altitude:  8000
+[ 1.2513] ..#
 [ 1.2584] >>> Prue
-[ 1.2682] >>> collision_Detector
+[ 1.2681] >>> collision_Detector
 [ 1.2913] --- collision_Detectorba_Altitud y Cabeceo
-[ 1.3184] ..# MSSG: Altura en modo automatico actua sobre la nave
-[ 1.3561] %L(1): off
-[ 1.3964] --- Prueba_Altitud y CabeceoEEEEEEEP 5
-[ 1.4221] --- control_Velocidad
-[ 1.4384] >>> control_Velocidad
-[ 1.45
-[ 1.4584] >>> Prueba_Altitud y Cabeceo
-[ 1.4784] ..# MSSG: Altura en modo automatico actua sobre la nave
-[ 1
-[ 1.5181] >>> collision_Detector
-[ 1.5412] --- collision_Detector.5160] %L(1): off
-[ 1.5964] --- Prueba_Altitud y Cabeceo48] %Light(2): ON
-[ 1.6419] %BEEEEEEEEEEEEP 5
-[
-[ 1.6578] >>> Prueba_Altitud y Cabeceo
-[ 1.6778] ..# MSSG: Altura en modo automatico actua sobre la nave
-[ 1.7155] %L(1): off
-[ 1.7558] --- Prueba_Al
-[ 1.7681] >>> collision_Detector
-[ 1.7912] --- collision_Detectortitud y Cabeceo 1.6568] --- control_Velocidad
-[ 1.8311] >>> control_Velocidad
-[ 1.8475] %Light(2):
-[ 1.8583] >>> Prueba_Altitud y Cabeceo
-[ 1.8782] ..# MSSG: Altura en modo automatico actua sobre la nave
-[ 1.9159] %L(1): off
-[ 1.9563] --- Prueba_Altitud y Cabeceo ON
-[ 1.9946] %BEEEEEEEEEEEEP 5
-[ 2.0095] --- co
-[ 2.0182] >>> collision_Detector
-[ 2.0413] --- collision_Detector
-[ 2.0582] >>> Prueba_Altitud y Cabeceo
-[ 2.0782] ..# MSSG: Altura en modo automatico actua sobre la nave
-[ 2.1158] %L(1): off
-[ 2.1562] --- Prueba_Altitud y Cabeceontrol_Velocidad
-[ 2.1838] >>> control_Velocidad
-[ 2.2002] %Light(2): ON
-[ 2.2294] %BEEEEEEEEEEEEP 5
-[ 2.2443] --- control_Velo
-[ 2.2581] >>> Prueb
-[ 2.2683] >>> collision_Detector
-[ 2.2914] --- collision_Detectora_Altitud y Cabeceo
-[ 2.3180] ..# MSSG: Altura en modo automatico actua sobre la nave
-[ 2.3557] %L(1): off
-[ 2.3961] --- Prueba_Altitud y Cabeceocidad
-[ 2.4186] >>> control_Velocidad
-[ 2.4349] %Light(2): ON
-[ 2.4588] >>> Prueba_Altitud y Cabeceo
-[ 2.4787] ..# MSSG: Altura en modo automatico actua sobre la nave
-[ 2
-[ 2.5184] >>> collision_Detector
-[ 2.5415] --- collision_Detector.5164] %L(1): off
-[ 2.5967] --- Prueba_Altitud y Cabeceo
-[ 2.6216] %BEEEEEEEEEEEEP 5
-[ 2.6365] --- control_Velocidad
-[ 2.6528] 
+[ 1.3184] %L(1): off
+[ 1.3590] --- Prueba_Altitud y Cabeceo
+[ 1.3789] >>> control_Velocidad
+[ 1.3953] %Light(2): ON
+[ 1.4245] %BEEEEEEEEEEEEP 5
+[ 1.4394] --- control_Velocidad Pilo
+[ 1.4583] >>> Prueba_Altitud y Cabeceo
+[ 1.4782] %L(1): off
+[ 1.5189] >>> collision_Detector
+[ 1.5420] --- collision_Detector
+[ 1.5589] --- Prueba_Altitud y Cabeceot_Power:  0
+[ 1.5906] ..# Speed:  300
+[ 1.6079] ..# Joystick:  0 0
+[ 1.6266] --- Monitore
+[ 1.6383] >>> control_Velocidad
+[ 1.65
+[ 1.6583] >>> Prueba_Altitud y Cabeceo
+[ 1.6783] %L(1): off
+[ 1.7187] --- Prueba_Altitud y Cabeceo47] %Light(2): ON
+[ 1.764
+[ 1.7683] >>> collision_Detector
+[ 1.7914] --- collision_Detector2] %BEEEEEEEEEEEEP 5
+[ 1.8191] --- control_Velocidado
+[ 1.8578] >>> Prueba_Altitud y Cabeceo
+[ 1.8777] %L(1): off
+[ 1.9181] --- Prueba_Altitud y Cabeceo
+[ 1.9381] >>> control_Velocidad
+[ 1.9544] %Light(2): ON
+[ 1.9836] %BEEEEEEEEEEEEP 5
+[ 1.9985] --- control_Velocidad
+[ 2.0178] >>> collision_Detector
+[ 2.0409] --- collision_Detector
+[ 2.0578] >>> Prueba_Altitud y Cabeceo
+[ 2.0777] %L(1): off
+[ 2.1181] --- Prueba_Altitud y Cabeceo
+[ 2.2148] >>> Monitoreo
+[ 2.2317] ..
+[ 2.2383] >>> control_Velocidad
+[ 2.25
+[ 2.2583] >>> Prue
+[ 2.2680] >>> collision_Detector
+[ 2.2912] --- collision_Detectorba_Altitud y Cabeceo
+[ 2.3183] %L(1): off
+[ 2.3587] --- Prueba_Altitud y Cabeceo47] %Light(2): ON
+[ 2.4042] %BEEEEEEEEEEEEP 5
+[ 2.4191] --- control_Velocidad# Altitude:  8000
+[ 2.4481] ..# Pilot
+[ 2.4583] >>> Prueba_Altitud y Cabeceo
+[ 2.4783] %L(1): off
+[ 2.5189] >>> collision_Detector
+[ 2.5422] --- collision_Detector
+[ 2.5590] --- Prueba_Altitud y Cabeceo
+[ 2.5790] >>> control_Velocidad
+[ 2.5954] %Light(2): ON
+[ 2.6246] %BEEEEEEEEEEEEP 5
+[ 2.6395] --- control_Velocidad_Powe
 [ 2.6584] >>> Prueba_Altitud y Cabeceo
-[ 2.6784] ..# MSSG: Altura en modo automatico actua sobre la nave
-[ 2.7161] %L(1): off
-[ 2.7565] --- Prueba_A
-[ 2.7682] >>> collision_Detector
-[ 2.7913] --- collision_Detectorltitud y Cabeceo>>> control_Velocidad
-[ 2.8271] %Light(2): ON
-[ 2
-[ 2.8583] >>> Prueba_Altitud y Cabeceo
-[ 2.8783] ..# MSSG: Altura en modo automatico actua sobre la nave
-[ 2.9160] %L(1): off
-[ 2.9563] --- Prueba_Altitud y Cabeceo.8563] %BEEEEEEEEEEEEP 5
-[ 2.9891] --- control_Velocidad
-[ 3.0055] >>> control_Ve
-[ 3.0183] >>> collision_Detector
-[ 3.0414] --- collision_Detector
-[ 3.0583] >>> Prueba_Altitud y Cabeceo
-[ 3.0783] ..# MSSG: Altura en modo automatico actua sobre la nave
-[ 3.1159] %L(1): off
-[ 3.1563] --- Prueba_Altitud y Cabeceolocidad
-[ 3.1798] %Light(2): ON
-[ 3.2090] %BEEEEEEEEEEEEP 5
-[ 3.2239] --- control_Velocidad
-[ 3.2402] >>> control_Velocidad
-[ 
+[ 2.6783] %L(1): off
+[ 2.7187] --- Prueba_Altitud y Cabeceor:  0
+[ 2.7473] ..# Speed:  300
+[ 2.76
+[ 2.7681] >>> collision_Detector
+[ 2.7913] --- collision_Detector46] ..# Joystick:  0 0
+[ 2.8233] --- Monitoreo
+[ 2.8381] >>> control_Velocidad
+[ 2.85
+[ 2.8580] >>> Prueba_Altitud y Cabeceo
+[ 2.8780] %L(1): off
+[ 2.9184] --- Prueba_Altitud y Cabeceo44] %Light(2): ON
+[ 2.9639] %BEEEEEEEEEEEEP 5
+[ 2.9788] --- control_Velocidad
+[ 3.0178] >>> collision_Detector
+[ 3.0409] --- collision_Detector
+[ 3.0578] >>> Prueba_Altitud y Cabeceo
+[ 3.0777] %L(1): off
+[ 3.1181] --- Prueba_Altitud y Cabeceo
+[ 3.1381] >>> control_Velocidad
+[ 3.1545] %Light(2): ON
+[ 3.1836] %BEEEEEEEEEEEEP 5
+[ 3.1985] --- control_Velocidad
+[ 3.2149] >>> Monitoreo
+[ 3.2318] ..# Altitude:  8000
+[ 3.2511] ..#
 [ 3.2582] >>> Prueb
 [ 3.2684] >>> collision_Detector
-[ 3.2915] --- collision_Detectora_Altitud y Cabeceo
-[ 3.3181] ..# MSSG: Altura en modo automatico actua sobre la nave
-[ 3.3558] %L(1): off
-[ 3.3962] --- Prueba_Altitud y Cabeceo3.2566] %Light(2): ON
-[ 3.4438] %BEEEEEEEEEEEEP 5
-[ 3.4581] >>> Prueba_Altitud y Cabeceo
-[ 3.4780] ..# MSSG: Altura en modo automatico actua sobre la nave
-[ 3.
-[ 3.5182] >>> collision_Detector
-[ 3.5414] --- collision_Detector5157] %L(1): off
-[ 3.5961] --- Prueba_Altitud y Cabeceo
-[ 3.6163] --- control_Velocidad
-[ 3.6327] >>> control_Velocidad
-[ 3.6490] %Light(
-[ 3.6583] >>> Prueba_Altitud y Cabeceo
-[ 3.6782] ..# MSSG: Altura en modo automatico actua sobre la nave
-[ 3.7159] %L(1): off
-[ 3.7563] --- Prueba_A
-[ 3.7680] >>> collision_Detector
-[ 3.7912] --- collision_Detectorltitud y Cabeceo2): ON
-[ 3.8362] %BEEEEEEEEEEEEP 5
-[ 3.8511] ---
-[ 3.8582] >>> Prueba_Altitud y Cabeceo
-[ 3.8782] ..# MSSG: Altura en modo automatico actua sobre la nave
-[ 3.9158] %L(1): off
-[ 3.9562] --- Prueba_Altitud y Cabeceo control_Velocidad
-[ 3.9854] >>> control_Velocidad
-[ 4.0017] %Light(2): ON
-[ 4.0194] >>> collision_Detector
-[ 4.0425] --- collision_Detector
-[ 4.0593] >>> Prueba_Altitud y Cabeceo
-[ 4.0793] ..# MSSG: Altura en modo automatico actua sobre la nave
-[ 4.1170] %L(1): off
-[ 4.1573] --- Prueba_Altitud y Cabeceo
-[ 4.1884] %BEEEEEEEEEEEEP 5
-[ 4.2033] --- control_Velocidad
-[ 4.2196] >>> control_Velocidad
-[ 4.2360] %Light(2): ON
-[ 4.2598] >>> P
-[ 4.2680] >>> collision_Detector
-[ 4.2911] --- collision_Detectorrueba_Altitud y Cabeceo
-[ 4.3198] ..# MSSG: Altura en modo automatico actua sobre la nave
-[ 4.3575] %L(1): off
-[ 4.3978] --- Prueba_Altitud y Cabeceo
-[ 4.4227] %BEEEEEEEEEEEEP 5
-[ 4.4375] --- control_Velocidad
-[ 4.4539
-[ 4.4585] >>> Prueba_Altitud y Cabeceo
-[ 4.4785] ..# MSSG: Altura en modo automatico actua sobre la nave
-[ 4
-[ 4.5182] >>> collision_Detector
-[ 4.5413] --- collision_Detector.5161] %L(1): off
-[ 4.5965] --- Prueba_Altitud y Cabeceo] >>> control_Velocidad
-[ 4.6282] %Light(2): ON
-[
-[ 4.6584] >>> Prueba_Altitud y Cabeceo
-[ 4.6784] ..# MSSG: Altura en modo automatico actua sobre la nave
-[ 4.7160] %L(1): off
-[ 4.7564] --- Prueba_A
-[ 4.7682] >>> collision_Detector
-[ 4.7913] --- collision_Detectorltitud y Cabeceo 4.6574] %BEEEEEEEEEEEEP 5
-[ 4.8302] --- control_Velocidad
-[ 4.8466] >>> control_
-[ 4.8584] >>> Prueba_Altitud y Cabeceo
-[ 4.8783] ..# MSSG: Altura en modo automatico actua sobre la nave
-[ 4.9160] %L(1): off
-[ 4.9564] --- Prueba_Altitud y CabeceoVelocidad
-[ 4.9809] %Light(2): ON
-[ 5.0101] %BEEE
-[ 5.0183] >>> collision_Detector
-[ 5.0414] --- collision_Detector
-[ 5.0583] >>> Prueba_Altitud y Cabeceo
-[ 5.0782] ..# MSSG: Altura en modo automatico actua sobre la nave
-[ 5.1159] %L(1): off
-[ 5.1563] --- Prueba_Altitud y CabeceoEEEEEEEEEP 5
-[ 5.1829] --- control_Velocidad
-[ 5.1993] >>> control_Velocidad
-[ 5.2157] %Light(2): ON
-[ 5.2448] %BEEEEEEEEEEEEP
-[ 5.2581] >>> Prueb
-[ 5.2684] >>> collision_Detector
-[ 5.2915] --- collision_Detectora_Altitud y Cabeceo
-[ 5.3181] ..# MSSG: Altura en modo automatico actua sobre la nave
-[ 5.3558] %L(1): off
-[ 5.3961] --- Prueba_Altitud y Cabeceo 5
-[ 5.4177] --- control_Velocidad
-[ 5.4340] >>> control_Velocidad
-[ 5.4504] %Lig
-[ 5.4581] >>> Prueba_Altitud y Cabeceo
-[ 5.4781] ..# MSSG: Altura en modo automatico actua sobre la nave
-[ 5.
-[ 5.5183] >>> collision_Detector
-[ 5.5414] --- collision_Detector5157] %L(1): off
-[ 5.5961] --- Prueba_Altitud y Cabeceoht(2): ON
-[ 5.6375] %BEEEEEEEEEEEEP 5
-[ 5.6524] 
-[ 5.6580] >>> Prueba_Altitud y Cabeceo
-[ 5.6780] ..# MSSG: Altura en modo automatico actua sobre la nave
-[ 5.7157] %L(1): off
-[ 5.7560] --- Prueba_Al
-[ 5.7683] >>> collision_Detector
-[ 5.7914] --- collision_Detectortitud y Cabeceo--- control_Velocidad
-[ 5.8267] >>> control_Velocidad
-[ 5.8431] %Light(2): ON
-[ 5.8584] >>> Prueba_Altitud y Cabeceo
-[ 5.8784] ..# MSSG: Altura en modo automatico actua sobre la nave
-[ 5.9160] %L(1): off
-[ 5.9564] --- Prueba_Altitud y Cabeceo
-[ 5.9896] %BEEEEEEEEEEEEP 5
-[ 6.0045] --- control_Velo
-[ 6.0183] >>> collision_Detector
-[ 6.0414] --- collision_Detector
-[ 6.0583] >>> Prueba_Altitud y Cabeceo
-[ 6.0783] ..# MSSG: Altura en modo automatico actua sobre la nave
-[ 6.1159] %L(1): off
-[ 6.1563] --- Prueba_Altitud y Cabeceocidad
-[ 6.1788] >>> control_Velocidad
-[ 6.1952] %Light(2): ON
-[ 6.2244] %BEEEEEEEEEEEEP 5
-[ 6.2392] --- control_Velocidad
-[ 6.
+[ 3.2916] --- collision_Detectora_Altitud y Cabeceo
+[ 3.3182] %L(1): off
+[ 3.3586] --- Prueba_Altitud y Cabeceo Pilot_Power:  0
+[ 3.3928] ..# Speed:  300
+[ 3.4101] ..# Joystick:  0 0
+[ 3.4288] --- Moni
+[ 3.4385] >>> control_Velocidad
+[ 3.45
+[ 3.4584] >>> Prueba_Altitud y Cabeceo
+[ 3.4784] %L(1): off
+[ 3.5190] >>> collision_Detector
+[ 3.5421] --- collision_Detector
+[ 3.5590] --- Prueba_Altitud y Cabeceo48] %Light(2): ON
+[ 3.6045] %BEEEEEEEEEEEEP 5
+[ 3.6194] --- control_Velocidadtoreo
+[ 3.6578] >>> Prueba_Altitud y Cabeceo
+[ 3.6777] %L(1): off
+[ 3.7181] --- Prueba_Altitud y Cabeceo
+[ 3.7381] >>> control_Velocidad
+[ 3.7545] %Light(2): ON
+[ 3.7698] >>> collision_Detector
+[ 3.7930] --- collision_Detector
+[ 3.8231] %BEEEEEEEEEEEEP 5
+[ 3.8380] --- control_Velocidad
+[ 3.8577] >>> Prueba_Altitud y Cabeceo
+[ 3.8776] %L(1): off
+[ 3.9180] --- Prueba_Altitud y Cabeceo
+[ 4.0178] >>> collision_Detector
+[ 4.0411] --- collision_Detector
+
+[ 4.0585] >>> Prueba_Altitud y Cabeceo
+[ 4.0785] %L(1): off
+[ 4.1189] --- Prueba_Altitud y Cabeceo[ 4.1383] >>> control_Velocidad
+[ 4.1547] %Light(2): ON
+[ 4.1839] %BEEEEEEEEEEEEP 5
+[ 4.1987] --- control_Velocidad
+[ 4.2151] >>> Monitoreo
+[ 4.2320] ..# Altitude:  8000
+[ 4.2513] ..#
+[ 4.2584] >>> Prue
+[ 4.2681] >>> collision_Detector
+[ 4.2913] --- collision_Detectorba_Altitud y Cabeceo
+[ 4.3184] %L(1): off
+[ 4.3590] --- Prueba_Altitud y Cabeceo
+[ 4.3789] >>> control_Velocidad
+[ 4.3953] %Light(2): ON
+[ 4.4245] %BEEEEEEEEEEEEP 5
+[ 4.4394] --- control_Velocidad Pilo
+[ 4.4583] >>> Prueba_Altitud y Cabeceo
+[ 4.4782] %L(1): off
+[ 4.5189] >>> collision_Detector
+[ 4.5420] --- collision_Detector
+[ 4.5589] --- Prueba_Altitud y Cabeceot_Power:  0
+[ 4.5906] ..# Speed:  300
+[ 4.6079] ..# Joystick:  0 0
+[ 4.6266] --- Monitore
+[ 4.6383] >>> control_Velocidad
+[ 4.65
+[ 4.6583] >>> Prueba_Altitud y Cabeceo
+[ 4.6783] %L(1): off
+[ 4.7187] --- Prueba_Altitud y Cabeceo47] %Light(2): ON
+[ 4.764
+[ 4.7683] >>> collision_Detector
+[ 4.7914] --- collision_Detector2] %BEEEEEEEEEEEEP 5
+[ 4.8191] --- control_Velocidado
+[ 4.8578] >>> Prueba_Altitud y Cabeceo
+[ 4.8777] %L(1): off
+[ 4.9181] --- Prueba_Altitud y Cabeceo
+[ 4.9381] >>> control_Velocidad
+[ 4.9544] %Light(2): ON
+[ 4.9836] %BEEEEEEEEEEEEP 5
+[ 4.9985] --- control_Velocidad
+[ 5.0178] >>> collision_Detector
+[ 5.0409] --- collision_Detector
+[ 5.0578] >>> Prueba_Altitud y Cabeceo
+[ 5.0777] %L(1): off
+[ 5.1181] --- Prueba_Altitud y Cabeceo
+[ 5.2148] >>> Monitoreo
+[ 5.2317] ..
+[ 5.2383] >>> control_Velocidad
+[ 5.25
+[ 5.2583] >>> Prue
+[ 5.2680] >>> collision_Detector
+[ 5.2912] --- collision_Detectorba_Altitud y Cabeceo
+[ 5.3183] %L(1): off
+[ 5.3587] --- Prueba_Altitud y Cabeceo47] %Light(2): ON
+[ 5.4042] %BEEEEEEEEEEEEP 5
+[ 5.4191] --- control_Velocidad# Altitude:  8000
+[ 5.4481] ..# Pilot
+[ 5.4583] >>> Prueba_Altitud y Cabeceo
+[ 5.4783] %L(1): off
+[ 5.5189] >>> collision_Detector
+[ 5.5422] --- collision_Detector
+[ 5.5590] --- Prueba_Altitud y Cabeceo
+[ 5.5790] >>> control_Velocidad
+[ 5.5954] %Light(2): ON
+[ 5.6246] %BEEEEEEEEEEEEP 5
+[ 5.6395] --- control_Velocidad_Powe
+[ 5.6584] >>> Prueba_Altitud y Cabeceo
+[ 5.6783] %L(1): off
+[ 5.7187] --- Prueba_Altitud y Cabeceor:  0
+[ 5.7473] ..# Speed:  300
+[ 5.76
+[ 5.7681] >>> collision_Detector
+[ 5.7913] --- collision_Detector46] ..# Joystick:  0 0
+[ 5.8233] --- Monitoreo
+[ 5.8381] >>> control_Velocidad
+[ 5.85
+[ 5.8580] >>> Prueba_Altitud y Cabeceo
+[ 5.8780] %L(1): off
+[ 5.9184] --- Prueba_Altitud y Cabeceo44] %Light(2): ON
+[ 5.9639] %BEEEEEEEEEEEEP 5
+[ 5.9788] --- control_Velocidad
+[ 6.0178] >>> collision_Detector
+[ 6.0409] --- collision_Detector
+[ 6.0578] >>> Prueba_Altitud y Cabeceo
+[ 6.0777] %L(1): off
+[ 6.1181] --- Prueba_Altitud y Cabeceo
+[ 6.1381] >>> control_Velocidad
+[ 6.1545] %Light(2): ON
+[ 6.1836] %BEEEEEEEEEEEEP 5
+[ 6.1985] --- control_Velocidad
+[ 6.2149] >>> Monitoreo
+[ 6.2318] ..# Altitude:  8000
+[ 6.2511] ..#
 [ 6.2582] >>> Prueb
 [ 6.2684] >>> collision_Detector
-[ 6.2915] --- collision_Detectora_Altitud y Cabeceo
-[ 6.3181] ..# MSSG: Altura en modo automatico actua sobre la nave
-[ 6.3558] %L(1): off
-[ 6.3962] --- Prueba_Altitud y Cabeceo2556] >>> control_Velocidad
-[ 6.4299] %Light(2): ON
-[ 6.4593] >>> Prueba_Altitud y Cabeceo
-[ 6.4793] ..# MSSG: Altura en modo automatico actua sobre la nave
-[
-[ 6.5179] >>> collision_Detector
-[ 6.5411] --- collision_Detector 6.5169] %L(1): off
-[ 6.5973] --- Prueba_Altitud y Cabeceo
-[ 6.6172] %BEEEEEEEEEEEEP 5
-[ 6.6321] --- control_Velocidad
-[ 6.6485] >>> cont
-[ 6.6582] >>> Prueba_Altitud y Cabeceo
-[ 6.6782] ..# MSSG: Altura en modo automatico actua sobre la nave
-[ 6.7159] %L(1): off
-[ 6.7562] --- Prueba_Al
-[ 6.7685] >>> collision_Detector
-[ 6.7916] --- collision_Detectortitud y Cabeceorol_Velocidad
-[ 6.8228] %Light(2): ON
-[ 6.8520] %
-[ 6.8581] >>> Prueba_Altitud y Cabeceo
-[ 6.8781] ..# MSSG: Altura en modo automatico actua sobre la nave
-[ 6.9158] %L(1): off
-[ 6.9561] --- Prueba_Altitud y CabeceoBEEEEEEEEEEEEP 5
-[ 6.9848] --- control_Velocidad
-[ 7.0012] >>> control_Velocidad
-
-[ 7.0181] >>> collision_Detector
-[ 7.0412] --- collision_Detector
-[ 7.0581] >>> Prueba_Altitud y Cabeceo
-[ 7.0781] ..# MSSG: Altura en modo automatico actua sobre la nave
-[ 7.1157] %L(1): off
-[ 7.1561] --- Prueba_Altitud y Cabeceo[ 7.1755] %Light(2): ON
-[ 7.2047] %BEEEEEEEEEEEEP 5
-[ 7.2196] --- control_Velocidad
-[ 7.2359] >>> control_Velocidad
-[ 7.2523] %
-[ 7.2585] >>> Prue
-[ 7.2682] >>> collision_Detector
+[ 6.2916] --- collision_Detectora_Altitud y Cabeceo
+[ 6.3182] %L(1): off
+[ 6.3586] --- Prueba_Altitud y Cabeceo Pilot_Power:  0
+[ 6.3928] ..# Speed:  300
+[ 6.4101] ..# Joystick:  0 0
+[ 6.4288] --- Moni
+[ 6.4385] >>> control_Velocidad
+[ 6.45
+[ 6.4584] >>> Prueba_Altitud y Cabeceo
+[ 6.4784] %L(1): off
+[ 6.5190] >>> collision_Detector
+[ 6.5421] --- collision_Detector
+[ 6.5590] --- Prueba_Altitud y Cabeceo48] %Light(2): ON
+[ 6.6045] %BEEEEEEEEEEEEP 5
+[ 6.6194] --- control_Velocidadtoreo
+[ 6.6578] >>> Prueba_Altitud y Cabeceo
+[ 6.6777] %L(1): off
+[ 6.7181] --- Prueba_Altitud y Cabeceo
+[ 6.7381] >>> control_Velocidad
+[ 6.7545] %Light(2): ON
+[ 6.7698] >>> collision_Detector
+[ 6.7930] --- collision_Detector
+[ 6.8231] %BEEEEEEEEEEEEP 5
+[ 6.8380] --- control_Velocidad
+[ 6.8577] >>> Prueba_Altitud y Cabeceo
+[ 6.8776] %L(1): off
+[ 6.9180] --- Prueba_Altitud y Cabeceo
+[ 7.0178] >>> collision_Detector
+[ 7.0411] --- collision_Detector
+[ 7.0580] >>> Prueba_Altitud y Cabeceo
+[ 7.0780] %L(1): off
+[ 7.1184] --- Prueba_Altitud y Cabeceo
+[ 7.1383] >>> control_Velocidad
+[ 7.1547] %Light(2): ON
+[ 7.1839] %BEEEEEEEEEEEEP 5
+[ 7.1987] --- control_Velocidad
+[ 7.2151] >>> Monitoreo
+[ 7.2320] ..# Altitude:  8000
+[ 7.2513] ..#
+[ 7.2584] >>> Prue
+[ 7.2681] >>> collision_Detector
 [ 7.2913] --- collision_Detectorba_Altitud y Cabeceo
-[ 7.3185] ..# MSSG: Altura en modo automatico actua sobre la nave
-[ 7.3561] %L(1): off
-[ 7.3965] --- Prueba_Altitud y CabeceoLight(2): ON
-[ 7.4395] %BEEEEEEEEEEEEP 5
-[ 7.454
-[ 7.4584] >>> Prueba_Altitud y Cabeceo
-[ 7.4784] ..# MSSG: Altura en modo automatico actua sobre la nave
-[ 7
-[ 7.5181] >>> collision_Detector
-[ 7.5412] --- collision_Detector.5160] %L(1): off
-[ 7.5964] --- Prueba_Altitud y Cabeceo3] --- control_Velocidad
-[ 7.6286] >>> control_Velocidad
-[ 7.6450] %Light(2): ON
-[ 7.6578] >>> Prueba_Altitud y Cabeceo
-[ 7.6778] ..# MSSG: Altura en modo automatico actua sobre la nave
-[ 7.7154] %L(1): off
-[ 7.7558] --- Prueba_Al
-[ 7.7680] >>> collision_Detector
-[ 7.7912] --- collision_Detectortitud y Cabeceo
-[ 7.8316] %BEEEEEEEEEEEEP 5
-[ 7.8465] --- control_
-[ 7.8582] >>> Prueba_Altitud y Cabeceo
-[ 7.8782] ..# MSSG: Altura en modo automatico actua sobre la nave
-[ 7.9159] %L(1): off
-[ 7.9562] --- Prueba_Altitud y CabeceoVelocidad
-[ 7.9808] >>> control_Velocidad
-[ 7.9972] %Light(2): ON
-[ 8.0210] >>> collision_Detector
-[ 8.0441] --- collision_Detector
-[ 8.0610] >>> Prueba_Altitud y Cabeceo
-[ 8.0809] ..# MSSG: Altura en modo automatico actua sobre la nave
-[ 8.1186] %L(1): off
-[ 8.1590] --- Prueba_Altitud y Cabeceo
-[ 8.1838] %BEEEEEEEEEEEEP 5
-[ 8.1987] --- control_Velocidad
-[ 8.2150] >>> control_Velocidad
-[ 8.2314] %Light(2): ON
-[ 8.2608] >>> 
-[ 8.2684] >>> collision_Detector
-[ 8.2916] --- collision_DetectorPrueba_Altitud y Cabeceo
-[ 8.3207] ..# MSSG: Altura en modo automatico actua sobre la nave
-[ 8.3584] %L(1): off
-[ 8.3988] --- Prueba_Altitud y Cabeceo
-[ 8.4187] %BEEEEEEEEEEEEP 5
-[ 8.4336] --- control_Velocidad
-[ 8.4500] >>> c
-[ 8.4582] >>> Prueba_Altitud y Cabeceo
-[ 8.4781] ..# MSSG: Altura en modo automatico actua sobre la nave
-[ 8.
-[ 8.5183] >>> collision_Detector
-[ 8.5415] --- collision_Detector5158] %L(1): off
-[ 8.5962] --- Prueba_Altitud y Cabeceoontrol_Velocidad
-[ 8.6243] %Light(2): ON
-[ 8.6535
-[ 8.6581] >>> Prueba_Altitud y Cabeceo
-[ 8.6780] ..# MSSG: Altura en modo automatico actua sobre la nave
-[ 8.7157] %L(1): off
-[ 8.7561] --- Prueba_Al
-[ 8.7683] >>> collision_Detector
-[ 8.7915] --- collision_Detectortitud y Cabeceo] %BEEEEEEEEEEEEP 5
-[ 8.8263] --- control_Velocidad
-[ 8.8427] >>> control_Velocid
+[ 7.3184] %L(1): off
+[ 7.3590] --- Prueba_Altitud y Cabeceo
+[ 7.3789] >>> control_Velocidad
+[ 7.3953] %Light(2): ON
+[ 7.4245] %BEEEEEEEEEEEEP 5
+[ 7.4394] --- control_Velocidad Pilo
+[ 7.4583] >>> Prueba_Altitud y Cabeceo
+[ 7.4783] %L(1): off
+[ 7.5189] >>> collision_Detector
+[ 7.5420] --- collision_Detector
+[ 7.5589] --- Prueba_Altitud y Cabeceot_Power:  0
+[ 7.5906] ..# Speed:  300
+[ 7.6079] ..# Joystick:  0 0
+[ 7.6266] --- Monitore
+[ 7.6383] >>> control_Velocidad
+[ 7.65
+[ 7.6583] >>> Prueba_Altitud y Cabeceo
+[ 7.6783] %L(1): off
+[ 7.7187] --- Prueba_Altitud y Cabeceo47] %Light(2): ON
+[ 7.764
+[ 7.7683] >>> collision_Detector
+[ 7.7914] --- collision_Detector2] %BEEEEEEEEEEEEP 5
+[ 7.8191] --- control_Velocidado
+[ 7.8578] >>> Prueba_Altitud y Cabeceo
+[ 7.8777] %L(1): off
+[ 7.9181] --- Prueba_Altitud y Cabeceo
+[ 7.9381] >>> control_Velocidad
+[ 7.9544] %Light(2): ON
+[ 7.9836] %BEEEEEEEEEEEEP 5
+[ 7.9985] --- control_Velocidad
+[ 8.0178] >>> collision_Detector
+[ 8.0409] --- collision_Detector
+[ 8.0578] >>> Prueba_Altitud y Cabeceo
+[ 8.0777] %L(1): off
+[ 8.1181] --- Prueba_Altitud y Cabeceo
+[ 8.2148] >>> Monitoreo
+[ 8.2317] ..
+[ 8.2383] >>> control_Velocidad
+[ 8.25
+[ 8.2583] >>> Prue
+[ 8.2680] >>> collision_Detector
+[ 8.2912] --- collision_Detectorba_Altitud y Cabeceo
+[ 8.3183] %L(1): off
+[ 8.3587] --- Prueba_Altitud y Cabeceo47] %Light(2): ON
+[ 8.4042] %BEEEEEEEEEEEEP 5
+[ 8.4191] --- control_Velocidad# Altitude:  8000
+[ 8.4481] ..# Pilot
+[ 8.4583] >>> Prueba_Altitud y Cabeceo
+[ 8.4783] %L(1): off
+[ 8.5189] >>> collision_Detector
+[ 8.5422] --- collision_Detector
+[ 8.5590] --- Prueba_Altitud y Cabeceo
+[ 8.5790] >>> control_Velocidad
+[ 8.5954] %Light(2): ON
+[ 8.6246] %BEEEEEEEEEEEEP 5
+[ 8.6395] --- control_Velocidad_Powe
+[ 8.6584] >>> Prueba_Altitud y Cabeceo
+[ 8.6783] %L(1): off
+[ 8.7187] --- Prueba_Altitud y Cabeceor:  0
+[ 8.7473] ..# Speed:  300
+[ 8.76
+[ 8.7681] >>> collision_Detector
+[ 8.7913] --- collision_Detector46] ..# Joystick:  0 0
+[ 8.8233] --- Monitoreo
+[ 8.8381] >>> control_Velocidad
+[ 8.85
 [ 8.8580] >>> Prueba_Altitud y Cabeceo
-[ 8.8780] ..# MSSG: Altura en modo automatico actua sobre la nave
-[ 8.9157] %L(1): off
-[ 8.9560] --- Prueba_Altitud y Cabeceoad
-[ 8.9770] %Light(2): ON
-[ 9.0062] %BEEEEEEEEEEE
-[ 9.0184] >>> collision_Detector
-[ 9.0416] --- collision_Detector
-[ 9.0585] >>> Prueba_Altitud y Cabeceo
-[ 9.0784] ..# MSSG: Altura en modo automatico actua sobre la nave
-[ 9.1161] %L(1): off
-[ 9.1565] --- Prueba_Altitud y CabeceoEP 5
-[ 9.1790] --- control_Velocidad
-[ 9.1954] >>> control_Velocidad
-[ 9.2118] %Light(2): ON
-[ 9.2409] %BEEEEEEEEEEEEP 5
-[ 9.
-[ 9.2583] >>> Prue
-[ 9.2681] >>> collision_Detector
-[ 9.2912] --- collision_Detectorba_Altitud y Cabeceo
-[ 9.3183] ..# MSSG: Altura en modo automatico actua sobre la nave
-[ 9.3560] %L(1): off
-[ 9.3964] --- Prueba_Altitud y Cabeceo2558] --- control_Velocidad
-[ 9.4301] >>> control_Velocidad
-[ 9.4465] %Light(2): O
-[ 9.4583] >>> Prueba_Altitud y Cabeceo
-[ 9.4783] ..# MSSG: Altura en modo automatico actua sobre la nave
-[ 9.
-[ 9.5185] >>> collision_Detector
-[ 9.5416] --- collision_Detector5159] %L(1): off
-[ 9.5963] --- Prueba_Altitud y CabeceoN
-[ 9.6337] %BEEEEEEEEEEEEP 5
-[ 9.6485] --- cont
-[ 9.6582] >>> Prueba_Altitud y Cabeceo
-[ 9.6782] ..# MSSG: Altura en modo automatico actua sobre la nave
-[ 9.7159] %L(1): off
-[ 9.7562] --- Prueba_Al
-[ 9.7685] >>> collision_Detector
-[ 9.7916] --- collision_Detectortitud y Cabeceorol_Velocidad
-[ 9.8228] >>> control_Velocidad
-[ 9.8392] %Light(2): ON
-[ 9.8630] >>> Prueba_Altitud y Cabeceo
-[ 9.8829] ..# MSSG: Altura en modo automatico actua sobre la nave
-[ 9.9206] %L(1): off
-[ 9.9609] --- Prueba_Altitud y Cabeceo
-[ 9.9857] %BEEEEEEEEEEEEP 5
+[ 8.8780] %L(1): off
+[ 8.9184] --- Prueba_Altitud y Cabeceo44] %Light(2): ON
+[ 8.9639] %BEEEEEEEEEEEEP 5
+[ 8.9788] --- control_Velocidad
+[ 9.0178] >>> collision_Detector
+[ 9.0409] --- collision_Detector
+[ 9.0578] >>> Prueba_Altitud y Cabeceo
+[ 9.0777] %L(1): off
+[ 9.1181] --- Prueba_Altitud y Cabeceo
+[ 9.1381] >>> control_Velocidad
+[ 9.1545] %Light(2): ON
+[ 9.1836] %BEEEEEEEEEEEEP 5
+[ 9.1985] --- control_Velocidad
+[ 9.2149] >>> Monitoreo
+[ 9.2318] ..# Altitude:  8000
+[ 9.2511] ..#
+[ 9.2582] >>> Prueb
+[ 9.2684] >>> collision_Detector
+[ 9.2916] --- collision_Detectora_Altitud y Cabeceo
+[ 9.3182] %L(1): off
+[ 9.3586] --- Prueba_Altitud y Cabeceo Pilot_Power:  0
+[ 9.3928] ..# Speed:  300
+[ 9.4101] ..# Joystick:  0 0
+[ 9.4288] --- Moni
+[ 9.4385] >>> control_Velocidad
+[ 9.45
+[ 9.4584] >>> Prueba_Altitud y Cabeceo
+[ 9.4784] %L(1): off
+[ 9.5190] >>> collision_Detector
+[ 9.5421] --- collision_Detector
+[ 9.5590] --- Prueba_Altitud y Cabeceo49] %Light(2): ON
+[ 9.6045] %BEEEEEEEEEEEEP 5
+[ 9.6194] --- control_Velocidadtoreo
+[ 9.6578] >>> Prueba_Altitud y Cabeceo
+[ 9.6777] %L(1): off
+[ 9.7181] --- Prueba_Altitud y Cabeceo
+[ 9.7381] >>> control_Velocidad
+[ 9.7545] %Light(2): ON
+[ 9.7698] >>> collision_Detector
+[ 9.7930] --- collision_Detector
+[ 9.8231] %BEEEEEEEEEEEEP 5
+[ 9.8380] --- control_Velocidad
+[ 9.8577] >>> Prueba_Altitud y Cabeceo
+[ 9.8776] %L(1): off
+[ 9.9180] --- Prueba_Altitud y Cabeceo
 [ 10.000] --- Change Mode
 [ 10.014] >>> Change Mode
 [ 10.027] >>> collision_Detector
 [ 10.050] --- collision_Detector
 [ 10.067] >>> Prueba_Altitud y Cabeceo
-[ 10.087] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 10.128] --- Prueba_Altitud y Cabeceo
-[ 10.148] --- control_Velocidad
-[ 10.164] >>> control_Velocidad
-[ 10.196] --- control_Velocidad
-[ 10.213] >>> control_Velocidad
-[ 10.245] --- control_Vel
-[ 10.258] >>> Prue
+[ 10.092] --- Prueba_Altitud y Cabeceo
+[ 10.112] >>> control_Velocidad
+[ 10.144] --- control_Velocidad
+[ 10.214] >>> Monitoreo
+[ 10.231] ..# Altitude:  8000
+[ 10.251] ..#
+[ 10.258] >>> Prueb
 [ 10.268] >>> collision_Detector
-[ 10.291] --- collision_Detectorba_Altitud y Cabeceo
-[ 10.318] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 10.359] --- Prueba_Altitud y Cabeceoocidad
-[ 10.382] >>> control_Velocidad
-[ 10.414] --- control_Velocidadower:  0
-[ 10.441] ..# Speed:  0
-[
-[ 10.458] >>> Prueba_Altitud y Cabeceo
-[ 10.478] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 10.519] >>> collision_Detector
-[ 10.542] --- collision_Detector
-[ 10.559] --- Prueba_Altitud y Cabeceo 10.457] ..# Joystick:  0 0
-[ 10.597] --- Monitoreo
-[ 10.609] >>> Monitoreo
-[ 10.626] ..# Altitude:  8000
-[ 10.645] ..# Pilot_Pow
+[ 10.291] --- collision_Detectora_Altitud y Cabeceo
+[ 10.322] --- Prueba_Altitud y Cabeceo
+[ 10.342] >>> control_Velocidad
+[ 10.374] --- control_Velocidad Pilot_Power:  0
+[ 10.405] ..# Speed:  0
+[ 10.421] ..# Joystick:  0 0
+[ 10.440] --- Monitoreo
+[ 10.457] >>> Prueba_Altitud y Cabeceo
+[ 10.482] --- Prueba_Altitud y Cabeceo
+[ 10.517] >>> collision_Detector
+[ 10.540] --- collision_Detector
+[ 10.638] >>> control_Velocidad
 [ 10.658] >>> Prueba_Altitud y Cabeceo
-[ 10.678] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 10.719] --- Prueba_Altitud y Cabeceo
-[ 10.739] >>> control_Velocidad
-[ 10.771] >>> collision_Detector
-[ 10.794] --- collision_Detector
-[ 10.811] --- control_Velocidader:  0
-[ 10.837] ..# Speed:  0
-[ 10.853]
-[ 10.858] >>> Prueba_Altitud y Cabeceo
-[ 10.878] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 10.919] --- Prueba_Altitud y Cabeceo ..# Joystick:  0 0
-[ 10.953] --- Monitoreo
-[ 10.965] >>> Monito
-[ 10.976] >>> control_Velocidad
-[ 11.007] --- contr
-[ 11.018] >>> collision_Detector
-[ 11.041] --- collision_Detector
-[ 11.058] >>> Prueba_Altitud y Cabeceo
-[ 11.078] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 11.119] --- Prueba_Altitud y Cabeceool_Velocidadreo
-[ 11.151] ..# Altitude:  8000
-[ 11.170] ..# Pilot_Power:  0
-[ 11.192] ..# Speed:  0
-[ 11.208] ..# Joystick:  0 0
-[ 11.227] --- Monitoreo
-[ 11.239] >>> Monitoreo
-[ 1
+[ 10.683] --- Prueba_Altitud y Cabeceo
+[ 10.714] --- control_Velocidad
+[ 10.767] >>> collision_Detector
+[ 10.790] --- collision_Detector
+[ 10.857] >>> Prueba_Altitud y Cabeceo
+[ 10.882] --- Prueba_Altitud y Cabeceo
+[ 10.938] >>> control_Velocidad
+[ 10.970] --- control_Velocidad
+[ 11.017] >>> collision_Detector
+[ 11.040] --- collision_Detector
+[ 11.057] >>> Prueba_Altitud y Cabeceo
+[ 11.082] --- Prueba_Altitud y Cabeceo
+[ 11.214] >>> Monitoreo
+[ 11.231] ..
+[ 11.238] >>> control_Velocidad
 [ 11.258] >>> Prue
 [ 11.268] >>> collision_Detector
 [ 11.291] --- collision_Detectorba_Altitud y Cabeceo
-[ 11.318] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 11.359] --- Prueba_Altitud y Cabeceo
-[ 11.379] >>> control_Velocidad
-[ 11.411] --- control_Velocidad1.256] ..# Altitude:  8000
-[ 11.445] ..# Pilot_Power
-[ 11.458] >>> Prueba_Altitud y Cabeceo
-[ 11.478] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 11.519] >>> collision_Detector
-[ 11.542] --- collision_Detector
-[ 11.559] --- Prueba_Altitud y Cabeceo
-[ 11.579] >>> control_Velocidad
-[ 11.611] --- control_Velocidad:  0
-[ 11.636] ..# Speed:  0
-[ 11.652] .
-[ 11.658] >>> Prueba_Altitud y Cabeceo
-[ 11.678] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 11.719] --- Prueba_Altitud y Cabeceo.# Joystick:  0 0
-[ 11.752] --- Monitoreo
-[ 11.76
-[ 11.768] >>> collision_Detector
-[ 11.791] --- collision_Detector4] >>> Monitoreo
-[ 11.821] ..# Altitude:  8000
-[ 11.840] ..# Pilot_Power:  0
-[ 11.857] >>> Prueba_Altitud y Cabeceo
-[ 11.877] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 11.918] --- Prueba_Altitud y Cabeceo
-[ 11.938] >>> control_Velocidad
-[ 11.971] --- control_Velocidad
-[ 11.991] ..# Speed:  0
-[ 12.007] ..# Joystic
-[ 12.018] >>> collision_Detector
-[ 12.041] --- collision_Detector
-[ 12.058] >>> Prueba_Altitud y Cabeceo
-[ 12.078] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 12.119] --- Prueba_Altitud y Cabeceok:  0 0
-[ 12.147] --- Monitoreo
-[ 12.159] >>> Monitoreo
-[ 12.176] >>> control_Velocidad
-[ 12.208] --- control_Velocidad
-[ 12.224] ..# Altitude:  8000
-[ 12.244] ..# Pilot_Power: 
-[ 12.258] >>> Prue
+[ 11.323] --- Prueba_Altitud y Cabeceo
+[ 11.354] --- control_Velocidad# Altitude:  8000
+[ 11.383] ..# Pilot_Power:  0
+[ 11.405] ..# Speed:  0
+[ 11.421] ..# Joystick:  0 0
+[ 11.439] --- Monitoreo
+[ 11.457] >>> Prueba_Altitud y Cabeceo
+[ 11.482] --- Prueba_Altitud y Cabeceo
+[ 11.517] >>> collision_Detector
+[ 11.541] --- collision_Detector
+[ 11.558] >>> control_Velocidad
+[ 11.590] --- control_Velocidad
+[ 11.657] >>> Prueba_Altitud y Cabeceo
+[ 11.682] --- Prueba_Altitud y Cabeceo
+[ 11.767] >>> collision_Detector
+[ 11.790] --- collision_Detector
+[ 11.838] >>> control_Velocidad
+[ 11.858] >>> Prueba_Altitud y Cabeceo
+[ 11.883] --- Prueba_Altitud y Cabeceo
+[ 11.914] --- control_Velocidad
+[ 12.017] >>> collision_Detector
+[ 12.040] --- collision_Detector
+[ 12.057] >>> Prueba_Altitud y Cabeceo
+[ 12.082] --- Prueba_Altitud y Cabeceo
+[ 12.138] >>> control_Velocidad
+[ 12.170] --- control_Velocidad
+[ 12.214] >>> Monitoreo
+[ 12.231] ..# Altitude:  8000
+[ 12.251] ..#
+[ 12.258] >>> Prueb
 [ 12.268] >>> collision_Detector
-[ 12.291] --- collision_Detectorba_Altitud y Cabeceo
-[ 12.318] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 12.359] --- Prueba_Altitud y Cabeceo 0
-[ 12.386] ..# Speed:  0
-[ 12.402] ..# Joystick:  0 0
-[ 12.421] --- Monitoreo
-[ 12.433] >>> Monitoreo
-[ 12.450] ..# 
+[ 12.291] --- collision_Detectora_Altitud y Cabeceo
+[ 12.322] --- Prueba_Altitud y Cabeceo Pilot_Power:  0
+[ 12.357] ..# Speed:  0
+[ 12.373] ..# Joystick:  0 0
+[ 12.392] --- Monitoreo
+[ 12.438] >>> control_Velocidad
 [ 12.458] >>> Prueba_Altitud y Cabeceo
-[ 12.478] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 12.519] >>> collision_Detector
-[ 12.542] --- collision_Detector
-[ 12.559] --- Prueba_Altitud y Cabeceo
-[ 12.579] >>> control_Velocidad
-[ 12.611] --- control_VelocidadAltitude:  8000
-[ 12.639] ..# Pilot_Power:  0
+[ 12.483] --- Prueba_Altitud y Cabeceo
+[ 12.51
+[ 12.518] >>> collision_Detector
+[ 12.541] --- collision_Detector4] --- control_Velocidad
 [ 12.657] >>> Prueba_Altitud y Cabeceo
-[ 12.677] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 12.718] --- Prueba_Altitud y Cabeceo
-[ 12.741] ..# Speed:  0
-[ 12.757] ..# Joysti
-[ 12.768] >>> collision_Detector
-[ 12.791] --- collision_Detector
-[ 12.808] >>> control_Velocidad
-[ 12.840] --- control_Velocidadck:
-[ 12.858] >>> Prueba_Altitud y Cabeceo
-[ 12.882] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 12.919] --- Prueba_Altitud y Cabeceo  0 0
-[ 12.945] --- Monitoreo
-[ 12.958] >>> Monitoreo
-[ 12.974] ..# Altitude:  8000
-[ 12.994] ..# Pilot_Power:  0
-[ 13
-[ 13.018] >>> collision_Detector
+[ 12.682] --- Prueba_Altitud y Cabeceo
+[ 12.738] >>> control_Velocidad
+[ 12.770] >>> collision_Detector
+[ 12.793] --- collision_Detector
+[ 12.810] --- control_Velocidad
+[ 12.857] >>> Prueba_Altitud y Cabeceo
+[ 12.882] --- Prueba_Altitud y Cabeceo
+[ 13.017] >>> collision_Detector
 [ 13.041] --- collision_Detector
 [ 13.058] >>> Prueba_Altitud y Cabeceo
-[ 13.078] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 13.119] --- Prueba_Altitud y Cabeceo
-[ 13.139] >>> control_Velocidad
-[ 13.171] --- control_Velocidad.015] ..# Speed:  0
-[ 13.201] ..# Joystick:  0 0
-[ 13.220] --- Monitoreo
-[ 13.232] >>> Monitoreo
-[ 13.249] ..# Alt
-[ 13.258] >>> Prue
+[ 13.082] --- Prueba_Altitud y Cabeceo
+[ 13.102] >>> control_Velocidad
+[ 13.134] --- control_Velocidad
+[ 13.214] >>> Monitoreo
+[ 13.231] ..# Altitude:  8000
+[ 13.251] ..#
+[ 13.258] >>> Prueb
 [ 13.268] >>> collision_Detector
-[ 13.291] --- collision_Detectorba_Altitud y Cabeceo
-[ 13.318] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 13.359] --- Prueba_Altitud y Cabeceo
-[ 13.379] >>> control_Velocidad
-[ 13.411] --- control_Velocidaditude:  8000
-[ 13.437] ..# Pilot_Power:  0
-[ 13.459] >>> Prueba_Altitud y Cabeceo
-[ 13.479] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 13.520] >>> collision_Detector
-[ 13.544] --- collision_Detector
-[ 13.560] --- Prueba_Altitud y Cabeceo
-[ 13.580] ..# Speed:  0
-[ 13.597] ..# Joystick:  0 0
-[ 13.615] --- Monitoreo
-[ 13.628] >>> Monitoreo
-[ 13.645] ..# Altitude:  
+[ 13.291] --- collision_Detectora_Altitud y Cabeceo
+[ 13.322] --- Prueba_Altitud y Cabeceo
+[ 13.342] >>> control_Velocidad
+[ 13.374] --- control_Velocidad Pilot_Power:  0
+[ 13.405] ..# Speed:  0
+[ 13.421] ..# Joystick:  0 0
+[ 13.440] --- Monitoreo
+[ 13.457] >>> Prueba_Altitud y Cabeceo
+[ 13.482] --- Prueba_Altitud y Cabeceo
+[ 13.517] >>> collision_Detector
+[ 13.540] --- collision_Detector
+[ 13.638] >>> control_Velocidad
 [ 13.658] >>> Prueba_Altitud y Cabeceo
-[ 13.678] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 13.719] --- Prueba_Altitud y Cabeceo
-[ 13.739] >>> control_Velocidad
-[ 13.771] >>> collision_Detector
-[ 13.794] --- collision_Detector
-[ 13.811] --- control_Velocidad8000
-[ 13.833] ..# Pilot_Power:  0
-[ 13.
-[ 13.858] >>> Prueba_Altitud y Cabeceo
-[ 13.878] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 13.919] --- Prueba_Altitud y Cabeceo855] ..# Speed:  0
-[ 13.952] ..# Joystick:  0 0
-[ 13.971]
-[ 13.976] >>> control_Velocidad
-[ 14.008] --- cont
-[ 14.018] >>> collision_Detector
-[ 14.041] --- collision_Detector
-[ 14.058] >>> Prueba_Altitud y Cabeceo
-[ 14.078] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 14.119] --- Prueba_Altitud y Cabeceorol_Velocidad --- Monitoreo
-[ 14.153] >>> Monitoreo
-[ 14.169] ..# Altitude:  8000
-[ 14.189] ..# Pilot_Power:  0
-[ 14.210] ..# Speed:  0
-[ 14.226] ..# Joystick:  0 0
-[ 14.245] --- Monitoreo
-
+[ 13.683] --- Prueba_Altitud y Cabeceo
+[ 13.714] --- control_Velocidad
+[ 13.767] >>> collision_Detector
+[ 13.790] --- collision_Detector
+[ 13.857] >>> Prueba_Altitud y Cabeceo
+[ 13.882] --- Prueba_Altitud y Cabeceo
+[ 13.938] >>> control_Velocidad
+[ 13.970] --- control_Velocidad
+[ 14.017] >>> collision_Detector
+[ 14.040] --- collision_Detector
+[ 14.057] >>> Prueba_Altitud y Cabeceo
+[ 14.082] --- Prueba_Altitud y Cabeceo
+[ 14.214] >>> Monitoreo
+[ 14.231] ..
+[ 14.238] >>> control_Velocidad
 [ 14.258] >>> Prue
 [ 14.268] >>> collision_Detector
 [ 14.291] --- collision_Detectorba_Altitud y Cabeceo
-[ 14.318] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 14.359] --- Prueba_Altitud y Cabeceo
-[ 14.379] >>> control_Velocidad
-[ 14.411] --- control_Velocidad[ 14.427] >>> Monitoreo
-[ 14.444] ..# Altitude:  80
-[ 14.458] >>> Prueba_Altitud y Cabeceo
-[ 14.478] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 14.519] >>> collision_Detector
-[ 14.542] --- collision_Detector
-[ 14.559] --- Prueba_Altitud y Cabeceo
-[ 14.579] >>> control_Velocidad
-[ 14.611] --- control_Velocidad00
-[ 14.633] ..# Pilot_Power:  0
-[ 14.6
-[ 14.658] >>> Prueba_Altitud y Cabeceo
-[ 14.678] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 14.719] --- Prueba_Altitud y Cabeceo54] ..# Speed:  0
-[ 14.751] ..# Joystick:  0 0
+[ 14.323] --- Prueba_Altitud y Cabeceo
+[ 14.354] --- control_Velocidad# Altitude:  8000
+[ 14.383] ..# Pilot_Power:  0
+[ 14.405] ..# Speed:  0
+[ 14.421] ..# Joystick:  0 0
+[ 14.439] --- Monitoreo
+[ 14.457] >>> Prueba_Altitud y Cabeceo
+[ 14.482] --- Prueba_Altitud y Cabeceo
+[ 14.517] >>> collision_Detector
+[ 14.541] --- collision_Detector
+[ 14.558] >>> control_Velocidad
+[ 14.590] --- control_Velocidad
+[ 14.657] >>> Prueba_Altitud y Cabeceo
+[ 14.682] --- Prueba_Altitud y Cabeceo
 [ 14.767] >>> collision_Detector
 [ 14.790] --- collision_Detector
-[ 14.809] --- Monitoreo
-[ 14.822] >>> Monitoreo
-[ 14.839] ..# Altitude:  8000
-[ 14.857] >>> Prueba_Altitud y Cabeceo
-[ 14.877] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 14.918] --- Prueba_Altitud y Cabeceo
-[ 14.938] >>> control_Velocidad
-[ 14.971] --- control_Velocidad
-[ 14.987] ..# Pilot_Power:  0
-[ 15.008] ..# Spe
-[ 15.018] >>> collision_Detector
-[ 15.041] --- collision_Detector
-[ 15.058] >>> Prueba_Altitud y Cabeceo
-[ 15.078] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 15.119] --- Prueba_Altitud y Cabeceoed:  0
-[ 15.146] ..# Joystick:  0 0
-[ 15.164] --- Monitor
-[ 15.176] >>> control_Velocidad
-[ 15.208] --- control_Velocidadeo
-[ 15.225] >>> Monitoreo
-[ 15.242] ..# Altitude:  8000
-[ 15.257] >>> Prueb
+[ 14.838] >>> control_Velocidad
+[ 14.858] >>> Prueba_Altitud y Cabeceo
+[ 14.883] --- Prueba_Altitud y Cabeceo
+[ 14.914] --- control_Velocidad
+[ 15.017] >>> collision_Detector
+[ 15.040] --- collision_Detector
+[ 15.057] >>> Prueba_Altitud y Cabeceo
+[ 15.082] --- Prueba_Altitud y Cabeceo
+[ 15.138] >>> control_Velocidad
+[ 15.170] --- control_Velocidad
+[ 15.214] >>> Monitoreo
+[ 15.231] ..# Altitude:  8000
+[ 15.251] ..#
+[ 15.258] >>> Prueb
 [ 15.268] >>> collision_Detector
 [ 15.291] --- collision_Detectora_Altitud y Cabeceo
-[ 15.317] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 15.358] --- Prueba_Altitud y Cabeceo
-[ 15.382] ..# Pilot_Power:  0
-[ 15.403] ..# Speed:  0
-[ 15.419] ..# Joystick:  0 0
-[ 15.438] --- Monitoreo
-[ 15.450] >>> 
+[ 15.322] --- Prueba_Altitud y Cabeceo Pilot_Power:  0
+[ 15.357] ..# Speed:  0
+[ 15.373] ..# Joystick:  0 0
+[ 15.392] --- Monitoreo
+[ 15.438] >>> control_Velocidad
 [ 15.458] >>> Prueba_Altitud y Cabeceo
-[ 15.478] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 15.519] >>> collision_Detector
-[ 15.542] --- collision_Detector
-[ 15.559] --- Prueba_Altitud y Cabeceo
-[ 15.579] >>> control_Velocidad
-[ 15.611] --- control_VelocidadMonitoreo
-[ 15.637] ..# Altitude:  8000
-[ 
-[ 15.658] >>> Prueba_Altitud y Cabeceo
-[ 15.678] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 15.719] --- Prueba_Altitud y Cabeceo15.656] ..# Pilot_Power:  0
-[ 15.759] ..# Spe
-[ 15.768] >>> collision_Detector
-[ 15.791] --- collision_Detector
-[ 15.808] >>> control_Velocidad
-[ 15.840] --- control_Velocidaded:
-[ 15.858] >>> Prueba_Altitud y Cabeceo
-[ 15.878] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 15.919] --- Prueba_Altitud y Cabeceo  0
-[ 15.944] ..# Joystick:  0 0
-[ 15.963] --- Monitoreo
-[ 15.975] >>> Monitoreo
-[ 15.992] ..# Altitude:  8000
-[ 16.011] ..
-[ 16.018] >>> collision_Detector
+[ 15.483] --- Prueba_Altitud y Cabeceo
+[ 15.51
+[ 15.518] >>> collision_Detector
+[ 15.541] --- collision_Detector4] --- control_Velocidad
+[ 15.657] >>> Prueba_Altitud y Cabeceo
+[ 15.682] --- Prueba_Altitud y Cabeceo
+[ 15.738] >>> control_Velocidad
+[ 15.770] >>> collision_Detector
+[ 15.793] --- collision_Detector
+[ 15.810] --- control_Velocidad
+[ 15.857] >>> Prueba_Altitud y Cabeceo
+[ 15.882] --- Prueba_Altitud y Cabeceo
+[ 16.017] >>> collision_Detector
 [ 16.041] --- collision_Detector
 [ 16.058] >>> Prueba_Altitud y Cabeceo
-[ 16.078] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 16.119] --- Prueba_Altitud y Cabeceo
-[ 16.139] >>> control_Velocidad
-[ 16.171] --- control_Velocidad# Pilot_Power:  0
-[ 16.202] ..# Speed:  0
-[ 16.218] ..# Joystick:  0 0
-[ 16.237] --- Monitoreo
-[ 16.252] 
+[ 16.082] --- Prueba_Altitud y Cabeceo
+[ 16.102] >>> control_Velocidad
+[ 16.134] --- control_Velocidad
+[ 16.214] >>> Monitoreo
+[ 16.231] ..# Altitude:  8000
+[ 16.251] ..#
 [ 16.258] >>> Prueb
 [ 16.268] >>> collision_Detector
 [ 16.291] --- collision_Detectora_Altitud y Cabeceo
-[ 16.318] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 16.359] --- Prueba_Altitud y Cabeceo
-[ 16.379] >>> control_Velocidad
-[ 16.411] --- control_Velocidad>>> Monitoreo
-[ 16.438] ..# Altitude:  8000
+[ 16.322] --- Prueba_Altitud y Cabeceo
+[ 16.342] >>> control_Velocidad
+[ 16.374] --- control_Velocidad Pilot_Power:  0
+[ 16.405] ..# Speed:  0
+[ 16.421] ..# Joystick:  0 0
+[ 16.440] --- Monitoreo
 [ 16.457] >>> Prueba_Altitud y Cabeceo
-[ 16.477] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 16.519] >>> collision_Detector
-[ 16.542] --- collision_Detector
-[ 16.559] --- Prueba_Altitud y Cabeceo
-[ 16.579] ..# Pilot_Power:  0
-[ 16.600] ..# Speed:  0
-[ 16.616] ..# Joystick:  0 0
-[ 16.635] --- Monitoreo
-[ 16.657] >>> Prueba_Altitud y Cabeceo
-[ 16.677] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 16.718] --- Prueba_Altitud y Cabeceo
-[ 16.738] >>> control_Velocidad
-[ 16.771] >>> collision_Detector
-[ 16.794] --- collision_Detector
-[ 16.811] --- control_Velocidad
+[ 16.482] --- Prueba_Altitud y Cabeceo
+[ 16.517] >>> collision_Detector
+[ 16.540] --- collision_Detector
+[ 16.638] >>> control_Velocidad
+[ 16.658] >>> Prueba_Altitud y Cabeceo
+[ 16.683] --- Prueba_Altitud y Cabeceo
+[ 16.714] --- control_Velocidad
+[ 16.767] >>> collision_Detector
+[ 16.790] --- collision_Detector
 [ 16.857] >>> Prueba_Altitud y Cabeceo
-[ 16.877] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 16.918] --- Prueba_Altitud y Cabeceo
-[ 16.975] >>> control_Velocidad
-[ 17.007] --- contro
-[ 17.018] >>> collision_Detector
-[ 17.041] --- collision_Detector
-[ 17.058] >>> Prueba_Altitud y Cabeceo
-[ 17.078] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 17.119] --- Prueba_Altitud y Cabeceol_Velocidad
-[ 17.252] 
-[ 17.258] >>> Prueb
+[ 16.882] --- Prueba_Altitud y Cabeceo
+[ 16.938] >>> control_Velocidad
+[ 16.970] --- control_Velocidad
+[ 17.017] >>> collision_Detector
+[ 17.040] --- collision_Detector
+[ 17.057] >>> Prueba_Altitud y Cabeceo
+[ 17.082] --- Prueba_Altitud y Cabeceo
+[ 17.214] >>> Monitoreo
+[ 17.231] ..
+[ 17.238] >>> control_Velocidad
+[ 17.258] >>> Prue
 [ 17.268] >>> collision_Detector
-[ 17.291] --- collision_Detectora_Altitud y Cabeceo
-[ 17.318] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 17.359] --- Prueba_Altitud y Cabeceo
-[ 17.379] >>> control_Velocidad
-[ 17.411] --- control_Velocidad>>> Monitoreo
-[ 17.438] ..# Altitude:  8000
+[ 17.291] --- collision_Detectorba_Altitud y Cabeceo
+[ 17.323] --- Prueba_Altitud y Cabeceo
+[ 17.354] --- control_Velocidad# Altitude:  8000
+[ 17.383] ..# Pilot_Power:  0
+[ 17.405] ..# Speed:  0
+[ 17.421] ..# Joystick:  0 0
+[ 17.439] --- Monitoreo
 [ 17.457] >>> Prueba_Altitud y Cabeceo
-[ 17.477] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 17.519] >>> collision_Detector
-[ 17.542] --- collision_Detector
-[ 17.559] --- Prueba_Altitud y Cabeceo
-[ 17.579] >>> control_Velocidad
-[ 17.611] --- control_Velocidad
-[ 17.627] ..# Pilot_Power:  0
-[ 17.648] ..# Spe
-[ 17.658] >>> Prueba_Altitud y Cabeceo
-[ 17.678] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 17.719] --- Prueba_Altitud y Cabeceoed:  0
-[ 17.746] ..# Joystick:  0 0
-[ 17.7
-[ 17.768] >>> collision_Detector
-[ 17.791] --- collision_Detector64] --- Monitoreo
-[ 17.857] >>> Prueba_Altitud y Cabeceo
-[ 17.877] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 17.918] --- Prueba_Altitud y Cabeceo
-[ 17.938] >>> control_Velocidad
-[ 17.971] --- control_Velocidad
+[ 17.482] --- Prueba_Altitud y Cabeceo
+[ 17.517] >>> collision_Detector
+[ 17.541] --- collision_Detector
+[ 17.558] >>> control_Velocidad
+[ 17.590] --- control_Velocidad
+[ 17.657] >>> Prueba_Altitud y Cabeceo
+[ 17.682] --- Prueba_Altitud y Cabeceo
+[ 17.767] >>> collision_Detector
+[ 17.790] --- collision_Detector
+[ 17.838] >>> control_Velocidad
+[ 17.858] >>> Prueba_Altitud y Cabeceo
+[ 17.883] --- Prueba_Altitud y Cabeceo
+[ 17.914] --- control_Velocidad
 [ 18.017] >>> collision_Detector
 [ 18.040] --- collision_Detector
 [ 18.057] >>> Prueba_Altitud y Cabeceo
-[ 18.077] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 18.118] --- Prueba_Altitud y Cabeceo
-[ 18.175] >>> control_Velocidad
-[ 18.207] --- control_Velocidad
-[ 18.252] 
+[ 18.082] --- Prueba_Altitud y Cabeceo
+[ 18.138] >>> control_Velocidad
+[ 18.170] --- control_Velocidad
+[ 18.214] >>> Monitoreo
+[ 18.231] ..# Altitude:  8000
+[ 18.251] ..#
 [ 18.258] >>> Prueb
 [ 18.268] >>> collision_Detector
 [ 18.291] --- collision_Detectora_Altitud y Cabeceo
-[ 18.318] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 18.359] --- Prueba_Altitud y Cabeceo>>> Monitoreo
-[ 18.390] ..# Altitude:  8000
-[ 18.409] ..# Pilot_Power:  0
-[ 18.431] ..# Speed:  0
-[ 18.447] ..# Joysti
+[ 18.322] --- Prueba_Altitud y Cabeceo Pilot_Power:  0
+[ 18.357] ..# Speed:  0
+[ 18.373] ..# Joystick:  0 0
+[ 18.392] --- Monitoreo
+[ 18.438] >>> control_Velocidad
 [ 18.458] >>> Prueba_Altitud y Cabeceo
-[ 18.478] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 18.519] >>> collision_Detector
-[ 18.542] --- collision_Detector
-[ 18.559] --- Prueba_Altitud y Cabeceo
-[ 18.579] >>> control_Velocidad
-[ 18.611] --- control_Velocidadck:  0 0
-[ 18.635] --- Monitoreo
+[ 18.483] --- Prueba_Altitud y Cabeceo
+[ 18.51
+[ 18.518] >>> collision_Detector
+[ 18.541] --- collision_Detector4] --- control_Velocidad
 [ 18.657] >>> Prueba_Altitud y Cabeceo
-[ 18.677] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 18.718] --- Prueba_Altitud y Cabeceo
-[ 18.767] >>> collision_Detector
-[ 18.790] --- collision_Detector
-[ 18.807] >>> control_Velocidad
-[ 18.839] --- control_Velocidad
+[ 18.682] --- Prueba_Altitud y Cabeceo
+[ 18.738] >>> control_Velocidad
+[ 18.770] >>> collision_Detector
+[ 18.793] --- collision_Detector
+[ 18.810] --- control_Velocidad
 [ 18.857] >>> Prueba_Altitud y Cabeceo
-[ 18.877] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 18.918] --- Prueba_Altitud y Cabeceo
+[ 18.882] --- Prueba_Altitud y Cabeceo
 [ 19.017] >>> collision_Detector
-[ 19.040] --- collision_Detector
-[ 19.057] >>> Prueba_Altitud y Cabeceo
-[ 19.077] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 19.118] --- Prueba_Altitud y Cabeceo
-[ 19.138] >>> control_Velocidad
-[ 19.170] --- control_Velocidad
-[ 19.252] 
+[ 19.041] --- collision_Detector
+[ 19.058] >>> Prueba_Altitud y Cabeceo
+[ 19.082] --- Prueba_Altitud y Cabeceo
+[ 19.102] >>> control_Velocidad
+[ 19.134] --- control_Velocidad
+[ 19.214] >>> Monitoreo
+[ 19.231] ..# Altitude:  8000
+[ 19.251] ..#
 [ 19.258] >>> Prueb
 [ 19.268] >>> collision_Detector
 [ 19.291] --- collision_Detectora_Altitud y Cabeceo
-[ 19.318] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 19.359] --- Prueba_Altitud y Cabeceo
-[ 19.379] >>> control_Velocidad
-[ 19.411] --- control_Velocidad>>> Monitoreo
-[ 19.438] ..# Altitude:  8000
+[ 19.327] --- Prueba_Altitud y Cabeceo
+[ 19.342] >>> control_Velocidad
+[ 19.374] --- control_Velocidad Pilot_Power:  0
+[ 19.405] ..# Speed:  0
+[ 19.421] ..# Joystick:  0 0
+[ 19.440] --- Monitoreo
 [ 19.457] >>> Prueba_Altitud y Cabeceo
-[ 19.477] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 19.519] >>> collision_Detector
-[ 19.542] --- collision_Detector
-[ 19.559] --- Prueba_Altitud y Cabeceo
-[ 19.579] ..# Pilot_Power:  0
-[ 19.600] ..# Speed:  0
-[ 19.616] ..# Joystick:  0 0
-[ 19.635] --- Monitoreo
-[ 19.657] >>> Prueba_Altitud y Cabeceo
-[ 19.677] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 19.718] --- Prueba_Altitud y Cabeceo
-[ 19.738] >>> control_Velocidad
-[ 19.771] >>> collision_Detector
-[ 19.794] --- collision_Detector
-[ 19.811] --- control_Velocidad
+[ 19.482] --- Prueba_Altitud y Cabeceo
+[ 19.517] >>> collision_Detector
+[ 19.540] --- collision_Detector
+[ 19.638] >>> control_Velocidad
+[ 19.658] >>> Prueba_Altitud y Cabeceo
+[ 19.683] --- Prueba_Altitud y Cabeceo
+[ 19.714] --- control_Velocidad
+[ 19.767] >>> collision_Detector
+[ 19.790] --- collision_Detector
 [ 19.857] >>> Prueba_Altitud y Cabeceo
-[ 19.877] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 19.918] --- Prueba_Altitud y Cabeceo
-[ 19.975] >>> control_Velocidad
-[ 20.007] --- contro
-[ 20.018] >>> collision_Detector
-[ 20.041] --- collision_Detector
-[ 20.058] >>> Prueba_Altitud y Cabeceo
-[ 20.078] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 20.119] --- Prueba_Altitud y Cabeceol_Velocidad
-[ 20.252] 
-[ 20.258] >>> Prueb
+[ 19.882] --- Prueba_Altitud y Cabeceo
+[ 19.938] >>> control_Velocidad
+[ 19.970] --- control_Velocidad
+[ 20.017] >>> collision_Detector
+[ 20.040] --- collision_Detector
+[ 20.057] >>> Prueba_Altitud y Cabeceo
+[ 20.082] --- Prueba_Altitud y Cabeceo
+[ 20.214] >>> Monitoreo
+[ 20.231] ..
+[ 20.238] >>> control_Velocidad
+[ 20.258] >>> Prue
 [ 20.268] >>> collision_Detector
-[ 20.291] --- collision_Detectora_Altitud y Cabeceo
-[ 20.318] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 20.359] --- Prueba_Altitud y Cabeceo
-[ 20.379] >>> control_Velocidad
-[ 20.411] --- control_Velocidad>>> Monitoreo
-[ 20.438] ..# Altitude:  8000
+[ 20.291] --- collision_Detectorba_Altitud y Cabeceo
+[ 20.323] --- Prueba_Altitud y Cabeceo
+[ 20.354] --- control_Velocidad# Altitude:  8000
+[ 20.383] ..# Pilot_Power:  0
+[ 20.405] ..# Speed:  0
+[ 20.421] ..# Joystick:  0 0
+[ 20.439] --- Monitoreo
 [ 20.457] >>> Prueba_Altitud y Cabeceo
-[ 20.477] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 20.519] >>> collision_Detector
-[ 20.542] --- collision_Detector
-[ 20.559] --- Prueba_Altitud y Cabeceo
-[ 20.579] >>> control_Velocidad
-[ 20.611] --- control_Velocidad
-[ 20.627] ..# Pilot_Power:  0
-[ 20.648] ..# Spe
-[ 20.658] >>> Prueba_Altitud y Cabeceo
-[ 20.678] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 20.719] --- Prueba_Altitud y Cabeceoed:  0
-[ 20.746] ..# Joystick:  0 0
-[ 20.7
-[ 20.768] >>> collision_Detector
-[ 20.791] --- collision_Detector64] --- Monitoreo
-[ 20.857] >>> Prueba_Altitud y Cabeceo
-[ 20.877] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 20.918] --- Prueba_Altitud y Cabeceo
-[ 20.938] >>> control_Velocidad
-[ 20.971] --- control_Velocidad
+[ 20.482] --- Prueba_Altitud y Cabeceo
+[ 20.517] >>> collision_Detector
+[ 20.541] --- collision_Detector
+[ 20.558] >>> control_Velocidad
+[ 20.590] --- control_Velocidad
+[ 20.657] >>> Prueba_Altitud y Cabeceo
+[ 20.682] --- Prueba_Altitud y Cabeceo
+[ 20.767] >>> collision_Detector
+[ 20.790] --- collision_Detector
+[ 20.838] >>> control_Velocidad
+[ 20.858] >>> Prueba_Altitud y Cabeceo
+[ 20.883] --- Prueba_Altitud y Cabeceo
+[ 20.914] --- control_Velocidad
 [ 21.017] >>> collision_Detector
 [ 21.040] --- collision_Detector
 [ 21.057] >>> Prueba_Altitud y Cabeceo
-[ 21.077] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 21.118] --- Prueba_Altitud y Cabeceo
-[ 21.175] >>> control_Velocidad
-[ 21.207] --- control_Velocidad
-[ 21.252] 
+[ 21.082] --- Prueba_Altitud y Cabeceo
+[ 21.138] >>> control_Velocidad
+[ 21.170] --- control_Velocidad
+[ 21.214] >>> Monitoreo
+[ 21.231] ..# Altitude:  8000
+[ 21.251] ..#
 [ 21.258] >>> Prueb
 [ 21.268] >>> collision_Detector
 [ 21.291] --- collision_Detectora_Altitud y Cabeceo
-[ 21.318] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 21.359] --- Prueba_Altitud y Cabeceo>>> Monitoreo
-[ 21.390] ..# Altitude:  8000
-[ 21.409] ..# Pilot_Power:  0
-[ 21.431] ..# Speed:  0
-[ 21.447] ..# Joysti
+[ 21.322] --- Prueba_Altitud y Cabeceo Pilot_Power:  0
+[ 21.357] ..# Speed:  0
+[ 21.373] ..# Joystick:  0 0
+[ 21.392] --- Monitoreo
+[ 21.438] >>> control_Velocidad
 [ 21.458] >>> Prueba_Altitud y Cabeceo
-[ 21.478] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 21.519] >>> collision_Detector
-[ 21.542] --- collision_Detector
-[ 21.559] --- Prueba_Altitud y Cabeceo
-[ 21.579] >>> control_Velocidad
-[ 21.611] --- control_Velocidadck:  0 0
-[ 21.635] --- Monitoreo
+[ 21.483] --- Prueba_Altitud y Cabeceo
+[ 21.51
+[ 21.518] >>> collision_Detector
+[ 21.541] --- collision_Detector4] --- control_Velocidad
 [ 21.657] >>> Prueba_Altitud y Cabeceo
-[ 21.677] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 21.718] --- Prueba_Altitud y Cabeceo
-[ 21.767] >>> collision_Detector
-[ 21.790] --- collision_Detector
-[ 21.807] >>> control_Velocidad
-[ 21.839] --- control_Velocidad
+[ 21.682] --- Prueba_Altitud y Cabeceo
+[ 21.738] >>> control_Velocidad
+[ 21.770] >>> collision_Detector
+[ 21.793] --- collision_Detector
+[ 21.810] --- control_Velocidad
 [ 21.857] >>> Prueba_Altitud y Cabeceo
-[ 21.877] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 21.918] --- Prueba_Altitud y Cabeceo
+[ 21.882] --- Prueba_Altitud y Cabeceo
 [ 22.017] >>> collision_Detector
-[ 22.040] --- collision_Detector
-[ 22.057] >>> Prueba_Altitud y Cabeceo
-[ 22.077] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 22.118] --- Prueba_Altitud y Cabeceo
-[ 22.138] >>> control_Velocidad
-[ 22.170] --- control_Velocidad
-[ 22.252] 
+[ 22.041] --- collision_Detector
+[ 22.058] >>> Prueba_Altitud y Cabeceo
+[ 22.082] --- Prueba_Altitud y Cabeceo
+[ 22.102] >>> control_Velocidad
+[ 22.134] --- control_Velocidad
+[ 22.214] >>> Monitoreo
+[ 22.231] ..# Altitude:  8000
+[ 22.251] ..#
 [ 22.258] >>> Prueb
 [ 22.268] >>> collision_Detector
 [ 22.291] --- collision_Detectora_Altitud y Cabeceo
-[ 22.318] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 22.359] --- Prueba_Altitud y Cabeceo
-[ 22.379] >>> control_Velocidad
-[ 22.411] --- control_Velocidad>>> Monitoreo
-[ 22.438] ..# Altitude:  8000
+[ 22.322] --- Prueba_Altitud y Cabeceo
+[ 22.342] >>> control_Velocidad
+[ 22.374] --- control_Velocidad Pilot_Power:  0
+[ 22.405] ..# Speed:  0
+[ 22.421] ..# Joystick:  0 0
+[ 22.440] --- Monitoreo
 [ 22.457] >>> Prueba_Altitud y Cabeceo
-[ 22.477] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 22.519] >>> collision_Detector
-[ 22.542] --- collision_Detector
-[ 22.559] --- Prueba_Altitud y Cabeceo
-[ 22.579] ..# Pilot_Power:  0
-[ 22.600] ..# Speed:  0
-[ 22.616] ..# Joystick:  0 0
-[ 22.635] --- Monitoreo
-[ 22.657] >>> Prueba_Altitud y Cabeceo
-[ 22.677] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 22.718] --- Prueba_Altitud y Cabeceo
-[ 22.738] >>> control_Velocidad
-[ 22.771] >>> collision_Detector
-[ 22.794] --- collision_Detector
-[ 22.811] --- control_Velocidad
+[ 22.482] --- Prueba_Altitud y Cabeceo
+[ 22.517] >>> collision_Detector
+[ 22.540] --- collision_Detector
+[ 22.638] >>> control_Velocidad
+[ 22.658] >>> Prueba_Altitud y Cabeceo
+[ 22.683] --- Prueba_Altitud y Cabeceo
+[ 22.714] --- control_Velocidad
+[ 22.767] >>> collision_Detector
+[ 22.790] --- collision_Detector
 [ 22.857] >>> Prueba_Altitud y Cabeceo
-[ 22.877] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 22.918] --- Prueba_Altitud y Cabeceo
-[ 22.975] >>> control_Velocidad
-[ 23.007] --- contro
-[ 23.018] >>> collision_Detector
-[ 23.041] --- collision_Detector
-[ 23.058] >>> Prueba_Altitud y Cabeceo
-[ 23.078] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 23.119] --- Prueba_Altitud y Cabeceol_Velocidad
-[ 23.252] 
-[ 23.258] >>> Prueb
+[ 22.882] --- Prueba_Altitud y Cabeceo
+[ 22.938] >>> control_Velocidad
+[ 22.970] --- control_Velocidad
+[ 23.017] >>> collision_Detector
+[ 23.040] --- collision_Detector
+[ 23.057] >>> Prueba_Altitud y Cabeceo
+[ 23.082] --- Prueba_Altitud y Cabeceo
+[ 23.214] >>> Monitoreo
+[ 23.231] ..
+[ 23.238] >>> control_Velocidad
+[ 23.258] >>> Prue
 [ 23.268] >>> collision_Detector
-[ 23.291] --- collision_Detectora_Altitud y Cabeceo
-[ 23.318] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 23.359] --- Prueba_Altitud y Cabeceo
-[ 23.379] >>> control_Velocidad
-[ 23.411] --- control_Velocidad>>> Monitoreo
-[ 23.438] ..# Altitude:  8000
+[ 23.291] --- collision_Detectorba_Altitud y Cabeceo
+[ 23.323] --- Prueba_Altitud y Cabeceo
+[ 23.354] --- control_Velocidad# Altitude:  8000
+[ 23.383] ..# Pilot_Power:  0
+[ 23.405] ..# Speed:  0
+[ 23.421] ..# Joystick:  0 0
+[ 23.439] --- Monitoreo
 [ 23.457] >>> Prueba_Altitud y Cabeceo
-[ 23.477] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 23.519] >>> collision_Detector
-[ 23.542] --- collision_Detector
-[ 23.559] --- Prueba_Altitud y Cabeceo
-[ 23.579] >>> control_Velocidad
-[ 23.611] --- control_Velocidad
-[ 23.627] ..# Pilot_Power:  0
-[ 23.648] ..# Spe
-[ 23.658] >>> Prueba_Altitud y Cabeceo
-[ 23.678] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 23.719] --- Prueba_Altitud y Cabeceoed:  0
-[ 23.746] ..# Joystick:  0 0
-[ 23.7
-[ 23.768] >>> collision_Detector
-[ 23.791] --- collision_Detector64] --- Monitoreo
-[ 23.857] >>> Prueba_Altitud y Cabeceo
-[ 23.877] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 23.918] --- Prueba_Altitud y Cabeceo
-[ 23.938] >>> control_Velocidad
-[ 23.971] --- control_Velocidad
+[ 23.482] --- Prueba_Altitud y Cabeceo
+[ 23.517] >>> collision_Detector
+[ 23.541] --- collision_Detector
+[ 23.558] >>> control_Velocidad
+[ 23.590] --- control_Velocidad
+[ 23.657] >>> Prueba_Altitud y Cabeceo
+[ 23.682] --- Prueba_Altitud y Cabeceo
+[ 23.767] >>> collision_Detector
+[ 23.790] --- collision_Detector
+[ 23.838] >>> control_Velocidad
+[ 23.858] >>> Prueba_Altitud y Cabeceo
+[ 23.883] --- Prueba_Altitud y Cabeceo
+[ 23.914] --- control_Velocidad
 [ 24.017] >>> collision_Detector
 [ 24.040] --- collision_Detector
 [ 24.057] >>> Prueba_Altitud y Cabeceo
-[ 24.077] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 24.118] --- Prueba_Altitud y Cabeceo
-[ 24.175] >>> control_Velocidad
-[ 24.207] --- control_Velocidad
-[ 24.252] 
+[ 24.082] --- Prueba_Altitud y Cabeceo
+[ 24.138] >>> control_Velocidad
+[ 24.170] --- control_Velocidad
+[ 24.214] >>> Monitoreo
+[ 24.231] ..# Altitude:  8000
+[ 24.251] ..#
 [ 24.258] >>> Prueb
 [ 24.268] >>> collision_Detector
 [ 24.291] --- collision_Detectora_Altitud y Cabeceo
-[ 24.318] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 24.359] --- Prueba_Altitud y Cabeceo>>> Monitoreo
-[ 24.390] ..# Altitude:  8000
-[ 24.409] ..# Pilot_Power:  0
-[ 24.431] ..# Speed:  0
-[ 24.447] ..# Joysti
+[ 24.322] --- Prueba_Altitud y Cabeceo Pilot_Power:  0
+[ 24.357] ..# Speed:  0
+[ 24.373] ..# Joystick:  0 0
+[ 24.392] --- Monitoreo
+[ 24.438] >>> control_Velocidad
 [ 24.458] >>> Prueba_Altitud y Cabeceo
-[ 24.478] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 24.519] >>> collision_Detector
-[ 24.542] --- collision_Detector
-[ 24.559] --- Prueba_Altitud y Cabeceo
-[ 24.579] >>> control_Velocidad
-[ 24.611] --- control_Velocidadck:  0 0
-[ 24.635] --- Monitoreo
+[ 24.483] --- Prueba_Altitud y Cabeceo
+[ 24.51
+[ 24.518] >>> collision_Detector
+[ 24.541] --- collision_Detector4] --- control_Velocidad
 [ 24.657] >>> Prueba_Altitud y Cabeceo
-[ 24.677] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 24.718] --- Prueba_Altitud y Cabeceo
-[ 24.767] >>> collision_Detector
-[ 24.790] --- collision_Detector
-[ 24.807] >>> control_Velocidad
-[ 24.839] --- control_Velocidad
+[ 24.682] --- Prueba_Altitud y Cabeceo
+[ 24.738] >>> control_Velocidad
+[ 24.770] >>> collision_Detector
+[ 24.793] --- collision_Detector
+[ 24.810] --- control_Velocidad
 [ 24.857] >>> Prueba_Altitud y Cabeceo
-[ 24.877] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 24.918] --- Prueba_Altitud y Cabeceo
+[ 24.882] --- Prueba_Altitud y Cabeceo
 [ 25.017] >>> collision_Detector
-[ 25.040] --- collision_Detector
-[ 25.057] >>> Prueba_Altitud y Cabeceo
-[ 25.077] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 25.118] --- Prueba_Altitud y Cabeceo
-[ 25.138] >>> control_Velocidad
-[ 25.170] --- control_Velocidad
-[ 25.252] 
+[ 25.041] --- collision_Detector
+[ 25.058] >>> Prueba_Altitud y Cabeceo
+[ 25.082] --- Prueba_Altitud y Cabeceo
+[ 25.102] >>> control_Velocidad
+[ 25.134] --- control_Velocidad
+[ 25.214] >>> Monitoreo
+[ 25.231] ..# Altitude:  8000
+[ 25.251] ..#
 [ 25.258] >>> Prueb
 [ 25.268] >>> collision_Detector
 [ 25.291] --- collision_Detectora_Altitud y Cabeceo
-[ 25.318] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 25.359] --- Prueba_Altitud y Cabeceo
-[ 25.379] >>> control_Velocidad
-[ 25.411] --- control_Velocidad>>> Monitoreo
-[ 25.438] ..# Altitude:  8000
+[ 25.322] --- Prueba_Altitud y Cabeceo
+[ 25.342] >>> control_Velocidad
+[ 25.374] --- control_Velocidad Pilot_Power:  0
+[ 25.405] ..# Speed:  0
+[ 25.421] ..# Joystick:  0 0
+[ 25.440] --- Monitoreo
 [ 25.457] >>> Prueba_Altitud y Cabeceo
-[ 25.477] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 25.519] >>> collision_Detector
-[ 25.542] --- collision_Detector
-[ 25.559] --- Prueba_Altitud y Cabeceo
-[ 25.579] ..# Pilot_Power:  0
-[ 25.600] ..# Speed:  0
-[ 25.616] ..# Joystick:  0 0
-[ 25.635] --- Monitoreo
-[ 25.657] >>> Prueba_Altitud y Cabeceo
-[ 25.677] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 25.718] --- Prueba_Altitud y Cabeceo
-[ 25.738] >>> control_Velocidad
-[ 25.771] >>> collision_Detector
-[ 25.794] --- collision_Detector
-[ 25.811] --- control_Velocidad
+[ 25.482] --- Prueba_Altitud y Cabeceo
+[ 25.517] >>> collision_Detector
+[ 25.540] --- collision_Detector
+[ 25.638] >>> control_Velocidad
+[ 25.658] >>> Prueba_Altitud y Cabeceo
+[ 25.683] --- Prueba_Altitud y Cabeceo
+[ 25.714] --- control_Velocidad
+[ 25.767] >>> collision_Detector
+[ 25.790] --- collision_Detector
 [ 25.857] >>> Prueba_Altitud y Cabeceo
-[ 25.877] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 25.918] --- Prueba_Altitud y Cabeceo
-[ 25.975] >>> control_Velocidad
-[ 26.007] --- contro
-[ 26.018] >>> collision_Detector
-[ 26.041] --- collision_Detector
-[ 26.058] >>> Prueba_Altitud y Cabeceo
-[ 26.078] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 26.119] --- Prueba_Altitud y Cabeceol_Velocidad
-[ 26.252] 
-[ 26.258] >>> Prueb
+[ 25.882] --- Prueba_Altitud y Cabeceo
+[ 25.938] >>> control_Velocidad
+[ 25.970] --- control_Velocidad
+[ 26.017] >>> collision_Detector
+[ 26.040] --- collision_Detector
+[ 26.057] >>> Prueba_Altitud y Cabeceo
+[ 26.082] --- Prueba_Altitud y Cabeceo
+[ 26.214] >>> Monitoreo
+[ 26.231] ..
+[ 26.238] >>> control_Velocidad
+[ 26.258] >>> Prue
 [ 26.268] >>> collision_Detector
-[ 26.291] --- collision_Detectora_Altitud y Cabeceo
-[ 26.318] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 26.359] --- Prueba_Altitud y Cabeceo
-[ 26.379] >>> control_Velocidad
-[ 26.411] --- control_Velocidad>>> Monitoreo
-[ 26.438] ..# Altitude:  8000
+[ 26.291] --- collision_Detectorba_Altitud y Cabeceo
+[ 26.323] --- Prueba_Altitud y Cabeceo
+[ 26.354] --- control_Velocidad# Altitude:  8000
+[ 26.383] ..# Pilot_Power:  0
+[ 26.405] ..# Speed:  0
+[ 26.421] ..# Joystick:  0 0
+[ 26.439] --- Monitoreo
 [ 26.457] >>> Prueba_Altitud y Cabeceo
-[ 26.477] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 26.519] >>> collision_Detector
-[ 26.542] --- collision_Detector
-[ 26.559] --- Prueba_Altitud y Cabeceo
-[ 26.579] >>> control_Velocidad
-[ 26.611] --- control_Velocidad
-[ 26.627] ..# Pilot_Power:  0
-[ 26.648] ..# Spe
-[ 26.658] >>> Prueba_Altitud y Cabeceo
-[ 26.678] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 26.719] --- Prueba_Altitud y Cabeceoed:  0
-[ 26.746] ..# Joystick:  0 0
-[ 26.7
-[ 26.768] >>> collision_Detector
-[ 26.791] --- collision_Detector64] --- Monitoreo
-[ 26.857] >>> Prueba_Altitud y Cabeceo
-[ 26.877] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 26.918] --- Prueba_Altitud y Cabeceo
-[ 26.938] >>> control_Velocidad
-[ 26.971] --- control_Velocidad
+[ 26.482] --- Prueba_Altitud y Cabeceo
+[ 26.517] >>> collision_Detector
+[ 26.541] --- collision_Detector
+[ 26.558] >>> control_Velocidad
+[ 26.590] --- control_Velocidad
+[ 26.657] >>> Prueba_Altitud y Cabeceo
+[ 26.682] --- Prueba_Altitud y Cabeceo
+[ 26.767] >>> collision_Detector
+[ 26.790] --- collision_Detector
+[ 26.838] >>> control_Velocidad
+[ 26.858] >>> Prueba_Altitud y Cabeceo
+[ 26.883] --- Prueba_Altitud y Cabeceo
+[ 26.914] --- control_Velocidad
 [ 27.017] >>> collision_Detector
 [ 27.040] --- collision_Detector
 [ 27.057] >>> Prueba_Altitud y Cabeceo
-[ 27.077] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 27.118] --- Prueba_Altitud y Cabeceo
-[ 27.175] >>> control_Velocidad
-[ 27.207] --- control_Velocidad
-[ 27.252] 
+[ 27.082] --- Prueba_Altitud y Cabeceo
+[ 27.138] >>> control_Velocidad
+[ 27.170] --- control_Velocidad
+[ 27.214] >>> Monitoreo
+[ 27.231] ..# Altitude:  8000
+[ 27.251] ..#
 [ 27.258] >>> Prueb
 [ 27.268] >>> collision_Detector
 [ 27.291] --- collision_Detectora_Altitud y Cabeceo
-[ 27.318] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 27.359] --- Prueba_Altitud y Cabeceo>>> Monitoreo
-[ 27.390] ..# Altitude:  8000
-[ 27.409] ..# Pilot_Power:  0
-[ 27.431] ..# Speed:  0
-[ 27.447] ..# Joysti
+[ 27.322] --- Prueba_Altitud y Cabeceo Pilot_Power:  0
+[ 27.357] ..# Speed:  0
+[ 27.373] ..# Joystick:  0 0
+[ 27.392] --- Monitoreo
+[ 27.438] >>> control_Velocidad
 [ 27.458] >>> Prueba_Altitud y Cabeceo
-[ 27.478] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 27.519] >>> collision_Detector
-[ 27.542] --- collision_Detector
-[ 27.559] --- Prueba_Altitud y Cabeceo
-[ 27.579] >>> control_Velocidad
-[ 27.611] --- control_Velocidadck:  0 0
-[ 27.635] --- Monitoreo
+[ 27.483] --- Prueba_Altitud y Cabeceo
+[ 27.51
+[ 27.518] >>> collision_Detector
+[ 27.541] --- collision_Detector4] --- control_Velocidad
 [ 27.657] >>> Prueba_Altitud y Cabeceo
-[ 27.677] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 27.718] --- Prueba_Altitud y Cabeceo
-[ 27.767] >>> collision_Detector
-[ 27.790] --- collision_Detector
-[ 27.807] >>> control_Velocidad
-[ 27.839] --- control_Velocidad
+[ 27.682] --- Prueba_Altitud y Cabeceo
+[ 27.738] >>> control_Velocidad
+[ 27.770] >>> collision_Detector
+[ 27.793] --- collision_Detector
+[ 27.810] --- control_Velocidad
 [ 27.857] >>> Prueba_Altitud y Cabeceo
-[ 27.877] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 27.918] --- Prueba_Altitud y Cabeceo
+[ 27.882] --- Prueba_Altitud y Cabeceo
 [ 28.017] >>> collision_Detector
-[ 28.040] --- collision_Detector
-[ 28.057] >>> Prueba_Altitud y Cabeceo
-[ 28.077] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 28.118] --- Prueba_Altitud y Cabeceo
-[ 28.138] >>> control_Velocidad
-[ 28.170] --- control_Velocidad
-[ 28.252] 
+[ 28.041] --- collision_Detector
+[ 28.058] >>> Prueba_Altitud y Cabeceo
+[ 28.082] --- Prueba_Altitud y Cabeceo
+[ 28.102] >>> control_Velocidad
+[ 28.134] --- control_Velocidad
+[ 28.214] >>> Monitoreo
+[ 28.231] ..# Altitude:  8000
+[ 28.251] ..#
 [ 28.258] >>> Prueb
 [ 28.268] >>> collision_Detector
 [ 28.291] --- collision_Detectora_Altitud y Cabeceo
-[ 28.318] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 28.359] --- Prueba_Altitud y Cabeceo
-[ 28.379] >>> control_Velocidad
-[ 28.411] --- control_Velocidad>>> Monitoreo
-[ 28.438] ..# Altitude:  8000
+[ 28.322] --- Prueba_Altitud y Cabeceo
+[ 28.342] >>> control_Velocidad
+[ 28.374] --- control_Velocidad Pilot_Power:  0
+[ 28.405] ..# Speed:  0
+[ 28.421] ..# Joystick:  0 0
+[ 28.440] --- Monitoreo
 [ 28.457] >>> Prueba_Altitud y Cabeceo
-[ 28.477] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 28.519] >>> collision_Detector
-[ 28.542] --- collision_Detector
-[ 28.559] --- Prueba_Altitud y Cabeceo
-[ 28.579] ..# Pilot_Power:  0
-[ 28.600] ..# Speed:  0
-[ 28.616] ..# Joystick:  0 0
-[ 28.635] --- Monitoreo
-[ 28.657] >>> Prueba_Altitud y Cabeceo
-[ 28.677] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 28.718] --- Prueba_Altitud y Cabeceo
-[ 28.738] >>> control_Velocidad
-[ 28.771] >>> collision_Detector
-[ 28.794] --- collision_Detector
-[ 28.811] --- control_Velocidad
+[ 28.482] --- Prueba_Altitud y Cabeceo
+[ 28.517] >>> collision_Detector
+[ 28.540] --- collision_Detector
+[ 28.638] >>> control_Velocidad
+[ 28.658] >>> Prueba_Altitud y Cabeceo
+[ 28.683] --- Prueba_Altitud y Cabeceo
+[ 28.714] --- control_Velocidad
+[ 28.767] >>> collision_Detector
+[ 28.790] --- collision_Detector
 [ 28.857] >>> Prueba_Altitud y Cabeceo
-[ 28.877] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 28.918] --- Prueba_Altitud y Cabeceo
-[ 28.975] >>> control_Velocidad
-[ 29.007] --- contro
-[ 29.018] >>> collision_Detector
-[ 29.041] --- collision_Detector
-[ 29.058] >>> Prueba_Altitud y Cabeceo
-[ 29.078] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 29.119] --- Prueba_Altitud y Cabeceol_Velocidad
-[ 29.252] 
-[ 29.258] >>> Prueb
+[ 28.882] --- Prueba_Altitud y Cabeceo
+[ 28.938] >>> control_Velocidad
+[ 28.970] --- control_Velocidad
+[ 29.017] >>> collision_Detector
+[ 29.040] --- collision_Detector
+[ 29.057] >>> Prueba_Altitud y Cabeceo
+[ 29.082] --- Prueba_Altitud y Cabeceo
+[ 29.214] >>> Monitoreo
+[ 29.231] ..
+[ 29.238] >>> control_Velocidad
+[ 29.258] >>> Prue
 [ 29.268] >>> collision_Detector
-[ 29.291] --- collision_Detectora_Altitud y Cabeceo
-[ 29.318] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 29.359] --- Prueba_Altitud y Cabeceo
-[ 29.379] >>> control_Velocidad
-[ 29.411] --- control_Velocidad>>> Monitoreo
-[ 29.438] ..# Altitude:  8000
+[ 29.291] --- collision_Detectorba_Altitud y Cabeceo
+[ 29.323] --- Prueba_Altitud y Cabeceo
+[ 29.354] --- control_Velocidad# Altitude:  8000
+[ 29.383] ..# Pilot_Power:  0
+[ 29.405] ..# Speed:  0
+[ 29.421] ..# Joystick:  0 0
+[ 29.439] --- Monitoreo
 [ 29.457] >>> Prueba_Altitud y Cabeceo
-[ 29.477] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 29.519] >>> collision_Detector
-[ 29.542] --- collision_Detector
-[ 29.559] --- Prueba_Altitud y Cabeceo
-[ 29.579] >>> control_Velocidad
-[ 29.611] --- control_Velocidad
-[ 29.627] ..# Pilot_Power:  0
-[ 29.648] ..# Spe
-[ 29.658] >>> Prueba_Altitud y Cabeceo
-[ 29.678] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 29.719] --- Prueba_Altitud y Cabeceoed:  0
-[ 29.746] ..# Joystick:  0 0
-[ 29.7
-[ 29.768] >>> collision_Detector
-[ 29.791] --- collision_Detector64] --- Monitoreo
-[ 29.857] >>> Prueba_Altitud y Cabeceo
-[ 29.877] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 29.918] --- Prueba_Altitud y Cabeceo
-[ 29.938] >>> control_Velocidad
-[ 29.971] --- control_Velocidad
+[ 29.482] --- Prueba_Altitud y Cabeceo
+[ 29.517] >>> collision_Detector
+[ 29.541] --- collision_Detector
+[ 29.558] >>> control_Velocidad
+[ 29.590] --- control_Velocidad
+[ 29.657] >>> Prueba_Altitud y Cabeceo
+[ 29.682] --- Prueba_Altitud y Cabeceo
+[ 29.767] >>> collision_Detector
+[ 29.790] --- collision_Detector
+[ 29.838] >>> control_Velocidad
+[ 29.858] >>> Prueba_Altitud y Cabeceo
+[ 29.883] --- Prueba_Altitud y Cabeceo
+[ 29.914] --- control_Velocidad
 [ 30.017] >>> collision_Detector
 [ 30.040] --- collision_Detector
 [ 30.062] >>> Prueba_Altitud y Cabeceo
-[ 30.077] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 30.118] --- Prueba_Altitud y Cabeceo
-[ 30.175] >>> control_Velocidad
-[ 30.207] --- control_Velocidad
-[ 30.252] 
+[ 30.082] --- Prueba_Altitud y Cabeceo
+[ 30.138] >>> control_Velocidad
+[ 30.170] --- control_Velocidad
+[ 30.214] >>> Monitoreo
+[ 30.231] ..# Altitude:  8000
+[ 30.251] ..#
 [ 30.258] >>> Prueb
 [ 30.268] >>> collision_Detector
 [ 30.291] --- collision_Detectora_Altitud y Cabeceo
-[ 30.318] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 30.359] --- Prueba_Altitud y Cabeceo>>> Monitoreo
-[ 30.390] ..# Altitude:  8000
-[ 30.409] ..# Pilot_Power:  0
-[ 30.431] ..# Speed:  0
-[ 30.447] ..# Joysti
+[ 30.322] --- Prueba_Altitud y Cabeceo Pilot_Power:  0
+[ 30.357] ..# Speed:  0
+[ 30.373] ..# Joystick:  0 0
+[ 30.392] --- Monitoreo
+[ 30.438] >>> control_Velocidad
 [ 30.458] >>> Prueba_Altitud y Cabeceo
-[ 30.478] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 30.519] >>> collision_Detector
-[ 30.542] --- collision_Detector
-[ 30.559] --- Prueba_Altitud y Cabeceo
-[ 30.579] >>> control_Velocidad
-[ 30.611] --- control_Velocidadck:  0 0
-[ 30.635] --- Monitoreo
+[ 30.483] --- Prueba_Altitud y Cabeceo
+[ 30.51
+[ 30.518] >>> collision_Detector
+[ 30.541] --- collision_Detector4] --- control_Velocidad
 [ 30.657] >>> Prueba_Altitud y Cabeceo
-[ 30.677] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 30.718] --- Prueba_Altitud y Cabeceo
-[ 30.767] >>> collision_Detector
-[ 30.790] --- collision_Detector
-[ 30.807] >>> control_Velocidad
-[ 30.839] --- control_Velocidad
+[ 30.682] --- Prueba_Altitud y Cabeceo
+[ 30.738] >>> control_Velocidad
+[ 30.770] >>> collision_Detector
+[ 30.793] --- collision_Detector
+[ 30.810] --- control_Velocidad
 [ 30.857] >>> Prueba_Altitud y Cabeceo
-[ 30.877] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 30.918] --- Prueba_Altitud y Cabeceo
+[ 30.882] --- Prueba_Altitud y Cabeceo
 [ 31.017] >>> collision_Detector
-[ 31.040] --- collision_Detector
-[ 31.057] >>> Prueba_Altitud y Cabeceo
-[ 31.077] ..# MSSG: Altura modo manual no actua sobre la nave
-[ 31.118] --- Prueba_Altitud y Cabeceo
-[ 31.138] >>> control_Velocidad
-[ 31.170] --- control_Velocidad
+[ 31.041] --- collision_Detector
+[ 31.058] >>> Prueba_Altitud y Cabeceo
+[ 31.082] --- Prueba_Altitud y Cabeceo
+[ 31.102] >>> control_Velocidad
+[ 31.134] --- control_Velocidad
+[ 31.214] >>> Monitoreo
+[ 31.231] ..# Altitude:  8000
+[ 31.251] ..#
+[ 31.258] >>> Prueb
+[ 31.268] >>> collision_Detector
+[ 31.291] --- collision_Detectora_Altitud y Cabeceo
+[ 31.322] --- Prueba_Altitud y Cabeceo
+[ 31.342] >>> control_Velocidad
+[ 31.374] --- control_Velocidad Pilot_Power:  0
+[ 31.405] ..# Speed:  0
+[ 31.421] ..# Joystick:  0 0
+[ 31.440] --- Monitoreo
+[ 31.457] >>> Prueba_Altitud y Cabeceo
+[ 31.482] --- Prueba_Altitud y Cabeceo
+[ 31.517] >>> collision_Detector
+[ 31.540] --- collision_Detector
+[ 31.638] >>> control_Velocidad
+[ 31.658] >>> Prueba_Altitud y Cabeceo
+[ 31.683] --- Prueba_Altitud y Cabeceo
+[ 31.714] --- control_Velocidad
+[ 31.767] >>> collision_Detector
+[ 31.790] --- collision_Detector
+[ 31.857] >>> Prueba_Altitud y Cabeceo
+[ 31.882] --- Prueba_Altitud y Cabeceo
+[ 31.938] >>> control_Velocidad
+[ 31.970] --- control_Velocidad
+[ 32.017] >>> collision_Detector
+[ 32.040] --- collision_Detector
+[ 32.057] >>> Prueba_Altitud y Cabeceo
+[ 32.082] --- Prueba_Altitud y Cabeceo
+[ 32.214] >>> Monitoreo
+[ 32.231] ..
+[ 32.238] >>> control_Velocidad
+[ 32.258] >>> Prue
+[ 32.268] >>> collision_Detector
+[ 32.291] --- collision_Detectorba_Altitud y Cabeceo
+[ 32.323] --- Prueba_Altitud y Cabeceo
+[ 32.354] --- control_Velocidad# Altitude:  8000
+[ 32.383] ..# Pilot_Power:  0
+[ 32.405] ..# Speed:  0
+[ 32.421] ..# Joystick:  0 0
+[ 32.439] --- Monitoreo
+[ 32.457] >>> Prueba_Altitud y Cabeceo
+[ 32.482] --- Prueba_Altitud y Cabeceo
+[ 32.517] >>> collision_Detector
+[ 32.541] --- collision_Detector
+[ 32.558] >>> control_Velocidad
+[ 32.590] --- control_Velocidad
+[ 32.657] >>> Prueba_Altitud y Cabeceo
+[ 32.682] --- Prueba_Altitud y Cabeceo
+[ 32.767] >>> collision_Detector
+[ 32.790] --- collision_Detector
+[ 32.838] >>> control_Velocidad
+[ 32.858] >>> Prueba_Altitud y Cabeceo
+[ 32.883] --- Prueba_Altitud y Cabeceo
+[ 32.914] --- control_Velocidad
+[ 33.017] >>> collision_Detector
+[ 33.040] --- collision_Detector
+[ 33.057] >>> Prueba_Altitud y Cabeceo
+[ 33.082] --- Prueba_Altitud y Cabeceo
+[ 33.138] >>> control_Velocidad
+[ 33.170] --- control_Velocidad
+[ 33.214] >>> Monitoreo
+[ 33.231] ..# Altitude:  8000
+[ 33.251] ..#
+[ 33.258] >>> Prueb
+[ 33.268] >>> collision_Detector
+[ 33.291] --- collision_Detectora_Altitud y Cabeceo
+[ 33.322] --- Prueba_Altitud y Cabeceo Pilot_Power:  0
+[ 33.357] ..# Speed:  0
+[ 33.373] ..# Joystick:  0 0
+[ 33.392] --- Monitoreo
+[ 33.438] >>> control_Velocidad
+[ 33.458] >>> Prueba_Altitud y Cabeceo
+[ 33.483] --- Prueba_Altitud y Cabeceo
+[ 33.51
+[ 33.518] >>> collision_Detector
+[ 33.541] --- collision_Detector4] --- control_Velocidad
+[ 33.657] >>> Prueba_Altitud y Cabeceo
+[ 33.682] --- Prueba_Altitud y Cabeceo
+[ 33.738] >>> control_Velocidad
+[ 33.770] >>> collision_Detector
+[ 33.793] --- collision_Detector
+[ 33.810] --- control_Velocidad
+[ 33.857] >>> Prueba_Altitud y Cabeceo
+[ 33.882] --- Prueba_Altitud y Cabeceo
+[ 34.017] >>> collision_Detector
+[ 34.041] --- collision_Detector
+[ 34.058] >>> Prueba_Altitud y Cabeceo
+[ 34.082] --- Prueba_Altitud y Cabeceo
+[ 34.102] >>> control_Velocidad
+[ 34.134] --- control_Velocidad
+[ 34.214] >>> Monitoreo
+[ 34.231] ..# Altitude:  8000
+[ 34.251] ..#
+[ 34.258] >>> Prueb
+[ 34.268] >>> collision_Detector
+[ 34.291] --- collision_Detectora_Altitud y Cabeceo
+[ 34.322] --- Prueba_Altitud y Cabeceo
+[ 34.342] >>> control_Velocidad
+[ 34.374] --- control_Velocidad Pilot_Power:  0
+[ 34.405] ..# Speed:  0
+[ 34.421] ..# Joystick:  0 0
+[ 34.440] --- Monitoreo
+[ 34.457] >>> Prueba_Altitud y Cabeceo
+[ 34.482] --- Prueba_Altitud y Cabeceo
+[ 34.517] >>> collision_Detector
+[ 34.540] --- collision_Detector
+[ 34.638] >>> control_Velocidad
+[ 34.658] >>> Prueba_Altitud y Cabeceo
+[ 34.683] --- Prueba_Altitud y Cabeceo
+[ 34.714] --- control_Velocidad
+[ 34.767] >>> collision_Detector
+[ 34.790] --- collision_Detector
+[ 34.857] >>> Prueba_Altitud y Cabeceo
+[ 34.882] --- Prueba_Altitud y Cabeceo
+[ 34.938] >>> control_Velocidad
+[ 34.970] --- control_Velocidad
+[ 35.017] >>> collision_Detector
+[ 35.040] --- collision_Detector
+[ 35.057] >>> Prueba_Altitud y Cabeceo
+[ 35.082] --- Prueba_Altitud y Cabeceo
+[ 35.214] >>> Monitoreo
+[ 35.231] ..
+[ 35.238] >>> control_Velocidad
+[ 35.258] >>> Prue
+[ 35.268] >>> collision_Detector
+[ 35.291] --- collision_Detectorba_Altitud y Cabeceo
+[ 35.323] --- Prueba_Altitud y Cabeceo
+[ 35.354] --- control_Velocidad# Altitude:  8000
+[ 35.383] ..# Pilot_Power:  0
+[ 35.405] ..# Speed:  0
+[ 35.421] ..# Joystick:  0 0
+[ 35.439] --- Monitoreo
+[ 35.457] >>> Prueba_Altitud y Cabeceo
+[ 35.482] --- Prueba_Altitud y Cabeceo
+[ 35.517] >>> collision_Detector
+[ 35.541] --- collision_Detector
+[ 35.558] >>> control_Velocidad
+[ 35.590] --- control_Velocidad
+[ 35.657] >>> Prueba_Altitud y Cabeceo
+[ 35.682] --- Prueba_Altitud y Cabeceo
+[ 35.767] >>> collision_Detector
+[ 35.790] --- collision_Detector
+[ 35.838] >>> control_Velocidad
+[ 35.858] >>> Prueba_Altitud y Cabeceo
+[ 35.883] --- Prueba_Altitud y Cabeceo
+[ 35.914] --- control_Velocidad
+[ 36.017] >>> collision_Detector
+[ 36.040] --- collision_Detector
+[ 36.057] >>> Prueba_Altitud y Cabeceo
+[ 36.082] --- Prueba_Altitud y Cabeceo
+[ 36.138] >>> control_Velocidad
+[ 36.170] --- control_Velocidad
+[ 36.214] >>> Monitoreo
+[ 36.231] ..# Altitude:  8000
+[ 36.251] ..#
+[ 36.258] >>> Prueb
+[ 36.268] >>> collision_Detector
+[ 36.291] --- collision_Detectora_Altitud y Cabeceo
+[ 36.322] --- Prueba_Altitud y Cabeceo Pilot_Power:  0
+[ 36.357] ..# Speed:  0
+[ 36.373] ..# Joystick:  0 0
+[ 36.392] --- Monitoreo
+[ 36.438] >>> control_Velocidad
+[ 36.458] >>> Prueba_Altitud y Cabeceo
+[ 36.483] --- Prueba_Altitud y Cabeceo
+[ 36.51
+[ 36.518] >>> collision_Detector
+[ 36.541] --- collision_Detector4] --- control_Velocidad
+[ 36.657] >>> Prueba_Altitud y Cabeceo
+[ 36.682] --- Prueba_Altitud y Cabeceo
+[ 36.738] >>> control_Velocidad
+[ 36.770] >>> collision_Detector
+[ 36.793] --- collision_Detector
+[ 36.810] --- control_Velocidad
+[ 36.857] >>> Prueba_Altitud y Cabeceo
+[ 36.882] --- Prueba_Altitud y Cabeceo
+[ 37.017] >>> collision_Detector
+[ 37.041] --- collision_Detector
+[ 37.058] >>> Prueba_Altitud y Cabeceo
+[ 37.082] --- Prueba_Altitud y Cabeceo
+[ 37.102] >>> control_Velocidad
+[ 37.134] --- control_Velocidad
+[ 37.214] >>> Monitoreo
+[ 37.231] ..# Altitude:  8000
+[ 37.251] ..#
+[ 37.258] >>> Prueb
+[ 37.268] >>> collision_Detector
+[ 37.291] --- collision_Detectora_Altitud y Cabeceo
+[ 37.322] --- Prueba_Altitud y Cabeceo
+[ 37.342] >>> control_Velocidad
+[ 37.374] --- control_Velocidad Pilot_Power:  0
+[ 37.405] ..# Speed:  0
+[ 37.421] ..# Joystick:  0 0
 Interrupt!
- Stopped at time 314769256 (2.248e+01 s)
+ Stopped at time 376709024 (2.691e+01 s)
 tsim> 
