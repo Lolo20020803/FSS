@@ -198,7 +198,6 @@ package body fss is
         end if;
       --El sistema de altura solo funciona en modo automatico es decir modo = true
       if objeto_compartido.getModo then
-        Display_Message("Altura en modo automatico actua sobre la nave");
         if (Current_A >= 10000 and Target_Pitch > 0 ) then 
           Target_Pitch:=0;
           Target_Roll:=0;
@@ -222,8 +221,6 @@ package body fss is
         Aircraft_Pitch := Read_Pitch;       -- lee la posición pitch de la aeronave
         Aircraft_Roll := Read_Roll;         -- lee la posición roll  de la aeronave
   
-      else 
-      	Display_Message("Altura modo manual no actua sobre la nave");
       end if;
       -- Comprueba altitud
       Current_A := Read_Altitude;         -- lee y muestra por display la altitud de la aeronave  
@@ -288,8 +285,6 @@ package body fss is
         end if;
         end if;
         end if;
-      --else
-        --Display_Message("Actuacion sobre colision desactivado");
       end if;
       Finish_Activity ("collision_Detector");
       delay until Siguiente_Instante;
@@ -413,8 +408,6 @@ package body fss is
         objeto_compartido.updatePotencia(required_power);
         Set_Speed(Speed_Samples_Type(Float(required_power) * Float(1.2)));
      end if;
-    --else 
-      --Display_Message("Control de velocidad desactivado");
     end if;
         Finish_Activity("control_Velocidad");
         delay until Siguiente_Instante;
