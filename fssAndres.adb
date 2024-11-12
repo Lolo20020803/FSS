@@ -95,7 +95,7 @@ package body fss is
 
     --Comprueba la incliancion del joystick y comprueba que no pase de 45º de roll y 30º de pitch
     task altura_y_cabeceo is 
-      pragma Priority(2);
+      pragma Priority(3);
     end altura_y_cabeceo;
 
 
@@ -116,7 +116,7 @@ package body fss is
 
     --Varias cosas
     task control_Velocidad is 
-      pragma Priority(3);
+      pragma Priority(2);
     end control_Velocidad;
 
 
