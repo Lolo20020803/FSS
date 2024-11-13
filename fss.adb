@@ -340,6 +340,8 @@ package body fss is
         Display_Speed(Read_Speed);
 
         Display_Joystick (objeto_compartido.getJoystick);
+        Display_Pitch(Read_Pitch);
+        Display_Roll(Read_Roll);
 
         Finish_Activity("Monitoreo");
         delay until Siguiente_Instante;
