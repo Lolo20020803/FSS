@@ -249,10 +249,11 @@ package body fss is
       altitud : Altitude_Samples_Type := 0;
       iteraciones : Integer := 0;
       modo_esquiva : PilotPresence_Samples_Type;
-      tesquiva : Float := 5.0;
-      tesquiva1 : Float := 10.0;
+      presencia_visibilidad_buena : Integer;
       visibilidad: Light_Samples_Type;
-
+      maniobra_alabeo: Integer :=0;
+      maniobra_cabeceo: Integer :=0;
+      
       Siguiente_Instante : Time;
       Intervalo : Time_Span := Milliseconds(250);
 
@@ -265,37 +266,54 @@ package body fss is
       Velocidad:= Read_Speed;
       modo_esquiva := Read_PilotPresence;
       Read_Light_Intensity(visibilidad);
-      if natural(modo_esquiva) = 1 or natural(visibilidad)< 500 then 
-        tesquiva := 10.0;
-        tesquiva1 := 15.0;
+
+      if natural(modo_esquiva) = 1 and natural(visibilidad)< 500 then 
+        presencia_visibilidad_buena:=1;
+      else
+      	presencia_visibilidad_buena:=0;
       end if;
-      --Display_Message("Distancia Impacto "& Float'Image(Float(Distancia_obstaculo)));
+      
       if Distancia_obstaculo <= 5000 then 
         Display_Message("Obstaculo Detectado");
         Display_Message("Velocidad "& Float'Image(Float(Velocidad)));
         tiempo_Impacto :=   Float((Float(Distancia_obstaculo)/Float(Velocidad)));
         Display_Message("Tiempo Colision "& Float'Image(tiempo_Impacto));
-      --El sistema solo actua para esquivar en modo automatico es decir modo = true
-      if objeto_compartido.getModo then
-        if tiempo_Impacto <= tesquiva then
-          altitud:= Read_Altitude;
-          if  (altitud > 8500 and iteraciones < 12)   then 
-            Display_Message("Esquiva Pitch");
-            Set_Aircraft_Pitch(45);
-            iteraciones := iteraciones + 1;
-          else
-            Display_Message("Esquiva Roll");
-            Set_Aircraft_Roll(20);
-            iteraciones := iteraciones + 1;
-          end if;
-        else if tiempo_Impacto <= tesquiva1 then
-          Alarm(4);
-        else 
-          iteraciones := 0;
-        end if;
-        end if;
+        if tiempo_Impacto <= 15.0 then
+        	if presencia_visibilidad_buena=0 or 
+        	   (presencia_visibilidad_buena=1 and tiempo_Impacto < 10.0)then 
+        		Alarm(4);
+        	end if;
+        	if objeto_compartido.getModo then
+        		if (presencia_visibilidad_buena=0 and tiempo_Impacto < 10.0) or
+        		(presencia_visibilidad_buena=1 and tiempo_Impacto < 5.0) then
+        			altitud:= Read_Altitude;
+        			if  (altitud > 8500)   then 
+        				maniobra_cabeceo:=1;
+        				iteraciones:=0;
+            				
+          			else
+          				maniobra_alabeo:=1;
+        				iteraciones:=0;
+			    		
+          			end if;
+        		end if;
+        	end if;
         end if;
       end if;
+      
+      if maniobra_cabeceo=1 and iteraciones<12 then
+      	Display_Message("Esquiva Pitch");
+        Set_Aircraft_Pitch(45);
+        iteraciones := iteraciones + 1;
+      elsif maniobra_alabeo=1 and iteraciones<12 then
+      	Display_Message("Esquiva Roll");
+	      Set_Aircraft_Roll(20);
+	      iteraciones := iteraciones + 1;
+      else 
+       maniobra_cabeceo:=0;
+       maniobra_alabeo:=0;
+      end if;
+      
       Finish_Activity ("collision_Detector");
       delay until Siguiente_Instante;
       Siguiente_Instante := Siguiente_Instante + Intervalo;
