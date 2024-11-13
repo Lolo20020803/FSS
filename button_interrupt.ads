@@ -9,7 +9,7 @@ package Button_interrupt is
     ------ declaracion de procedimientos de acceso a DISPOSITIVOS E/S  --
     ---------------------------------------------------------------------
 
-   Interr_1: constant Time_Span := To_Time_Span (10.0);
+   Interr_1: constant Time_Span := To_Time_Span (99.0);
    Interr_2: constant Time_Span := To_Time_Span (99.0);
    Interr_3: constant Time_Span := To_Time_Span (0.7);
    Interr_4: constant Time_Span := To_Time_Span (0.9);

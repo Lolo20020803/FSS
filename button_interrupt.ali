@@ -3,7 +3,7 @@ A -g
 P LC TF
 R nnvvrnvvnnnnvvvvnvvvnnnnnnnnnnvnnnnnnnvnnnn
 
-U button_interrupt%b	button_interrupt.adb	2C2B2526 PK IL
+U button_interrupt%b	button_interrupt.adb	2C2B2568 PK IL
 W ada.exceptions%s	a-except.adb		a-except.ali
 W ada.real_time.delays%s  a-retide.adb		a-retide.ali
 W force_external_interrupt_2%b  force_external_interrupt_2.adb  force_external_interrupt_2.ali
@@ -13,7 +13,7 @@ W system%s		system.ads		system.ali
 W system.soft_links%s	s-soflin.adb		s-soflin.ali
 W tools%s		tools.adb		tools.ali
 
-U button_interrupt%s	button_interrupt.ads	40007372 PK
+U button_interrupt%s	button_interrupt.ads	4000733C PK
 W ada%s			ada.ads			ada.ali
 W ada.real_time%s	a-reatim.adb		a-reatim.ali
 W system%s		system.ads		system.ali
@@ -31,7 +31,7 @@ D a-retide.ads		20000718095948 7F3C479C
 D a-stream.ads		20000718095948 5F7C277B
 D a-tags.ads		20000718095948 45EF7E4E
 D a-unccon.ads		20000718095948 751D104C
-D button_interrupt.ads	20241113091400 375F7A8F
+D button_interrupt.ads	20241113192208 375F7AC1
 D button_interrupt.adb	20241113091400 416749B7
 D force_external_interrupt_2.adb  20241113091400 26F1B2F3
 D kernel.ads		20010312182047 56BBE4F1

@@ -40,7 +40,7 @@ package body fss is
         joystick: Joystick_Samples_Type;
         potencia : Power_Samples_Type;
         --Si el modo esta en true esta en modo automatico
-        modo: Boolean := False; 
+        modo: Boolean := True; 
     end objeto_compartido;
 
     protected body objeto_compartido is
@@ -220,15 +220,12 @@ package body fss is
         end if;
         end if;
         end if;
-        Set_Aircraft_Pitch (Target_Pitch);  -- transfiere el movimiento pitch a la aeronave
-        Set_Aircraft_Roll (Target_Roll);    -- transfiere el movimiento roll  a la aeronave 
-                       
-        Aircraft_Pitch := Read_Pitch;       -- lee la posición pitch de la aeronave
-        Aircraft_Roll := Read_Roll;         -- lee la posición roll  de la aeronave
-
-
+                     
+      
       end if;
-
+      Set_Aircraft_Pitch (Target_Pitch);  -- transfiere el movimiento pitch a la aeronave
+      Set_Aircraft_Roll (Target_Roll);    -- transfiere el movimiento roll  a la aeronave 
+          
 
 
 
