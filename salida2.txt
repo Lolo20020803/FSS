@@ -1,0 +1,1342 @@
+
+ TSIM/ERC32 - remote SPARC simulator, version 1.0.10 (evaluation version)
+
+ Copyright (C) 2001, Gaisler Research - all rights reserved.
+ For latest updates, go to http://www.gaisler.com/
+ Comments or bug-reports to tsim@gaisler.com
+
+libreadline.so.3: cannot open shared object file: No such file or directory
+serial port A on stdin/stdout
+allocated 4096 K RAM memory
+allocated 2048 K ROM memory
+section: .text at 0x2000000, size 217232 bytes
+section: .data at 0x2035090, size 11788 bytes
+tsim> resuming at 0x02000000
+
+[ 0.0047] >>> Change Mode
+[ 0.0180] >>> collision_Detector
+[ 0.0412] --- collision_Detector
+[ 0.0580] >>> Prueba_Altitud y Cabeceo
+[ 0.0789] %L(1): off
+[ 0.1130] --- Prueba_Altitud y Cabeceo
+[ 0.1330] >>> control_Velocidad
+[ 0.1502] %L(2): off
+[ 0.1824] --- control_Velocidad
+[ 0.1988] >>> Monitoreo
+[ 0.2157] ..# Altitude:  8060
+[ 0.2366] ..# Pilot_Power:  300
+[ 0.2594] >>> Pr
+[ 0.2680] >>> collision_Detector
+[ 0.2912] --- collision_Detectorueba_Altitud y Cabeceo
+[ 0.3202] %L(1): off
+[ 0.3543] --- Prueba_Altitud y Cabeceo
+[ 0.3743] ..# Speed:  360
+[ 0.3932] ..# Joystick:  30 0
+[ 0.4186] ..# Pitch:  30
+[ 0.4327] >>> control_Velocidad
+[ 0.4500] %L(2)
+[ 0.4582] >>> Prueba_Altitud y Cabeceo
+[ 0.4790] %L(1): off
+[ 0.5132]
+[ 0.5183] >>> collision_Detector
+[ 0.5414] --- collision_Detector --- Prueba_Altitud y Cabeceo: off
+[ 0.5971] --- control_Velocidad
+[ 0.6210] ..# Roll:  0
+[ 0.6366] --- Monitoreo
+[ 0.6578] >>> Prueba_Altitud y Cabeceo
+[ 0.6786] %L(1): off
+[ 0.7128] --- Prueba_Altitud y Cabeceo
+[ 0.7327] >>> control_Velocidad
+[ 0.7500] %L(2): off
+[ 0.7723] >>> collision_Detector
+[ 0.7954] --- collision_Detector
+[ 0.8216] --- control_Velocidad
+[ 0.8577] >>> Prueba_Altitud y Cabeceo
+[ 0.8785] %L(1): off
+[ 0.9127] --- Prueba_Altitud y Cabeceo
+[ 1.0178] >>> collision_Detector
+[ 1.0409] ..# MSSG: Obstaculo Detectado
+[ 1.0656] ..# MSSG: Velocidad  3.60000E+02
+[ 1.0918] ..# MSSG: Tiempo Colision  1.38889E+01
+[ 1.1208] %BEEEEEEEEEEP 4
+[ 1.1347] --- collision_Detector
+[ 1.1516] >>> Prueba_Altitud y Cabeceo
+[ 1.1724] %L(1): off
+[ 1.2068] --- Prueba_Altitud y Cabeceo
+[ 1.2267] >>> control_Velocidad
+[ 1.2440] %L(2): off
+[ 1.2578] >>> Prueb
+[ 1.2680] >>> collision_Detector
+[ 1.2912] ..# MSSG: Obstaculo Detectado
+[ 1.3159] ..# MSSG: Velocidad  3.60000E+02
+[ 1.3421] ..# MSSG: Tiempo Colision  1.38889E+01
+[ 1.3711] %BEEEEEEEEEEP 4
+[ 1.3850] --- collision_Detectora_Altitud y Cabeceo
+[ 1.4125] %L(1): off
+[ 1.4466] --- Prueba_Altitud y Cabeceo
+[ 1.4666] >>> Prueba_Altitud y Cabeceo
+[ 1.4874] %L(1): off
+[ 1.5218] >>> collision_Detector
+[ 1.5449] ..# MSSG: Obstaculo Detectado
+[ 1.5696] ..# MSSG: Velocidad  3.60000E+02
+[ 1.5958] ..# MSSG: Tiempo Colision  1.38889E+01
+[ 1.6248] %BEEEEEEEEEEP 4
+[ 1.6387] --- collision_Detector
+[ 1.6556] --- Prueba_Altitud y Cabeceo
+[ 1.6755] >>> Prueba_Altitud y Cabeceo
+[ 1.6964] %L(1): off
+[ 1.7305] --- Prueba_Altitud y Cabeceo
+[ 1.7686] >>> collision_Detector
+[ 1.7917] ..# MSSG: Obstaculo Detectado
+[ 1.8164] ..# MSSG: Velocidad  3.60000E+02
+[ 1.8426] ..# MSSG: Tiempo Colision  1.38889E+01
+[ 1.8715] %BEEEEEEEEEEP 4
+[ 1.8855] --- collision_Detector
+[ 1.9024] >>> Prueba_Altitud y Cabeceo
+[ 1.9232] %L(1): off
+[ 1.9574] --- Prueba_Altitud y Cabeceo
+[ 1.9773] --- control_Velocidad
+[ 1.9937] >>> control_Velocidad
+[ 2.0110] %L(
+[ 2.0181] >>> collision_Detector
+[ 2.0413] ..# MSSG: Obstaculo Detectado
+[ 2.0659] ..# MSSG: Velocidad  3.60000E+02
+[ 2.0922] ..# MSSG: Tiempo Colision  8.33333E+00
+[ 2.1211] %BEEEEEEEEEEP 4
+[ 2.1448] ..# MSSG: Esquiva Pitch
+[ 2.1737] --- collision_Detector
+[ 2.1905] >>> Prueba_Altitud y Cabeceo
+[ 2.2114] %L(1): off
+[ 2.2400] --- Prueba_Altitud y Cabeceo
+[ 2.2599] >>> P
+[ 2.2681] >>> collision_Detector
+[ 2.2912] ..# MSSG: Obstaculo Detectado
+[ 2.3159] ..# MSSG: Velocidad  3.60000E+02
+[ 2.3422] ..# MSSG: Tiempo Colision  8.33333E+00
+[ 2.3711] %BEEEEEEEEEEP 4
+[ 2.3906] ..# MSSG: Esquiva Pitch
+[ 2.4236] --- collision_Detectorrueba_Altitud y Cabeceo
+[ 2.4532] %L(1): off
+[ 2.4818] --- Prueba_Altitud y Cabeceo
+[ 2.5017] >>> Prueba_Altitud y 
+[ 2.5181] >>> collision_Detector
+[ 2.5412] ..# MSSG: Obstaculo Detectado
+[ 2.5659] ..# MSSG: Velocidad  3.60000E+02
+[ 2.5922] ..# MSSG: Tiempo Colision  8.33333E+00
+[ 2.6211] %BEEEEEEEEEEP 4
+[ 2.6406] ..# MSSG: Esquiva Pitch
+[ 2.6736] --- collision_DetectorCabeceo
+[ 2.6950] %L(1): off
+[ 2.7236] --- Prueba_Altitud y Cabeceo
+[ 2.7435] >>> Prueba_Altitud y Cabeceo
+[ 2.764
+[ 2.7684] >>> collision_Detector
+[ 2.7916] ..# MSSG: Obstaculo Detectado
+[ 2.8163] ..# MSSG: Velocidad  3.60000E+02
+[ 2.8425] ..# MSSG: Tiempo Colision  8.33333E+00
+[ 2.8715] %BEEEEEEEEEEP 4
+[ 2.8909] ..# MSSG: Esquiva Pitch
+[ 2.9240] --- collision_Detector4] %L(1): off
+[ 2.9655] --- Prueba_Altitud y Cabeceo
+[ 2.9855] >>> Prueba_Altitud y Cabeceo
+[ 3.0063] %L(1): off
+[ 3.0177] >>> collision_Detector
+[ 3.0409] ..# MSSG: Obstaculo Detectado
+[ 3.0656] ..# MSSG: Velocidad  3.60000E+02
+[ 3.0918] ..# MSSG: Tiempo Colision  2.77778E+00
+[ 3.1207] %BEEEEEEEEEEP 4
+[ 3.1402] ..# MSSG: Esquiva Pitch
+[ 3.1732] --- collision_Detector
+[ 3.2067] --- Prueba_Altitud y Cabeceo
+[ 3.2266] >>> Prueba_Altitud y Cabeceo
+[ 3.2475] %L(1): off
+[ 3.2707] >>> collision_Detector
+[ 3.2939] ..# MSSG: Obstaculo Detectado
+[ 3.3186] ..# MSSG: Velocidad  3.60000E+02
+[ 3.3448] ..# MSSG: Tiempo Colision  2.77778E+00
+[ 3.3737] %BEEEEEEEEEEP 4
+[ 3.3932] ..# MSSG: Esquiva Pitch
+[ 3.4262] --- collision_Detector
+[ 3.4479] --- Prueba_Altitud y Cabeceo
+[ 3.4679] >>> Prueba_Altitud y Cabeceo
+[ 3.4887] %L(1): off
+[
+[ 3.5183] >>> collision_Detector
+[ 3.5414] ..# MSSG: Obstaculo Detectado
+[ 3.5661] ..# MSSG: Velocidad  3.60000E+02
+[ 3.5924] ..# MSSG: Tiempo Colision  2.77778E+00
+[ 3.6213] %BEEEEEEEEEEP 4
+[ 3.6408] ..# MSSG: Esquiva Pitch
+[ 3.6738] --- collision_Detector 3.5173] --- Prueba_Altitud y Cabeceo
+[ 3.7096] >>> Prueba_Altitud y Cabeceo
+[ 3.7305] %L(1): off
+[ 3.76
+[ 3.7682] >>> collision_Detector
+[ 3.7913] ..# MSSG: Obstaculo Detectado
+[ 3.8160] ..# MSSG: Velocidad  3.60000E+02
+[ 3.8422] ..# MSSG: Tiempo Colision  2.77778E+00
+[ 3.8712] %BEEEEEEEEEEP 4
+[ 3.8907] ..# MSSG: Esquiva Pitch
+[ 3.9237] --- collision_Detector46] --- Prueba_Altitud y Cabeceo
+[ 3.9570] >>> Prueba_Altitud y Cabeceo
+[ 3.9778] %L(1): off
+[ 4.0120] -
+[ 4.0181] >>> collision_Detector
+[ 4.0412] ..# MSSG: Esquiva Pitch
+[ 4.0743] --- collision_Detector-- Prueba_Altitud y Cabeceo
+[ 4.1050] >>> Prueba_Altitud y Cabeceo
+[ 4.1258] %L(1): off
+[ 4.1600] --- Prueba_Altitud y Cabeceo
+[ 4.1799] >>> Prueba_Altitud y Cabeceo
+[ 4.2007] %L(1): off
+[ 4.2349] --- Prueba_Altitud y Cabeceo2): off
+[ 4.2584] >>> Prue
+[ 4.2682] >>> collision_Detector
+[ 4.2913] ..# MSSG: Esquiva Pitch
+[ 4.3243] --- collision_Detectorba_Altitud y Cabeceo
+[ 4.3523] %L(1): off
+[ 4.3865] --- Prueba_Altitud y Cabeceo
+[ 4.4280] --- control_Velocidad
+[ 4.4443] >>> control_Velo
+[ 4.4581] >>> Prueba_Altitud y Cabeceo
+[ 4.4790] %L(1): off
+[ 4.5132]
+[ 4.5182] >>> collision_Detector
+[ 4.5414] ..# MSSG: Esquiva Pitch
+[ 4.5744] --- collision_Detector --- Prueba_Altitud y Cabeceocidad
+[ 4.6096] %L(2): off
+[ 4.6418] --- control_Velocidad
+[ 4.6581] >>> Prueba_Altitud y Cabeceo
+[ 4.6790] %L(1): off
+[ 4.7131] --- Prueba_Altitud y Cabeceo
+[ 4.7331] >>> control_Velocidad
+[ 4.7504] %L(2): off
+[ 4.7726] >>> collision_Detector
+[ 4.7957] ..# MSSG: Esquiva Pitch
+[ 4.8288] --- collision_Detector
+[ 4.8
+[ 4.8581] >>> Prueba_Altitud y Cabeceo
+[ 4.8789] %L(1): off
+[ 4.9131] --- Prueba_Altitud y Cabeceo550] --- control_Velocidad
+[ 4.9463] >>> control_Velocidad
+[ 4.9636] %L(2): off
+[ 4.9958] --- control_Velocidad
+[ 5.0121] >
+[ 5.0183] >>> collision_Detector
+[ 5.0414] ..# MSSG: Esquiva Pitch
+[ 5.0744] --- collision_Detector
+[ 5.0913] >>> Prueba_Altitud y Cabeceo
+[ 5.1122] %L(1): off
+[ 5.1463] --- Prueba_Altitud y Cabeceo>> control_Velocidad
+[ 5.1774] %L(2): off
+[ 5.2096] --- control_Velocidad
+[ 5.2259] >>> control_Velocidad
+[ 5.2432] %L(2): off
+[ 5.2593] >>> Pru
+[ 5.2685] >>> collision_Detector
+[ 5.2916] ..# MSSG: Esquiva Pitch
+[ 5.3246] --- collision_Detectoreba_Altitud y Cabeceo
+[ 5.3531] %L(1): off
+[ 5.3873] --- Prueba_Altitud y Cabeceo
+[ 5.4229] --- control_Velocidad
+[ 5.4392] >>> control_Velocidad
+[ 
+[ 5.4580] >>> Prueba_Altitud y Cabeceo
+[ 5.4789] %L(1): off
+[ 5.5130]
+[ 5.5181] >>> collision_Detector
+[ 5.5413] ..# MSSG: Esquiva Pitch
+[ 5.5743] --- collision_Detector --- Prueba_Altitud y Cabeceo5.4565] %L(2): off
+[ 5.6367] --- control_Velocidad
+[ 5.6530]
+[ 5.6582] >>> Prueba_Altitud y Cabeceo
+[ 5.6790] %L(1): off
+[ 5.7132] --- Prueba_Altitud y Cabeceo >>> control_Velocidad
+[ 5.7453] %L(2): off
+[ 5.7731] >>> collision_Detector
+[ 5.7962] ..# MSSG: Esquiva Pitch
+[ 5.8292] --- collision_Detector
+[ 5.8499] --- c
+[ 5.8581] >>> Prueba_Altitud y Cabeceo
+[ 5.8789] %L(1): off
+[ 5.9131] --- Prueba_Altitud y Cabeceoontrol_Velocidad
+[ 5.9412] >>> control_Velocidad
+[ 5.9585] %L(2): off
+[ 5.9907] --- control_Velocidad
+[ 6.0070] >>> control
+[ 6.0183] >>> collision_Detector
+[ 6.0414] ..# MSSG: Esquiva Pitch
+[ 6.0745] --- collision_Detector
+[ 6.0913] >>> Prueba_Altitud y Cabeceo
+[ 6.1122] %L(1): off
+[ 6.1463] --- Prueba_Altitud y Cabeceo_Velocidad
+[ 6.1723] %L(2): off
+[ 6.2045] --- control_Velocidad
+[ 6.2208] >>> control_Velocidad
+[ 6.2381] %L(2): off
+[ 6.2604] >>> 
+[ 6.2680] >>> collision_Detector
+[ 6.2912] ..# MSSG: Esquiva Pitch
+[ 6.3242] --- collision_DetectorPrueba_Altitud y Cabeceo
+[ 6.3542] %L(1): off
+[ 6.3884] --- Prueba_Altitud y Cabeceo
+[ 6.4178] --- control_Velocidad
+[ 6.4383] >>> control_Velocidad
+[ 6.4514] %L
+[ 6.4580] >>> Prueba_Altitud y Cabeceo
+[ 6.4789] %L(1): off
+[ 6.5131]
+[ 6.5181] >>> collision_Detector
+[ 6.5413] ..# MSSG: Esquiva Pitch
+[ 6.5743] --- collision_Detector --- Prueba_Altitud y Cabeceo(2): off
+[ 6.6316] --- control_Velocidad
+[ 6.6479] >>> contr
+[ 6.6582] >>> Prueba_Altitud y Cabeceo
+[ 6.6790] %L(1): off
+[ 6.7132] --- Prueba_Altitud y Cabeceool_Velocidad
+[ 6.7402] %L(2): off
+[ 6.7680] >>> collision_Detector
+[ 6.7911] --- collision_Detector
+[ 6.8118] --- control_Velocidad
+[ 6.8282] >>> control_Velocidad
+[ 6.8455] %L(2): off
+[ 6.8592] >>> Prueba_Altitud y Cabeceo
+[ 6.8800] %L(1): off
+[ 6.9142] --- Prueba_Altitud y Cabeceo
+[ 6.9520] --- control_Velocidad
+[ 6.9683] >>> control_Velocidad
+[ 6.9856] %L(2): off
+[ 7.0180] >>> collision_Detector
+[ 7.0411] ..# MSSG: Obstaculo Detectado
+[ 7.0658] ..# MSSG: Velocidad  3.60000E+02
+[ 7.0921] ..# MSSG: Tiempo Colision  1.38889E+01
+[ 7.1210] %BEEEEEEEEEEP 4
+[ 7.1350] --- collision_Detector
+[ 7.1518] >>> Prueba_Altitud y Cabeceo
+[ 7.1727] %L(1): off
+[ 7.2068] --- Prueba_Altitud y Cabeceo
+[ 7.2268] --- control_Velocidad
+[ 7.2432] >>> control_Velocid
+[ 7.2585] >>> Prue
+[ 7.2682] >>> collision_Detector
+[ 7.2914] ..# MSSG: Obstaculo Detectado
+[ 7.3161] ..# MSSG: Velocidad  3.60000E+02
+[ 7.3423] ..# MSSG: Tiempo Colision  1.38889E+01
+[ 7.3713] %BEEEEEEEEEEP 4
+[ 7.3852] --- collision_Detectorba_Altitud y Cabeceo
+[ 7.4132] %L(1): off
+[ 7.4474] --- Prueba_Altitud y Cabeceo
+[ 7.4673] >>> Prueba_Altitud y Cabeceo
+[ 7.4881] %L(1): off
+[ 7.5225] >>> collision_Detector
+[ 7.5456] ..# MSSG: Obstaculo Detectado
+[ 7.5703] ..# MSSG: Velocidad  3.60000E+02
+[ 7.5966] ..# MSSG: Tiempo Colision  1.38889E+01
+[ 7.6255] %BEEEEEEEEEEP 4
+[ 7.6395] --- collision_Detector
+[ 7.6563] --- Prueba_Altitud y Cabeceo
+[ 7.6763] >>> Prueba_Altitud y Cabeceo
+[ 7.6971] %L(1): off
+[ 7.7313] --- Prueba_Altitud y Cabeceoad
+[ 7.7532] %L(2): off
+[ 7.7692] >>> collision_Detector
+[ 7.7923] ..# MSSG: Obstaculo Detectado
+[ 7.8170] ..# MSSG: Velocidad  3.60000E+02
+[ 7.8433] ..# MSSG: Tiempo Colision  1.38889E+01
+[ 7.8722] %BEEEEEEEEEEP 4
+[ 7.8862] --- collision_Detector
+[ 7.9030] >>> Prueba_Altitud y Cabeceo
+[ 7.9239] %L(1): off
+[ 7.9580] --- Prueba_Altitud y Cabeceo
+[ 7.9936] --- control_Velocidad
+[ 8.0099] >>> c
+[ 8.0181] >>> collision_Detector
+[ 8.0412] ..# MSSG: Obstaculo Detectado
+[ 8.0659] ..# MSSG: Velocidad  3.60000E+02
+[ 8.0922] ..# MSSG: Tiempo Colision  8.33333E+00
+[ 8.1211] %BEEEEEEEEEEP 4
+[ 8.1406] ..# MSSG: Esquiva Roll
+[ 8.1669] --- collision_Detector
+[ 8.1838] >>> Prueba_Altitud y Cabeceo
+[ 8.2046] %L(1): off
+[ 8.2332] --- Prueba_Altitud y Cabeceoontrol_Vel
+[ 8.2583] >>> Prue
+[ 8.2680] >>> collision_Detector
+[ 8.2912] ..# MSSG: Obstaculo Detectado
+[ 8.3159] ..# MSSG: Velocidad  3.60000E+02
+[ 8.3421] ..# MSSG: Tiempo Colision  8.33333E+00
+[ 8.3711] %BEEEEEEEEEEP 4
+[ 8.3905] ..# MSSG: Esquiva Roll
+[ 8.4168] --- collision_Detectorba_Altitud y Cabeceo
+[ 8.4448] %L(1): off
+[ 8.4734] --- Prueba_Altitud y Cabeceo
+[ 8.4934] >>> Prueba_Altitud y Cabeceo
+[ 8.514
+[ 8.5183] >>> collision_Detector
+[ 8.5414] ..# MSSG: Obstaculo Detectado
+[ 8.5661] ..# MSSG: Velocidad  3.60000E+02
+[ 8.5923] ..# MSSG: Tiempo Colision  8.33333E+00
+[ 8.6213] %BEEEEEEEEEEP 4
+[ 8.6408] ..# MSSG: Esquiva Roll
+[ 8.6671] --- collision_Detector2] %L(1): off
+[ 8.7085] --- Prueba_Altitud y Cabeceo
+[ 8.7284] >>> Prueba_Altitud y Cabeceo
+[ 8.7493] %L(1): off
+[ 8.7725] >>> collision_Detector
+[ 8.7957] ..# MSSG: Obstaculo Detectado
+[ 8.8204] ..# MSSG: Velocidad  3.60000E+02
+[ 8.8466] ..# MSSG: Tiempo Colision  8.33333E+00
+[ 8.8755] %BEEEEEEEEEEP 4
+[ 8.8950] ..# MSSG: Esquiva Roll
+[ 8.9213] --- collision_Detector
+[ 8.9429] --- Prueba_Altitud y Cabeceo
+[ 8.9629] >>> Prueba_Altitud y Cabeceo
+[ 8.9837] %L(1): off
+[ 9.0123] -
+[ 9.0184] >>> collision_Detector
+[ 9.0416] ..# MSSG: Esquiva Roll
+[ 9.0679] --- collision_Detector-- Prueba_Altitud y Cabeceo
+[ 9.0986] >>> Prueba_Altitud y Cabeceo
+[ 9.1194] %L(1): off
+[ 9.1480] --- Prueba_Altitud y Cabeceoocidad
+[ 9.1719] %L(2): off
+[ 9.1995] --- control_Velocidad
+[ 9.2159] >>> control_Velocidad
+[ 9.2332] %L(2): off
+[ 9.2610] >>>
+[ 9.2681] >>> collision_Detector
+[ 9.2913] ..# MSSG: Esquiva Roll
+[ 9.3176] --- collision_Detector Prueba_Altitud y Cabeceo
+[ 9.3481] %L(1): off
+[ 9.3767] --- Prueba_Altitud y Cabeceo
+[ 9.3967] --- control_Velocidad
+[ 9.4130] >>> control_Velocidad
+[ 9.4303] %L(2): off
+[ 9.4581] >>> Prueba_Altitud y Cabeceo
+[ 9.4789] %L(1): off
+[ 9.5076] --- Prueba
+[ 9.5183] >>> collision_Detector
+[ 9.5414] ..# MSSG: Esquiva Roll
+[ 9.5677] --- collision_Detector_Altitud y Cabeceo
+[ 9.5938] --- control_Velocidad
+[ 9.6102] >>> control_Velocidad
+[ 9.6275] %L(2): off
+[
+[ 9.6583] >>> Prueba_Altitud y Cabeceo
+[ 9.6792] %L(1): off
+[ 9.7078] --- Prueba_Altitud y Cabeceo 9.6573] --- control_Velocidad
+[ 9.7431] >>> control_Velocidad
+[ 9.7604] %L(2
+[ 9.7680] >>> collision_Detector
+[ 9.7912] ..# MSSG: Esquiva Roll
+[ 9.8175] --- collision_Detector): off
+[ 
+[ 9.8580] >>> Prueba_Altitud y Cabeceo
+[ 9.8789] %L(1): off
+[ 9.9075] --- Prueba_Altitud y Cabeceo9.8565] --- control_Velocidad
+[ 9.9423] >>> control_Velocidad
+[ 9.9596] %L(2): off
+[ 9.9872] --- control_Velocidad
+[ 10.003] >>> control_Veloci
+[ 10.018] >>> collision_Detector
+[ 10.041] ..# MSSG: Esquiva Roll
+[ 10.067] --- collision_Detector
+[ 10.084] >>> Prueba_Altitud y Cabeceo
+[ 10.105] %L(1): off
+[ 10.134] --- Prueba_Altitud y Cabeceodad
+[ 10.156] %L(2): off
+[ 10.184] --- control_Velocidad
+[ 10.200] >>> control_Velocidad
+[ 10.217] %L(2): off
+[ 10.245] --- control_Ve
+[ 10.258] >>> Prue
+[ 10.268] >>> collision_Detector
+[ 10.291] ..# MSSG: Esquiva Roll
+[ 10.317] --- collision_Detectorba_Altitud y Cabeceo
+[ 10.345] %L(1): off
+[ 10.374] --- Prueba_Altitud y Cabeceolocidad
+[ 10.397] >>> control_Velocidad
+[ 10.414] %L(2): off
+[ 10.442] --- control_Velocida
+[ 10.458] >>> Prueba_Altitud y Cabeceo
+[ 10.479] %L(1): off
+[ 10.507] --- Prueba
+[ 10.518] >>> collision_Detector
+[ 10.541] ..# MSSG: Esquiva Roll
+[ 10.567] --- collision_Detector_Altitud y Cabeceod
+[ 10.594] >>> control_Velocidad
+[ 10.611] %L(2): off
+[ 10.641] --- control_Velocidad
+[ 10.658] >>> Prueba_Altitud y Cabeceo
+[ 10.678] %L(1): off
+[ 10.707] --- Prueba_Altitud y Cabeceo
+[ 10.727] >>> control_Velocidad
+[ 10.744] %L(2): off
+[ 10.772] >>> collision_Detector
+[ 10.795] ..# MSSG: Esquiva Roll
+[ 10.821] --- collision_Detector
+[ 10.838] --- control_Velocidad
+[ 10.
+[ 10.858] >>> Prueba_Altitud y Cabeceo
+[ 10.879] %L(1): off
+[ 10.907] --- Prueba_Altitud y Cabeceo855] >>> control_Velocidad
+[ 10.941] %L(2): off
+[ 10.969] --- control_Velocidad
+[ 10.986] >>> control_Velocidad
+[ 11.003] %L(2): off
+[ 11.019] >>> collision_Detector
+[ 11.042] ..# MSSG: Esquiva Roll
+[ 11.068] --- collision_Detector
+[ 11.085] >>> Prueba_Altitud y Cabeceo
+[ 11.106] %L(1): off
+[ 11.135] --- Prueba_Altitud y Cabeceo
+[ 11.166] --- control_Velocidad
+[ 11.182] >>> control_Velocidad
+[ 11.199] %L(2): off
+[ 11.227] --- control_Velocidad
+[ 11.243] >>> control_Veloc
+[ 11.258] >>> Prueb
+[ 11.268] >>> collision_Detector
+[ 11.291] ..# MSSG: Esquiva Roll
+[ 11.317] --- collision_Detectora_Altitud y Cabeceo
+[ 11.345] %L(1): off
+[ 11.373] --- Prueba_Altitud y Cabeceoidad
+[ 11.396] %L(2): off
+[ 11.424] --- control_Velocidad
+[ 11.440] >>> control_Velocidad
+[ 11.458] >>> Prueba_Altitud y Cabeceo
+[ 11.478] %L(1): off
+[ 11.507] --- Prueba
+[ 11.518] >>> collision_Detector
+[ 11.541] ..# MSSG: Esquiva Roll
+[ 11.567] --- collision_Detector_Altitud y Cabeceo
+[ 11.593] %L(2): off
+[ 11.623] --- control_Velocidad
+[ 11.640] >>> control_Velocidad
+[
+[ 11.658] >>> Prueba_Altitud y Cabeceo
+[ 11.679] %L(1): off
+[ 11.707] --- Prueba_Altitud y Cabeceo 11.657] %L(2): off
+[ 11.754] --- control_Velo
+[ 11.768] >>> collision_Detector
+[ 11.791] --- collision_Detectorcidad
+[ 11.810] >>> control_Velocidad
+[ 11.828] %L(2): off
+[ 11
+[ 11.858] >>> Prueba_Altitud y Cabeceo
+[ 11.879] %L(1): off
+[ 11.907] --- Prueba_Altitud y Cabeceo.855] --- control_Velocidad
+[ 11.941] >>> control_Velocidad
+[ 11.958] %L(2): off
+[ 11.986] --- control_Velocidad
+[ 12.002] >>> control_Velocida
+[ 12.018] >>> collision_Detector
+[ 12.041] ..# MSSG: Obstaculo Detectado
+[ 12.066] ..# MSSG: Velocidad  3.60000E+02
+[ 12.092] ..# MSSG: Tiempo Colision  1.38889E+01
+[ 12.121] %BEEEEEEEEEEP 4
+[ 12.135] --- collision_Detector
+[ 12.152] >>> Prueba_Altitud y Cabeceo
+[ 12.173] %L(1): off
+[ 12.201] --- Prueba_Altitud y Cabeceod
+[ 12.223] %L(2): off
+[ 12.250] --- 
+[ 12.258] >>> Prue
+[ 12.268] >>> collision_Detector
+[ 12.291] ..# MSSG: Obstaculo Detectado
+[ 12.315] ..# MSSG: Velocidad  3.60000E+02
+[ 12.342] ..# MSSG: Tiempo Colision  1.38889E+01
+[ 12.371] %BEEEEEEEEEEP 4
+[ 12.385] --- collision_Detectorba_Altitud y Cabeceo
+[ 12.413] %L(1): off
+[ 12.441] --- Prueba_Altitud y Cabeceo
+[ 12.461] >>> Prueba_Altitud y Cabeceo
+[ 12.482] %L(1): off
+[ 12.511] ---
+[ 12.518] >>> collision_Detector
+[ 12.541] ..# MSSG: Obstaculo Detectado
+[ 12.566] ..# MSSG: Velocidad  3.60000E+02
+[ 12.592] ..# MSSG: Tiempo Colision  1.38889E+01
+[ 12.621] %BEEEEEEEEEEP 4
+[ 12.635] --- collision_Detector Prueba_Altitud y Cabeceo
+[ 12.664] >>> Prueba_Altitud y Cabeceo
+[ 12.685] %L(1): off
+[ 12.714] --- Prueba_Altitud y Cabeceocontrol_Velocidad
+[ 12.742] >>> control_Velocidad
+[ 12.760] %L(2)
+[ 12.768] >>> collision_Detector
+[ 12.791] ..# MSSG: Obstaculo Detectado
+[ 12.816] ..# MSSG: Velocidad  3.60000E+02
+[ 12.842] ..# MSSG: Tiempo Colision  1.38889E+01
+[ 12.871] %BEEEEEEEEEEP 4
+[ 12.885] --- collision_Detector
+[ 12.902] >>> Prueba_Altitud y Cabeceo
+[ 12.923] %L(1): off
+[ 12.951] --- Prueba_Altitud y Cabeceo: off
+[ 12.991] --- control_Velocidad
+[ 13.007] >>> contro
+[ 13.018] >>> collision_Detector
+[ 13.041] ..# MSSG: Obstaculo Detectado
+[ 13.066] ..# MSSG: Velocidad  3.60000E+02
+[ 13.092] ..# MSSG: Tiempo Colision  8.33333E+00
+[ 13.121] %BEEEEEEEEEEP 4
+[ 13.140] ..# MSSG: Esquiva Roll
+[ 13.166] --- collision_Detector
+[ 13.183] >>> Prueba_Altitud y Cabeceo
+[ 13.204] %L(1): off
+[ 13.233] --- Prueba_Altitud y Cabeceol_Velocida
+[ 13.258] >>> Prue
+[ 13.268] >>> collision_Detector
+[ 13.291] ..# MSSG: Obstaculo Detectado
+[ 13.315] ..# MSSG: Velocidad  3.60000E+02
+[ 13.342] ..# MSSG: Tiempo Colision  8.33333E+00
+[ 13.371] %BEEEEEEEEEEP 4
+[ 13.390] ..# MSSG: Esquiva Roll
+[ 13.416] --- collision_Detectorba_Altitud y Cabeceo
+[ 13.444] %L(1): off
+[ 13.473] --- Prueba_Altitud y Cabeceo
+[ 13.493] >>> Prueba_Altitud y Cabeceo
+[ 13.51
+[ 13.518] >>> collision_Detector
+[ 13.541] ..# MSSG: Obstaculo Detectado
+[ 13.566] ..# MSSG: Velocidad  3.60000E+02
+[ 13.592] ..# MSSG: Tiempo Colision  8.33333E+00
+[ 13.621] %BEEEEEEEEEEP 4
+[ 13.640] ..# MSSG: Esquiva Roll
+[ 13.667] --- collision_Detector4] %L(1): off
+[ 13.708] --- Prueba_Altitud y Cabeceo
+[ 13.728] >>> Prueba_Altitud y Cabeceo
+[ 13.749] %L(1): off
+[ 13.772] >>> collision_Detector
+[ 13.795] ..# MSSG: Obstaculo Detectado
+[ 13.820] ..# MSSG: Velocidad  3.60000E+02
+[ 13.846] ..# MSSG: Tiempo Colision  8.33333E+00
+[ 13.875] %BEEEEEEEEEEP 4
+[ 13.895] ..# MSSG: Esquiva Roll
+[ 13.921] --- collision_Detector
+[ 13.943] --- Prueba_Altitud y Cabeceo
+[ 13.962] >>> Prueba_Altitud y Cabeceo
+[ 13.983] %L(1): off
+[ 14.012] -
+[ 14.018] >>> collision_Detector
+[ 14.041] ..# MSSG: Esquiva Roll
+[ 14.067] --- collision_Detector-- Prueba_Altitud y Cabeceo
+[ 14.098] >>> Prueba_Altitud y Cabeceo
+[ 14.119] %L(1): off
+[ 14.148] --- Prueba_Altitud y Cabeceod
+[ 14.169] %L(2): off
+[ 14.197] --- control_Velocidad
+[ 14.213] >>> control_Velocidad
+[ 14.230] %L(2): off
+[ 14.258] >>> Prue
+[ 14.268] >>> collision_Detector
+[ 14.291] ..# MSSG: Esquiva Roll
+[ 14.317] --- collision_Detectorba_Altitud y Cabeceo
+[ 14.345] %L(1): off
+[ 14.374] --- Prueba_Altitud y Cabeceo
+[ 14.394] --- control_Velocidad
+[ 14.410] >>> control_Velocidad
+[ 14.427] %L(2): off
+[ 14.
+[ 14.458] >>> Prueba_Altitud y Cabeceo
+[ 14.479] %L(1): off
+[ 14.507] --- Prueb
+[ 14.518] >>> collision_Detector
+[ 14.541] ..# MSSG: Esquiva Roll
+[ 14.567] --- collision_Detectora_Altitud y Cabeceo455] --- control_Velocidad
+[ 14.607] >>> control_Velocidad
+[ 14.624] %L(2): off
+[ 14.6
+[ 14.658] >>> Prueba_Altitud y Cabeceo
+[ 14.679] %L(1): off
+[ 14.707] --- Prueba_Altitud y Cabeceo54] --- control_Velocidad
+[ 14.740] >>> control_Velocidad
+[ 14.757] %L(2): off
+[ 14.768] >>> collision_Detector
+[ 14.791] ..# MSSG: Esquiva Roll
+[ 14.817] --- collision_Detector
+[ 14.853
+[ 14.858] >>> Prueba_Altitud y Cabeceo
+[ 14.879] %L(1): off
+[ 14.907] --- Prueba_Altitud y Cabeceo] --- control_Velocidad
+[ 14.939] >>> control_Velocidad
+[ 14.956] %L(2): off
+[ 14.984] --- control_Velocidad
+[ 15.000] >>> control_Velocidad
+[ 15.018] >>> collision_Detector
+[ 15.041] ..# MSSG: Esquiva Roll
+[ 15.067] --- collision_Detector
+[ 15.084] >>> Prueba_Altitud y Cabeceo
+[ 15.105] %L(1): off
+[ 15.134] --- Prueba_Altitud y Cabeceo
+[ 15.154] %L(2): off
+[ 15.181] --- control_Velocidad
+[ 15.198] >>> control_Velocidad
+[ 15.215] %L(2): off
+[ 15.242] --- control_Velocid
+[ 15.258] >>> Prueb
+[ 15.268] >>> collision_Detector
+[ 15.291] ..# MSSG: Esquiva Roll
+[ 15.317] --- collision_Detectora_Altitud y Cabeceo
+[ 15.345] %L(1): off
+[ 15.374] --- Prueba_Altitud y Cabeceoad
+[ 15.395] >>> control_Velocidad
+[ 15.412] %L(2): off
+[ 15.439] --- control_Velocidad
+[ 1
+[ 15.458] >>> Prueba_Altitud y Cabeceo
+[ 15.479] %L(1): off
+[ 15.507] --- Prueba
+[ 15.518] >>> collision_Detector
+[ 15.541] ..# MSSG: Esquiva Roll
+[ 15.567] --- collision_Detector_Altitud y Cabeceo5.456] >>> control_Velocidad
+[ 15.609] %L(2): off
+[ 15.639] --- control_Velocidad
+[ 15.
+[ 15.658] >>> Prueba_Altitud y Cabeceo
+[ 15.679] %L(1): off
+[ 15.707] --- Prueba_Altitud y Cabeceo655] >>> control_Velocidad
+[ 15.742] %L(2): off
+[ 15.769] >>> collision_Detector
+[ 15.793] ..# MSSG: Esquiva Roll
+[ 15.819] --- collision_Detector
+[ 15.836] --- control_Velocidad
+[ 15.852] 
+[ 15.858] >>> Prueba_Altitud y Cabeceo
+[ 15.879] %L(1): off
+[ 15.907] --- Prueba_Altitud y Cabeceo>>> control_Velocidad
+[ 15.939] %L(2): off
+[ 15.967] --- control_Velocidad
+[ 15.983] >>> Monitoreo
+[ 16.000] ..# Altitude:  8360
+[ 16.017] >>> collision_Detector
+[ 16.040] ..# MSSG: Esquiva Roll
+[ 16.067] --- collision_Detector
+[ 16.084] >>> Prueba_Altitud y Cabeceo
+[ 16.105] %L(1): off
+[ 16.133] --- Prueba_Altitud y Cabeceo
+[ 16.153] >>> control_Velocidad
+[ 16.170] %L(2): off
+[ 16.198] --- control_Velocidad
+[ 16.217] ..# Pilot_Power:  300
+[ 16.240] ..# Speed:  360
+[ 16.259] >>> Pr
+[ 16.268] >>> collision_Detector
+[ 16.291] ..# MSSG: Esquiva Roll
+[ 16.317] --- collision_Detectorueba_Altitud y Cabeceo
+[ 16.346] %L(1): off
+[ 16.375] --- Prueba_Altitud y Cabeceo
+[ 16.395] >>> control_Velocidad
+[ 16.412] %L(2): off
+[ 16.439] --- control_Velocidad
+[ 1
+[ 16.458] >>> Prueba_Altitud y Cabeceo
+[ 16.479] %L(1): off
+[ 16.507] --- Prueba
+[ 16.518] >>> collision_Detector
+[ 16.541] ..# MSSG: Esquiva Roll
+[ 16.567] --- collision_Detector_Altitud y Cabeceo6.456] ..# Joystick:  0 0
+[ 16.616] ..# Pitch:  0
+[ 16.632] >>> control_Velocidad
+[ 16.650] %L(2)
+[ 16.658] >>> Prueba_Altitud y Cabeceo
+[ 16.679] %L(1): off
+[ 16.707] --- Prueba_Altitud y Cabeceo: off
+[ 16.747] --- control_Velocidad
+[ 16.768] >>> collision_Detector
+[ 16.792] --- collision_Detector
+[ 16.808] ..# Roll:  0
+[ 16.824] --- Monitoreo
+[ 16.836] >>> Monitoreo
+[ 16.853
+[ 16.858] >>> Prueba_Altitud y Cabeceo
+[ 16.879] %L(1): off
+[ 16.907] --- Prueba_Altitud y Cabeceo] ..# Altit
+[ 16.933] >>> control_Velocidad
+[ 16.950] %L(2): off
+[ 16.978] --- control_Velocidadude:  8360
+[ 17.005] ..# Pilot_Powe
+[ 17.018] >>> collision_Detector
+[ 17.041] ..# MSSG: Obstaculo Detectado
+[ 17.066] ..# MSSG: Velocidad  3.60000E+02
+[ 17.092] ..# MSSG: Tiempo Colision  1.38889E+01
+[ 17.121] %BEEEEEEEEEEP 4
+[ 17.135] --- collision_Detector
+[ 17.152] >>> Prueba_Altitud y Cabeceo
+[ 17.177] %L(1): off
+[ 17.201] --- Prueba_Altitud y Cabeceor:  300
+[ 1
+[ 17.233] >>> control_Velocidad
+[ 17.250] %L(2
+[ 17.258] >>> Prueb
+[ 17.268] >>> collision_Detector
+[ 17.291] ..# MSSG: Obstaculo Detectado
+[ 17.316] ..# MSSG: Velocidad  3.60000E+02
+[ 17.342] ..# MSSG: Tiempo Colision  1.38889E+01
+[ 17.371] %BEEEEEEEEEEP 4
+[ 17.385] --- collision_Detectora_Altitud y Cabeceo
+[ 17.412] %L(1): off
+[ 17.441] --- Prueba_Altitud y Cabeceo
+[ 17.461] >>> Prueba_Altitud y Cabeceo
+[ 17.482] %L(1): off
+[ 17.510] --- 
+[ 17.518] >>> collision_Detector
+[ 17.541] ..# MSSG: Obstaculo Detectado
+[ 17.566] ..# MSSG: Velocidad  3.60000E+02
+[ 17.592] ..# MSSG: Tiempo Colision  1.38889E+01
+[ 17.621] %BEEEEEEEEEEP 4
+[ 17.635] --- collision_DetectorPrueba_Altitud y Cabeceo
+[ 17.664] >>> Prueba_Altitud y Cabeceo
+[ 17.685] %L(1): off
+[ 17.714] --- Prueba_Altitud y Cabeceo): off
+[ 17.753] --- control_Veloc
+[ 17.768] >>> collision_Detector
+[ 17.791] ..# MSSG: Obstaculo Detectado
+[ 17.816] ..# MSSG: Velocidad  3.60000E+02
+[ 17.842] ..# MSSG: Tiempo Colision  1.38889E+01
+[ 17.871] %BEEEEEEEEEEP 4
+[ 17.885] --- collision_Detector
+[ 17.902] >>> Prueba_Altitud y Cabeceo
+[ 17.922] %L(1): off
+[ 17.951] --- Prueba_Altitud y Cabeceoidad
+[ 17.973] >>> control_Velocidad
+[ 17.990] %L(2): off
+[ 18.018] >>> collision_Detector
+[ 18.041] ..# MSSG: Obstaculo Detectado
+[ 18.066] ..# MSSG: Velocidad  3.60000E+02
+[ 18.092] ..# MSSG: Tiempo Colision  8.33333E+00
+[ 18.121] %BEEEEEEEEEEP 4
+[ 18.141] ..# MSSG: Esquiva Roll
+[ 18.167] --- collision_Detector
+[ 18.184] >>> Prueba_Altitud y Cabeceo
+[ 18.205] %L(1): off
+[ 18.233] --- Prueba_Altitud y Cabeceo
+[ 18.253
+[ 18.258] >>> Prueb
+[ 18.268] >>> collision_Detector
+[ 18.291] ..# MSSG: Obstaculo Detectado
+[ 18.316] ..# MSSG: Velocidad  3.60000E+02
+[ 18.342] ..# MSSG: Tiempo Colision  8.33333E+00
+[ 18.371] %BEEEEEEEEEEP 4
+[ 18.391] ..# MSSG: Esquiva Roll
+[ 18.417] --- collision_Detectora_Altitud y Cabeceo
+[ 18.444] %L(1): off
+[ 18.473] --- Prueba_Altitud y Cabeceo
+[ 18.493] >>> Prueba_Altitud y Cabeceo
+[ 18.51
+[ 18.518] >>> collision_Detector
+[ 18.541] ..# MSSG: Obstaculo Detectado
+[ 18.566] ..# MSSG: Velocidad  3.60000E+02
+[ 18.592] ..# MSSG: Tiempo Colision  8.33333E+00
+[ 18.621] %BEEEEEEEEEEP 4
+[ 18.640] ..# MSSG: Esquiva Roll
+[ 18.667] --- collision_Detector4] %L(1): off
+[ 18.708] --- Prueba_Altitud y Cabeceo
+[ 18.728] >>> Prueba_Altitud y Cabeceo
+[ 18.749] %L(1): off
+[ 18.772] >>> collision_Detector
+[ 18.795] ..# MSSG: Obstaculo Detectado
+[ 18.820] ..# MSSG: Velocidad  3.60000E+02
+[ 18.846] ..# MSSG: Tiempo Colision  8.33333E+00
+[ 18.875] %BEEEEEEEEEEP 4
+[ 18.894] ..# MSSG: Esquiva Roll
+[ 18.921] --- collision_Detector
+[ 18.942] --- Prueba_Altitud y Cabeceo
+[ 18.962] >>> Prueba_Altitud y Cabeceo
+[ 18.983] %L(1): off
+[ 19.012] -
+[ 19.018] >>> collision_Detector
+[ 19.041] ..# MSSG: Esquiva Roll
+[ 19.067] --- collision_Detector-- Prueba_Altitud y Cabeceo
+[ 19.098] >>> Prueba_Altitud y Cabeceo
+[ 19.119] %L(1): off
+[ 19.147] --- Prueba_Altitud y Cabeceo] --- control_Velocidad
+[ 19.179] >>> control_Velocidad
+[ 19.196] %L(2): off
+[ 19.224] --- control_Velocidad
+[ 19.240] >>> control_Velocidad
+[ 19.258] >>> Prue
+[ 19.268] >>> collision_Detector
+[ 19.291] ..# MSSG: Esquiva Roll
+[ 19.317] --- collision_Detectorba_Altitud y Cabeceo
+[ 19.345] %L(1): off
+[ 19.374] --- Prueba_Altitud y Cabeceo
+[ 19.394] %L(2): off
+[ 19.421] --- control_Velocidad
+[ 19.438] >>> control_Velocidad
+[ 19.
+[ 19.458] >>> Prueba_Altitud y Cabeceo
+[ 19.479] %L(1): off
+[ 19.507] --- Prueba
+[ 19.518] >>> collision_Detector
+[ 19.541] ..# MSSG: Esquiva Roll
+[ 19.567] --- collision_Detector_Altitud y Cabeceo455] %L(2): off
+[ 19.620] --- control_Velocidad
+[ 19.637] >>> control_Velocidad
+[ 19.6
+[ 19.658] >>> Prueba_Altitud y Cabeceo
+[ 19.678] %L(1): off
+[ 19.707] --- Prueba_Altitud y Cabeceo54] %L(2): off
+[ 19.751] --- control_Velocidad
+
+[ 19.768] >>> collision_Detector
+[ 19.791] ..# MSSG: Esquiva Roll
+[ 19.817] --- collision_Detector[ 19.834] >>> control_Velocidad
+[ 19.851] %L
+[ 19.858] >>> Prueba_Altitud y Cabeceo
+[ 19.878] %L(1): off
+[ 19.907] --- Prueba_Altitud y Cabeceo(2): off
+[ 19.948] --- control_Velocidad
+[ 19.964] >>> control_Velocidad
+[ 19.982] %L(2): off
+[ 20.009] --- co
+[ 20.018] >>> collision_Detector
+[ 20.041] ..# MSSG: Esquiva Roll
+[ 20.067] --- collision_Detector
+[ 20.084] >>> Prueba_Altitud y Cabeceo
+[ 20.105] %L(1): off
+[ 20.139] --- Prueba_Altitud y Cabeceontrol_Velocidad
+[ 20.167] >>> control_Velocidad
+[ 20.184] %L(2): off
+[ 20.216] --- control_Velocidad
+[ 20.233] >>> control_Velocidad
+[ 20.250] %L(2
+[ 20.258] >>> Prueb
+[ 20.268] >>> collision_Detector
+[ 20.291] ..# MSSG: Esquiva Roll
+[ 20.317] --- collision_Detectora_Altitud y Cabeceo
+[ 20.345] %L(1): off
+[ 20.379] --- Prueba_Altitud y Cabeceo): off
+[ 20.423] --- control_Velocidad
+[ 20.440] >>> control_Velocidad
+[ 20.457] >>> Prueba_Altitud y Cabeceo
+[ 20.478] %L(1): off
+[ 20.512] 
+[ 20.518] >>> collision_Detector
+[ 20.541] ..# MSSG: Esquiva Roll
+[ 20.567] --- collision_Detector--- Prueba_Altitud y Cabeceo
+[ 20.599] %L(2): off
+[ 20.635] --- control_Velocidad
+[ 20.652] >
+[ 20.658] >>> Prueba_Altitud y Cabeceo
+[ 20.679] %L(1): off
+[ 20.713] --- Prueba_Altitud y Cabeceo>> control_Velocidad
+[ 20.744] %L(2): off
+[ 20.772] >>> collision_Detector
+[ 20.795] ..# MSSG: Esquiva Roll
+[ 20.821] --- collision_Detector
+[ 20.842] --- control_Velocida
+[ 20.858] >>> Prueba_Altitud y Cabeceo
+[ 20.879] %L(1): off
+[ 20.913] --- Prueba_Altitud y Cabeceod
+[ 20.933] >>> control_Velocidad
+[ 20.950] %L(2): off
+[ 20.983] --- control_Velocidad7.231] ..# Speed:  360
+[ 2
+[ 21.018] >>> collision_Detector
+[ 21.041] ..# MSSG: Obstaculo Detectado
+[ 21.066] ..# MSSG: Velocidad  3.60000E+02
+[ 21.092] ..# MSSG: Tiempo Colision  1.38889E+01
+[ 21.121] %BEEEEEEEEEEP 4
+[ 21.135] ..# MSSG: Esquiva Roll
+[ 21.161] --- collision_Detector
+[ 21.178] >>> Prueba_Altitud y Cabeceo
+[ 21.199] %L(1): off
+[ 21.233] --- Prueba_Altitud y Cabeceo
+[ 21.253
+[ 21.258] >>> Prueb
+[ 21.268] >>> collision_Detector
+[ 21.291] ..# MSSG: Obstaculo Detectado
+[ 21.316] ..# MSSG: Velocidad  3.60000E+02
+[ 21.342] ..# MSSG: Tiempo Colision  1.38889E+01
+[ 21.371] %BEEEEEEEEEEP 4
+[ 21.385] ..# MSSG: Esquiva Roll
+[ 21.411] --- collision_Detectora_Altitud y Cabeceo
+[ 21.439] %L(1): off
+[ 21.473] --- Prueba_Altitud y Cabeceo
+[ 21.493] >>> Prueba_Altitud y Cabeceo
+[ 21.51
+[ 21.518] >>> collision_Detector
+[ 21.541] ..# MSSG: Obstaculo Detectado
+[ 21.566] ..# MSSG: Velocidad  3.60000E+02
+[ 21.592] ..# MSSG: Tiempo Colision  1.38889E+01
+[ 21.621] %BEEEEEEEEEEP 4
+[ 21.635] ..# MSSG: Esquiva Roll
+[ 21.661] --- collision_Detector4] %L(1): off
+[ 21.708] --- Prueba_Altitud y Cabeceo
+[ 21.728] >>> Prueba_Altitud y Cabeceo
+[ 21.749] %L(1): off
+[ 21.772] >>> collision_Detector
+[ 21.795] ..# MSSG: Obstaculo Detectado
+[ 21.820] ..# MSSG: Velocidad  3.60000E+02
+[ 21.846] ..# MSSG: Tiempo Colision  1.38889E+01
+[ 21.875] %BEEEEEEEEEEP 4
+[ 21.889] --- collision_Detector
+[ 21.916] --- Prueba_Altitud y Cabeceo
+[ 21.936] >>> Prueba_Altitud y Cabeceo
+[ 21.957] %L(1): off
+[ 21.991] --- Prueba_Altitud y Cabeceo] >>> control
+[ 22.018] >>> collision_Detector
+[ 22.041] ..# MSSG: Obstaculo Detectado
+[ 22.065] ..# MSSG: Velocidad  3.60000E+02
+[ 22.092] ..# MSSG: Tiempo Colision  8.33333E+00
+[ 22.121] %BEEEEEEEEEEP 4
+[ 22.140] ..# MSSG: Esquiva Pitch
+[ 22.173] --- collision_Detector
+[ 22.190] >>> Prueba_Altitud y Cabeceo
+[ 22.211] %L(1): off
+[ 22.239] --- Prueba_Altitud y Cabeceo
+[ 22.259] >>> P
+[ 22.268] >>> collision_Detector
+[ 22.291] ..# MSSG: Obstaculo Detectado
+[ 22.315] ..# MSSG: Velocidad  3.60000E+02
+[ 22.342] ..# MSSG: Tiempo Colision  8.33333E+00
+[ 22.371] %BEEEEEEEEEEP 4
+[ 22.390] ..# MSSG: Esquiva Pitch
+[ 22.423] --- collision_Detectorrueba_Altitud y Cabeceo
+[ 22.453] %L(1): off
+[ 22.481] --- Prueba_Altitud y Cabeceo
+[ 22.501] >>> Prueba_Altitud y 
+[ 22.518] >>> collision_Detector
+[ 22.541] ..# MSSG: Obstaculo Detectado
+[ 22.565] ..# MSSG: Velocidad  3.60000E+02
+[ 22.592] ..# MSSG: Tiempo Colision  8.33333E+00
+[ 22.621] %BEEEEEEEEEEP 4
+[ 22.640] ..# MSSG: Esquiva Pitch
+[ 22.673] --- collision_DetectorCabeceo
+[ 22.694] %L(1): off
+[ 22.723] --- Prueba_Altitud y Cabeceo
+[ 22.743] >>> Prueba_Altitud y Cabeceo
+[ 22.76
+[ 22.768] >>> collision_Detector
+[ 22.791] ..# MSSG: Obstaculo Detectado
+[ 22.816] ..# MSSG: Velocidad  3.60000E+02
+[ 22.842] ..# MSSG: Tiempo Colision  8.33333E+00
+[ 22.871] %BEEEEEEEEEEP 4
+[ 22.890] ..# MSSG: Esquiva Pitch
+[ 22.923] --- collision_Detector4] %L(1): off
+[ 22.965] --- Prueba_Altitud y Cabeceo
+[ 22.985] >>> Prueba_Altitud y Cabeceo
+[ 23.006] %L(1): off
+[ 23.017] >>> collision_Detector
+[ 23.040] ..# MSSG: Obstaculo Detectado
+[ 23.065] ..# MSSG: Velocidad  3.60000E+02
+[ 23.091] ..# MSSG: Tiempo Colision  2.77778E+00
+[ 23.120] %BEEEEEEEEEEP 4
+[ 23.140] ..# MSSG: Esquiva Pitch
+[ 23.173] --- collision_Detector
+[ 23.206] --- Prueba_Altitud y Cabeceo
+[ 23.226] >>> Prueba_Altitud y Cabeceo
+[ 23.247] %L(1): off
+[ 23.270] >>> collision_Detector
+[ 23.293] ..# MSSG: Obstaculo Detectado
+[ 23.318] ..# MSSG: Velocidad  3.60000E+02
+[ 23.344] ..# MSSG: Tiempo Colision  2.77778E+00
+[ 23.373] %BEEEEEEEEEEP 4
+[ 23.393] ..# MSSG: Esquiva Pitch
+[ 23.426] --- collision_Detector
+[ 23.447] --- Prueba_Altitud y Cabeceo
+[ 23.467] >>> Prueba_Altitud y Cabeceo
+[ 23.488] %L(1): off
+[
+[ 23.518] >>> collision_Detector
+[ 23.541] ..# MSSG: Obstaculo Detectado
+[ 23.566] ..# MSSG: Velocidad  3.60000E+02
+[ 23.592] ..# MSSG: Tiempo Colision  2.77778E+00
+[ 23.621] %BEEEEEEEEEEP 4
+[ 23.640] ..# MSSG: Esquiva Pitch
+[ 23.673] --- collision_Detector 23.517] --- Prueba_Altitud y Cabeceo
+[ 23.709] >>> Prueba_Altitud y Cabeceo
+[ 23.730] %L(1): off
+[ 23.7
+[ 23.768] >>> collision_Detector
+[ 23.791] ..# MSSG: Obstaculo Detectado
+[ 23.816] ..# MSSG: Velocidad  3.60000E+02
+[ 23.842] ..# MSSG: Tiempo Colision  2.77778E+00
+[ 23.871] %BEEEEEEEEEEP 4
+[ 23.890] ..# MSSG: Esquiva Pitch
+[ 23.923] --- collision_Detector64] --- Prueba_Altitud y Cabeceo
+[ 23.956] >>> Prueba_Altitud y Cabeceo
+[ 23.977] %L(1): off
+[ 24.011] -
+[ 24.018] >>> collision_Detector
+[ 24.041] ..# MSSG: Esquiva Pitch
+[ 24.074] --- collision_Detector-- Prueba_Altitud y Cabeceo
+[ 24.104] >>> Prueba_Altitud y Cabeceo
+[ 24.125] %L(1): off
+[ 24.159] --- Prueba_Altitud y Cabeceo
+[ 24.179] >>> Prueba_Altitud y Cabeceo
+[ 24.200] %L(1): off
+[ 24.234] --- Prueba_Altitud y Cabeceo_Veloci
+[ 24.258] >>> Prue
+[ 24.268] >>> collision_Detector
+[ 24.291] ..# MSSG: Esquiva Pitch
+[ 24.324] --- collision_Detectorba_Altitud y Cabeceo
+[ 24.352] %L(1): off
+[ 24.386] --- Prueba_Altitud y Cabeceodad
+[ 24.408] %L(2): off
+[ 24.441] --- control_Velocidad
+[
+[ 24.458] >>> Prueba_Altitud y Cabeceo
+[ 24.479] %L(1): off
+[ 24.513]
+[ 24.518] >>> collision_Detector
+[ 24.541] ..# MSSG: Esquiva Pitch
+[ 24.574] --- collision_Detector --- Prueba_Altitud y Cabeceo 24.457] >>> control_Velocidad
+[ 24.622] %L(2): off
+[ 24.6
+[ 24.658] >>> Prueba_Altitud y Cabeceo
+[ 24.679] %L(1): off
+[ 24.713] --- Prueba_Altitud y Cabeceo54] --- control_Velocidad
+[ 24.746] >>> control_Velocidad
+[ 24.763]
+[ 24.768] >>> collision_Detector
+[ 24.791] ..# MSSG: Esquiva Pitch
+[ 24.824] --- collision_Detector %L(2): off
+[ 24.858] >>> Prueba_Altitud y Cabeceo
+[ 24.879] %L(1): off
+[ 24.913] --- Prueba_Altitud y Cabeceo
+[ 24.942] --- control_Velocidad
+[ 24.959] >>> control_Velocidad
+[ 24.976] %L(2): off
+[ 25.008] --- cont
+[ 25.018] >>> collision_Detector
+[ 25.041] ..# MSSG: Esquiva Pitch
+[ 25.074] --- collision_Detector
+[ 25.091] >>> Prueba_Altitud y Cabeceo
+[ 25.112] %L(1): off
+[ 25.146] --- Prueba_Altitud y Cabeceorol_Velocidad
+[ 25.173] >>> control_Velocidad
+[ 25.190] %L(2): off
+[ 25.222] --- control_Velocidad
+[ 25.238] >>> control_Velocidad
+[ 2
+[ 25.258] >>> Prueb
+[ 25.268] >>> collision_Detector
+[ 25.291] ..# MSSG: Esquiva Pitch
+[ 25.324] --- collision_Detectora_Altitud y Cabeceo
+[ 25.352] %L(1): off
+[ 25.386] --- Prueba_Altitud y Cabeceo5.256] %L(2): off
+[ 25.436] --- control_Velocidad
+[ 25.452] 
+[ 25.458] >>> Prueba_Altitud y Cabeceo
+[ 25.479] %L(1): off
+[ 25.513]
+[ 25.518] >>> collision_Detector
+[ 25.541] ..# MSSG: Esquiva Pitch
+[ 25.574] --- collision_Detector --- Prueba_Altitud y Cabeceo>>> control_Velocidad
+[ 25.618] %L(2): off
+[ 25.650] --- c
+[ 25.658] >>> Prueba_Altitud y Cabeceo
+[ 25.679] %L(1): off
+[ 25.713] --- Prueba_Altitud y Cabeceoontrol_Velocidad
+[ 25.741] >>> control_Velocidad
+[ 25.758] %L(2): o
+[ 25.768] >>> collision_Detector
+[ 25.791] ..# MSSG: Esquiva Pitch
+[ 25.824] --- collision_Detectorff
+[ 25.859] >>> Prueba_Altitud y Cabeceo
+[ 25.880] %L(1): off
+[ 25.914] --- Prueba_Altitud y Cabeceo
+[ 25.938] --- control_Velocidad
+[ 25.954] >>> control_Velocidad
+[ 25.971] %L(2): off
+[ 26.004] --- control_Veloc
+[ 26.018] >>> collision_Detector
+[ 26.041] ..# MSSG: Esquiva Pitch
+[ 26.074] --- collision_Detector
+[ 26.091] >>> Prueba_Altitud y Cabeceo
+[ 26.112] %L(1): off
+[ 26.146] --- Prueba_Altitud y Cabeceoidad
+[ 26.168] >>> control_Velocidad
+[ 26.185] %L(2): off
+[ 26.217] --- control_Velocidad
+[ 26.234] >>> control_Velocidad
+[ 26.251] %L
+[ 26.258] >>> Prueb
+[ 26.268] >>> collision_Detector
+[ 26.291] ..# MSSG: Esquiva Pitch
+[ 26.324] --- collision_Detectora_Altitud y Cabeceo
+[ 26.352] %L(1): off
+[ 26.386] --- Prueba_Altitud y Cabeceo(2): off
+[ 26.431] --- control_Velocidad
+[ 26.448] >>> contr
+[ 26.458] >>> Prueba_Altitud y Cabeceo
+[ 26.479] %L(1): off
+[ 26.513]
+[ 26.518] >>> collision_Detector
+[ 26.541] ..# MSSG: Esquiva Pitch
+[ 26.574] --- collision_Detector --- Prueba_Altitud y Cabeceool_Velocidad
+[ 26.613] %L(2): off
+[ 26.645] --- control_Ve
+[ 26.658] >>> Prueba_Altitud y Cabeceo
+[ 26.679] %L(1): off
+[ 26.713] --- Prueba_Altitud y Cabeceolocidad
+[ 26.736] >>> control_Velocidad
+[ 26.754] %L(2): off
+[ 26.767] >>> collision_Detector
+[ 26.791] --- collision_Detector
+[ 26.825] --- control_Velocidad
+[ 26.842] >>> control_Velocidad
+[ 26.859] >>> Prueba_Altitud y Cabeceo
+[ 26.880] %L(1): off
+[ 26.914] --- Prueba_Altitud y Cabeceo
+[ 26.934] %L(2): off
+[ 26.966] --- control_Velocidad
+[ 26.983] >>> control_Velocidad
+[ 27.000] %L(2): off
+[ 27.022] >>> collision_Detector
+[ 27.045] ..# MSSG: Obstaculo Detectado
+[ 27.070] ..# MSSG: Velocidad  3.60000E+02
+[ 27.096] ..# MSSG: Tiempo Colision  1.38889E+01
+[ 27.125] %BEEEEEEEEEEP 4
+[ 27.139] --- collision_Detector
+[ 27.156] >>> Prueba_Altitud y Cabeceo
+[ 27.177] %L(1): off
+[ 27.211] --- Prueba_Altitud y Cabeceo
+[ 27.240] --- control_Velocidad
+[
+[ 27.258] >>> Prueb
+[ 27.268] >>> collision_Detector
+[ 27.291] ..# MSSG: Obstaculo Detectado
+[ 27.316] ..# MSSG: Velocidad  3.60000E+02
+[ 27.342] ..# MSSG: Tiempo Colision  1.38889E+01
+[ 27.371] %BEEEEEEEEEEP 4
+[ 27.385] --- collision_Detectora_Altitud y Cabeceo
+[ 27.412] %L(1): off
+[ 27.447] --- Prueba_Altitud y Cabeceo
+[ 27.467] >>> Prueba_Altitud y Cabeceo
+[ 27.487] %L(1): off
+[ 27.522] >>> collision_Detector
+[ 27.545] ..# MSSG: Obstaculo Detectado
+[ 27.570] ..# MSSG: Velocidad  3.60000E+02
+[ 27.596] ..# MSSG: Tiempo Colision  1.38889E+01
+[ 27.625] %BEEEEEEEEEEP 4
+[ 27.639] --- collision_Detector
+[ 27.656] --- Prueba_Altitud y Cabeceo
+[ 27.676] >>> Prueba_Altitud y Cabeceo
+[ 27.696] %L(1): off
+[ 27.731] --- Prueba_Altitud y Cabeceo 27.257] >>> control_Velocidad
+[
+[ 27.768] >>> collision_Detector
+[ 27.791] ..# MSSG: Obstaculo Detectado
+[ 27.816] ..# MSSG: Velocidad  3.60000E+02
+[ 27.842] ..# MSSG: Tiempo Colision  1.38889E+01
+[ 27.871] %BEEEEEEEEEEP 4
+[ 27.885] --- collision_Detector
+[ 27.902] >>> Prueba_Altitud y Cabeceo
+[ 27.922] %L(1): off
+[ 27.957] --- Prueba_Altitud y Cabeceo 27.767] %L(2): off
+[ 28.008] --- contr
+[ 28.018] >>> collision_Detector
+[ 28.041] ..# MSSG: Obstaculo Detectado
+[ 28.066] ..# MSSG: Velocidad  3.60000E+02
+[ 28.092] ..# MSSG: Tiempo Colision  8.33333E+00
+[ 28.121] %BEEEEEEEEEEP 4
+[ 28.140] ..# MSSG: Esquiva Pitch
+[ 28.173] --- collision_Detector
+[ 28.190] >>> Prueba_Altitud y Cabeceo
+[ 28.211] %L(1): off
+[ 28.240] --- Prueba_Altitud y Cabeceo
+[ 28.260] >>> P
+[ 28.268] >>> collision_Detector
+[ 28.291] ..# MSSG: Obstaculo Detectado
+[ 28.316] ..# MSSG: Velocidad  3.60000E+02
+[ 28.342] ..# MSSG: Tiempo Colision  8.33333E+00
+[ 28.371] %BEEEEEEEEEEP 4
+[ 28.390] ..# MSSG: Esquiva Pitch
+[ 28.423] --- collision_Detectorrueba_Altitud y Cabeceo
+[ 28.453] %L(1): off
+[ 28.482] --- Prueba_Altitud y Cabeceo
+[ 28.502] >>> Prueba_Altitud y 
+[ 28.518] >>> collision_Detector
+[ 28.541] ..# MSSG: Obstaculo Detectado
+[ 28.566] ..# MSSG: Velocidad  3.60000E+02
+[ 28.592] ..# MSSG: Tiempo Colision  8.33333E+00
+[ 28.621] %BEEEEEEEEEEP 4
+[ 28.640] ..# MSSG: Esquiva Pitch
+[ 28.673] --- collision_DetectorCabeceo
+[ 28.695] %L(1): off
+[ 28.723] --- Prueba_Altitud y Cabeceo
+[ 28.743] >>> Prueba_Altitud y Cabeceo
+[ 28.7
+[ 28.768] >>> collision_Detector
+[ 28.791] ..# MSSG: Obstaculo Detectado
+[ 28.816] ..# MSSG: Velocidad  3.60000E+02
+[ 28.842] ..# MSSG: Tiempo Colision  8.33333E+00
+[ 28.871] %BEEEEEEEEEEP 4
+[ 28.890] ..# MSSG: Esquiva Pitch
+[ 28.923] --- collision_Detector64] %L(1): off
+[ 28.965] --- Prueba_Altitud y Cabeceo
+[ 28.985] >>> Prueba_Altitud y Cabeceo
+[ 29.006] %L(1): off
+[ 29.017] >>> collision_Detector
+[ 29.040] ..# MSSG: Esquiva Pitch
+[ 29.073] --- collision_Detector
+[ 29.107] --- Prueba_Altitud y Cabeceo
+[ 29.127] >>> Prueba_Altitud y Cabeceo
+[ 29.148] %L(1): off
+[ 29.177] --- Prueba_Altitud y Cabeceool_Velocidad
+[ 29.203] >>> control_Velocidad
+[ 29.220] %L(2): off
+[ 29.248] --- contr
+[ 29.258] >>> Prueb
+[ 29.268] >>> collision_Detector
+[ 29.291] ..# MSSG: Esquiva Pitch
+[ 29.324] --- collision_Detectora_Altitud y Cabeceo
+[ 29.352] %L(1): off
+[ 29.380] --- Prueba_Altitud y Cabeceool_Velocidad
+[ 29.406] >>> control_Velocidad
+[ 29.424] %L(2): off
+[ 29.451] --
+[ 29.458] >>> Prueba_Altitud y Cabeceo
+[ 29.479] %L(1): off
+[ 29.507] --- Prueba
+[ 29.518] >>> collision_Detector
+[ 29.541] ..# MSSG: Esquiva Pitch
+[ 29.574] --- collision_Detector_Altitud y Cabeceo- control_Velocidad
+[ 29.610] >>> control_Velocidad
+[ 29.627] %L(2): off
+[ 29.658] >>> Prueba_Altitud y Cabeceo
+[ 29.678] %L(1): off
+[ 29.707] --- Prueba_Altitud y Cabeceo
+[ 29.728] --- control_Velocidad
+[ 29.745] >>> control_Velocidad
+[ 29.762] 
+[ 29.768] >>> collision_Detector
+[ 29.791] ..# MSSG: Esquiva Pitch
+[ 29.824] --- collision_Detector%L(2): off
+[ 29.863] >>> Prueba_Altitud y Cabeceo
+[ 29.884] %L(1): off
+[ 29.912] --- Prueba_Altitud y Cabeceo
+[ 29.936] --- control_Velocidad
+[ 29.952] >>> control_Velocidad
+[ 29.970] %L(2): off
+[ 29.997] --- control_Velocidad
+[ 30.01
+[ 30.018] >>> collision_Detector
+[ 30.041] ..# MSSG: Esquiva Pitch
+[ 30.074] --- collision_Detector
+[ 30.091] >>> Prueba_Altitud y Cabeceo
+[ 30.112] %L(1): off
+[ 30.140] --- Prueba_Altitud y Cabeceo4] >>> control_Velocidad
+[ 30.173] %L(2): off
+[ 30.201] --- control_Velocidad
+[ 30.217] >>> control_Velocidad
+[ 30.235] %L(2): off
+[ 30.262] 
+[ 30.268] >>> collision_Detector
+[ 30.291] ..# MSSG: Esquiva Pitch
+[ 30.324] --- collision_Detector>>> Prueba_Altitud y Cabeceo
+[ 30.356] %L(1): off
+[ 30.385] --- Prueba_Altitud y Cabeceo
+[ 30.405] --- control_Velocidad
+[ 30.421] >>> control_Velocidad
+[ 30.438] %L(2): off
+[ 30.461] >>> Prueba_Altitud y Cabeceo
+[ 30.481] %L(1): off
+[ 30.510] --- 
+[ 30.5
+Interrupt!
+ Stopped at time 307545049 (2.197e+01 s)
+tsim> 
