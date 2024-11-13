@@ -40,13 +40,15 @@ package body fss is
         joystick: Joystick_Samples_Type;
         potencia : Power_Samples_Type;
         --Si el modo esta en true esta en modo automatico
-        modo: Boolean := True; 
+        modo: Boolean := False; 
     end objeto_compartido;
 
     protected body objeto_compartido is
       function getJoystick return Joystick_Samples_Type is 
+      auxJoystick : Joystick_Samples_Type;
       begin
-        return joystick;
+        Read_Joystick(auxJoystick);
+        return auxJoystick;
       end getJoystick;
 
       procedure updateJoystick(setJoystick: in Joystick_Samples_Type) is 
@@ -55,8 +57,10 @@ package body fss is
       end updateJoystick;
 
       function getPotencia return Power_Samples_Type is
+        auxPotencia : Power_Samples_Type;
       begin
-        return potencia;
+        Read_Power(auxPotencia);
+        return auxPotencia;
       end getPotencia;
 
       procedure updatePotencia (setPotencia: in Power_Samples_Type) is
@@ -95,7 +99,7 @@ package body fss is
 
     --Comprueba la incliancion del joystick y comprueba que no pase de 45º de roll y 30º de pitch
     task altura_y_cabeceo is 
-      pragma Priority(2);
+      pragma Priority(3);
     end altura_y_cabeceo;
 
 
@@ -116,7 +120,7 @@ package body fss is
 
     --Varias cosas
     task control_Velocidad is 
-      pragma Priority(3);
+      pragma Priority(2);
     end control_Velocidad;
 
 
@@ -181,28 +185,27 @@ package body fss is
         end if;
         end if;
         
-        if (Target_Roll > 35) then 
-            Display_Message("Se esta superando los 35º de pitch");
-        else if Target_Roll < -30 then 
-            Display_Message("Se esta reduciendo los -35º de pitch");
+        if (Target_Roll > 35 and Target_Roll <45) then 
+            Display_Message("Se esta superando los 35º de roll");
+        else if (Target_Roll < -30 and Target_Roll > -45) then 
+            Display_Message("Se esta reduciendo los -35º de roll");
         end if;
         end if;
 
-        if (Target_Roll > 45) then 
+        if (Target_Roll >= 45) then 
           Target_Roll := 45;
           Display_Message("No se puede superar los 45º de roll");
-        else if Target_Roll < -45 then 
+        else if (Target_Roll <= -45)then 
           Target_Roll := -45;
           Display_Message("No se puede reducir los -45º de roll");
         end if;
         end if;
       --El sistema de altura solo funciona en modo automatico es decir modo = true
       if objeto_compartido.getModo then
-        Display_Message("Altura en modo automatico actua sobre la nave");
         if (Current_A >= 10000 and Target_Pitch > 0 ) then 
           Target_Pitch:=0;
           Target_Roll:=0;
-          Display_Message ("To high");
+          Display_Message ("Altura mayor a 10000 no se puede ascender mas");
         else if (Current_A>=9500 and Current_A < 10000) then 
           Light_1(On);
         else if (Current_A <=2500 and Current_A > 2000) then
@@ -210,6 +213,7 @@ package body fss is
         else if (Current_A <=2000 and Target_Pitch < 0) then 
           Target_Pitch:=0;
           Target_Roll:=0;
+          Display_Message("Altura menor a 2000 no se puede descender mas");
         else 
           Light_1(Off);
         end if;
@@ -221,16 +225,15 @@ package body fss is
                        
         Aircraft_Pitch := Read_Pitch;       -- lee la posición pitch de la aeronave
         Aircraft_Roll := Read_Roll;         -- lee la posición roll  de la aeronave
-            
-        Display_Joystick (Current_J);       -- muestra por display el joystick  
-        Display_Pitch (Aircraft_Pitch);     -- muestra por display la posición de la aeronave  
-        Display_Roll (Aircraft_Roll);
-      else 
-      Display_Message("Altura modo manual no actua sobre la nave");
+
+
       end if;
+
+
+
+
       -- Comprueba altitud
       Current_A := Read_Altitude;         -- lee y muestra por display la altitud de la aeronave  
-      Display_Altitude (Current_A);
       Finish_Activity("Prueba_Altitud y Cabeceo");
       delay until Siguiente_Instante;
       Siguiente_Instante := Siguiente_Instante + Intervalo;
@@ -292,8 +295,6 @@ package body fss is
         end if;
         end if;
         end if;
-      --else
-        --Display_Message("Actuacion sobre colision desactivado");
       end if;
       Finish_Activity ("collision_Detector");
       delay until Siguiente_Instante;
@@ -417,8 +418,6 @@ package body fss is
         objeto_compartido.updatePotencia(required_power);
         Set_Speed(Speed_Samples_Type(Float(required_power) * Float(1.2)));
      end if;
-    --else 
-      --Display_Message("Control de velocidad desactivado");
     end if;
         Finish_Activity("control_Velocidad");
         delay until Siguiente_Instante;
