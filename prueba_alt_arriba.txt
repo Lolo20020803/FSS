@@ -1,0 +1,1193 @@
+
+ TSIM/ERC32 - remote SPARC simulator, version 1.0.10 (evaluation version)
+
+ Copyright (C) 2001, Gaisler Research - all rights reserved.
+ For latest updates, go to http://www.gaisler.com/
+ Comments or bug-reports to tsim@gaisler.com
+
+libreadline.so.3: cannot open shared object file: No such file or directory
+serial port A on stdin/stdout
+allocated 4096 K RAM memory
+allocated 2048 K ROM memory
+section: .text at 0x2000000, size 217232 bytes
+section: .data at 0x2035090, size 11788 bytes
+tsim> resuming at 0x02000000
+
+[ 0.0047] >>> Change Mode
+[ 0.0180] >>> collision_Detector
+[ 0.0412] --- collision_Detector
+[ 0.0580] >>> Prueba_Altitud y Cabeceo
+[ 0.0789] %L(1): off
+[ 0.1130] --- Prueba_Altitud y Cabeceo
+[ 0.1330] >>> control_Velocidad
+[ 0.1502] %Light(2): ON
+[ 0.1816] --- control_Velocidad
+[ 0.1980] >>> Monitoreo
+[ 0.2149] ..# Altitude:  8060
+[ 0.2358] ..# Pilot_Power:  1022
+[ 0.2591] >>> Pru
+[ 0.2683] >>> collision_Detector
+[ 0.2914] --- collision_Detectoreba_Altitud y Cabeceo
+[ 0.3199] %L(1): off
+[ 0.3541] --- Prueba_Altitud y Cabeceo
+[ 0.3740] ..# Speed:  1000
+[ 0.3934] ..# Joystick:  30 30
+[ 0.4194] ..# Pitch:  30
+[ 0.4327] >>> control_Velocidad
+[ 0.4500] %Ligh
+[ 0.4582] >>> Prueba_Altitud y Cabeceo
+[ 0.4790] %L(1): off
+[ 0.5132]
+[ 0.5183] >>> collision_Detector
+[ 0.5414] --- collision_Detector --- Prueba_Altitud y Cabeceot(2): ON
+[ 0.5963] --- control_Velocidad
+[ 0.6209] ..# Roll:  30
+[ 0.6371] --- Monitoreo
+[ 0.6578] >>> Prueba_Altitud y Cabeceo
+[ 0.6786] %L(1): off
+[ 0.7128] --- Prueba_Altitud y Cabeceo
+[ 0.7327] >>> control_Velocidad
+[ 0.7500] %Light(2): ON
+[ 0.7738] >>> collision_Detector
+[ 0.7969] --- collision_Detector
+[ 0.8209] --- control_Velocidad
+[ 0.8577] >>> Prueba_Altitud y Cabeceo
+[ 0.8785] %L(1): off
+[ 0.9127] --- Prueba_Altitud y Cabeceo
+[ 1.0178] >>> collision_Detector
+[ 1.0409] --- collision_Detector
+
+[ 1.0583] >>> Prueba_Altitud y Cabeceo
+[ 1.0791] %L(1): off
+[ 1.1133] --- Prueba_Altitud y Cabeceo[ 1.1327] >>> control_Velocidad
+[ 1.1500] %Light(2): ON
+[ 1.1814] --- control_Velocidad
+[ 1.1977] >>> Monitoreo
+[ 1.2147] ..# Altitude:  8360
+[ 1.2356] ..# Pilot_Power:  1022
+[ 1.2589] >>> Pru
+[ 1.2680] >>> collision_Detector
+[ 1.2912] --- collision_Detectoreba_Altitud y Cabeceo
+[ 1.3197] %L(1): off
+[ 1.3541] --- Prueba_Altitud y Cabeceo
+[ 1.3740] >>> control_Velocidad
+[ 1.3913] %Light(2): ON
+[ 1.4227] --- control_Velocidad
+[ 1.4390] ..# Speed:  1000
+[ 1.4588] >>> Prueba_Altitud y Cabeceo
+[ 1.4796] %L(1): off
+[ 1.5137
+[ 1.5183] >>> collision_Detector
+[ 1.5415] --- collision_Detector] --- Prueba_Altitud y Cabeceo
+[ 1.5737] ..# Joystick:  30 30
+[ 1.5996] ..# Pitch:  30
+[ 1.6218] ..# Roll:  
+[ 1.6331] >>> control_Velocidad
+[ 1.6504] %Lig
+[ 1.6580] >>> Prueba_Altitud y Cabeceo
+[ 1.6789] %L(1): off
+[ 1.7130] --- Prueba_Altitud y Cabeceoht(2): ON
+[ 1.7567] --- control_
+[ 1.7684] >>> collision_Detector
+[ 1.7916] --- collision_DetectorVelocidad30
+[ 1.8180] --- Monitoreo
+[ 1.8578] >>> Prueba_Altitud y Cabeceo
+[ 1.8786] %L(1): off
+[ 1.9128] --- Prueba_Altitud y Cabeceo
+[ 1.9327] >>> control_Velocidad
+[ 1.9500] %Light(2): ON
+[ 1.9816] --- control_Velocidad
+[ 2.0178] >>> collision_Detector
+[ 2.0409] --- collision_Detector
+[ 2.0578] >>> Prueba_Altitud y Cabeceo
+[ 2.0786] %L(1): off
+[ 2.1128] --- Prueba_Altitud y Cabeceo
+[ 2.1977] >>> Monitoreo
+[ 2.2146] ..# Altitude:  8660
+[ 2.2328] >>> control_Velocidad
+[ 2.2500] %Ligh
+[ 2.2582] >>> Prueb
+[ 2.2684] >>> collision_Detector
+[ 2.2916] --- collision_Detectora_Altitud y Cabeceo
+[ 2.3190] %L(1): off
+[ 2.3532] --- Prueba_Altitud y Cabeceot(2): ON
+[ 2.3964] --- control_Velocidad
+[ 2.4149] ..# Pilot_Power:  1022
+[ 2.4379] ..# Speed:  1000
+[
+[ 2.4583] >>> Prueba_Altitud y Cabeceo
+[ 2.4791] %L(1): off
+[ 2.5133]
+[ 2.5184] >>> collision_Detector
+[ 2.5415] --- collision_Detector --- Prueba_Altitud y Cabeceo
+[ 2.5732] >>> control_Velocidad
+[ 2.5905] %Light(2): ON
+[ 2.6219] --- control_Velocidad 2.4573] ..# Joystick:  30 30
+[ 2.6635] >>> Prueba_Altitud y Cabeceo
+[ 2.6843] %L(1): off
+[ 2.7185] --- Prueba_Altitud y Cabeceo
+[ 2.7384] ..# Pitch:  30
+[ 2.7606] ..# 
+[ 2.7683] >>> collision_Detector
+[ 2.7914] --- collision_DetectorRoll:  30
+[ 2.8168] --- Monitoreo
+[ 2.8327] >>> control_Velocidad
+[ 2.8500] %Ligh
+[ 2.8582] >>> Prueba_Altitud y Cabeceo
+[ 2.8790] %L(1): off
+[ 2.9132] --- Prueba_Altitud y Cabeceot(2): ON
+[ 2.9563] --- control_Velocidad
+[ 3.0178] >>> collision_Detector
+[ 3.0409] --- collision_Detector
+[ 3.0578] >>> Prueba_Altitud y Cabeceo
+[ 3.0786] %L(1): off
+[ 3.1128] --- Prueba_Altitud y Cabeceo
+[ 3.1327] >>> control_Velocidad
+[ 3.1500] %Light(2): ON
+[ 3.1814] --- control_Velocidad
+[ 3.1977] >>> Monitoreo
+[ 3.2146] ..# Altitude:  8960
+[ 3.2356] ..# Pilot_Power:  1022
+[ 3.2589] >>> Pru
+[ 3.2680] >>> collision_Detector
+[ 3.2912] --- collision_Detectoreba_Altitud y Cabeceo
+[ 3.3197] %L(1): off
+[ 3.3538] --- Prueba_Altitud y Cabeceo
+[ 3.3738] ..# Speed:  1000
+[ 3.3932] ..# Joystick:  30 30
+[ 3.4191] ..# Pitch:  30
+[ 3.4327] >>> control_Velocidad
+[ 3.4500] %Ligh
+[ 3.4582] >>> Prueba_Altitud y Cabeceo
+[ 3.4790] %L(1): off
+[ 3.5132]
+[ 3.5183] >>> collision_Detector
+[ 3.5414] --- collision_Detector --- Prueba_Altitud y Cabeceot(2): ON
+[ 3.5963] --- control_Velocidad
+[ 3.6207] ..# Roll:  30
+[ 3.6368] --- Monitoreo
+[ 3.6578] >>> Prueba_Altitud y Cabeceo
+[ 3.6786] %L(1): off
+[ 3.7128] --- Prueba_Altitud y Cabeceo
+[ 3.7327] >>> control_Velocidad
+[ 3.7500] %Light(2): ON
+[ 3.7738] >>> collision_Detector
+[ 3.7969] --- collision_Detector
+[ 3.8209] --- control_Velocidad
+[ 3.8577] >>> Prueba_Altitud y Cabeceo
+[ 3.8785] %L(1): off
+[ 3.9127] --- Prueba_Altitud y Cabeceo
+[ 4.0178] >>> collision_Detector
+[ 4.0409] --- collision_Detector
+
+[ 4.0583] >>> Prueba_Altitud y Cabeceo
+[ 4.0791] %L(1): off
+[ 4.1133] --- Prueba_Altitud y Cabeceo[ 4.1327] >>> control_Velocidad
+[ 4.1500] %Light(2): ON
+[ 4.1814] --- control_Velocidad
+[ 4.1977] >>> Monitoreo
+[ 4.2146] ..# Altitude:  9260
+[ 4.2356] ..# Pilot_Power:  1022
+[ 4.2589] >>> Pru
+[ 4.2680] >>> collision_Detector
+[ 4.2912] --- collision_Detectoreba_Altitud y Cabeceo
+[ 4.3197] %L(1): off
+[ 4.3541] --- Prueba_Altitud y Cabeceo
+[ 4.3740] >>> control_Velocidad
+[ 4.3913] %Light(2): ON
+[ 4.4227] --- control_Velocidad
+[ 4.4390] ..# Speed:  1000
+[ 4.4588] >>> Prueba_Altitud y Cabeceo
+[ 4.4796] %L(1): off
+[ 4.5137
+[ 4.5183] >>> collision_Detector
+[ 4.5415] --- collision_Detector] --- Prueba_Altitud y Cabeceo
+[ 4.5737] ..# Joystick:  30 30
+[ 4.5996] ..# Pitch:  30
+[ 4.6218] ..# Roll:  
+[ 4.6331] >>> control_Velocidad
+[ 4.6504] %Lig
+[ 4.6580] >>> Prueba_Altitud y Cabeceo
+[ 4.6789] %L(1): off
+[ 4.7130] --- Prueba_Altitud y Cabeceoht(2): ON
+[ 4.7567] --- control_
+[ 4.7684] >>> collision_Detector
+[ 4.7916] --- collision_DetectorVelocidad30
+[ 4.8180] --- Monitoreo
+[ 4.8578] >>> Prueba_Altitud y Cabeceo
+[ 4.8786] %L(1): off
+[ 4.9128] --- Prueba_Altitud y Cabeceo
+[ 4.9327] >>> control_Velocidad
+[ 4.9500] %Light(2): ON
+[ 4.9816] --- control_Velocidad
+[ 5.0178] >>> collision_Detector
+[ 5.0409] --- collision_Detector
+[ 5.0578] >>> Prueba_Altitud y Cabeceo
+[ 5.0786] %Light(1): ON
+[ 5.1143] --- Prueba_Altitud y Cabeceo
+[ 5.1977] >>> Monitoreo
+[ 5.2146] ..# Altitude:  9560
+[ 5.2328] >>> control_Velocidad
+[ 5.2500] %Ligh
+[ 5.2582] >>> Prueb
+[ 5.2684] >>> collision_Detector
+[ 5.2916] --- collision_Detectora_Altitud y Cabeceo
+[ 5.3190] %Light(1): ON
+[ 5.3547] --- Prueba_Altitud y Cabeceot(2): ON
+[ 5.3979] --- control_Velocidad
+[ 5.4164] ..# Pilot_Power:  1022
+[ 5.4394] ..# Speed:  1000
+[ 5.4591] >>> Prueba_Altitud y Cabeceo
+[ 5.4799] %Light(1): ON
+[ 5.
+[ 5.5181] >>> collision_Detector
+[ 5.5413] --- collision_Detector5156] --- Prueba_Altitud y Cabeceo
+[ 5.5756] >>> control_Velocidad
+[ 5.5929] %Light(2): ON
+[ 5.6242] --- control_Velocidad
+[ 5.6406] ..# Joystick:  30 30
+[ 5.6578] >>> Prueba_Altitud y Cabeceo
+[ 5.6786] %Light(1): ON
+[ 5.7143] --- Prueba_Altitud y Cabeceo
+[ 5.7424] ..# Pitch:  30
+[ 5.76
+[ 5.7682] >>> collision_Detector
+[ 5.7913] --- collision_Detector46] ..# Roll:  30
+[ 5.8207] --- Monitoreo
+[ 5.8330] >>> control_Velocidad
+[ 5.8503] %Ligh
+[ 5.8585] >>> Prueba_Altitud y Cabeceo
+[ 5.8793] %Light(1): ON
+[ 5.9150] --- Prueba_Altitud y Cabeceot(2): ON
+[ 5.9582] --- control_Velocidad
+[ 6.0178] >>> collision_Detector
+[ 6.0409] --- collision_Detector
+[ 6.0578] >>> Prueba_Altitud y Cabeceo
+[ 6.0785] ..# MSSG: No se puede superar los 30º de pitch
+[ 6.1122] %Light(1): ON
+[ 6.1480] --- Prueba_Altitud y Cabeceo
+[ 6.1680] >>> control_Velocidad
+[ 6.1853] %Light(2): ON
+[ 6.2168] --- control_Velocidad
+[ 6.2332] >>> Monitoreo
+[ 6.2501] ..# A
+[ 6.2583] >>> Prueb
+[ 6.2685] >>> collision_Detector
+[ 6.2916] --- collision_Detectora_Altitud y Cabeceo
+[ 6.3190] ..# MSSG: No se puede superar los 30º de pitch
+[ 6.3527] %Light(1): ON
+[ 6.3884] --- Prueba_Altitud y Cabeceoltitude:  9860
+[ 6.4211] ..# Pilot_Pow
+[ 6.4333] >>> control_Velocidad
+[ 6.4506] %Lig
+[ 6.4583] >>> Prueba_Altitud y Cabeceo
+[ 6.4790] ..# MSSG: No se puede superar los 30º de pitch
+[ 6.5126] 
+[ 6.5182] >>> collision_Detector
+[ 6.5414] --- collision_Detector%Light(1): ON
+[ 6.5884] --- Prueba_Altitud y Cabeceoht(2): ON
+[ 6.6298] --- control_Velocidader:  1022
+[
+[ 6.6579] >>> Prueba_Altitud y Cabeceo
+[ 6.6786] ..# MSSG: No se puede superar los 30º de pitch
+[ 6.7123] %Light(1): ON
+[ 6.7482] --- Prueba_Altitud y Cabeceo
+[ 6.7681] >>> collision_Detector
+[ 6.7913] --- collision_Detector
+[ 6.8081] >>> control_Velocidad
+[ 6.8254] %Light(2): ON
+[
+[ 6.8578] >>> Prueba_Altitud y Cabeceo
+[ 6.8786] ..# MSSG: No se puede superar los 30º de pitch
+[ 6.9122] ..# MSSG: Altura mayor a 10000 no se puede ascender mas
+[ 6.9673] --- Prueba_Altitud y Cabeceo 6.8568] --- control_Velocidad 6.6569] ..# Speed:  1000
+[ 7.0178] >>> collision_Detector
+[ 7.0409] --- collision_Detector
+
+[ 7.0583] >>> Prueba_Altitud y Cabeceo
+[ 7.0792] %L(1): off
+[ 7.1133] --- Prueba_Altitud y Cabeceo[ 7.1328] >>> control_Velocidad
+[ 7.1500] %Light(2): ON
+[ 7.1792] --- control_Velocidad
+[ 7.1981] ..# Joystick: -30 0
+[ 7.2236] ..# Pitch: -30
+[ 7.2458] ..# Roll:  0
+[ 7.2578] >>> Prueb
+[ 7.2680] >>> collision_Detector
+[ 7.2912] --- collision_Detectora_Altitud y Cabeceo
+[ 7.3187] %Light(1): ON
+[ 7.3545] --- Prueba_Altitud y Cabeceo
+[ 7.3745] >>> control_Velocidad
+[ 7.3918] %Light(2): ON
+[ 7.4209] --- control_Velocidad
+[ 7.4402] --- Monitoreo
+[ 7.4525] 
+[ 7.4581] >>> Prueba_Altitud y Cabeceo
+[ 7.4790] %Light(1): ON
+[ 7.51
+[ 7.5182] >>> collision_Detector
+[ 7.5414] --- collision_Detector47] --- Prueba_Altitud y Cabeceo>>> Monitoreo
+[ 7.5859] ..# Altitude:  9860
+[ 7.6068] ..# Pilot_Power:  1022
+[ 7.62
+[ 7.6334] >>> control_Velocidad
+[ 7.6507] %Lig
+[ 7.6583] >>> Prueba_Altitud y Cabeceo
+[ 7.6792] %Light(1): ON
+[ 7.7149] --- Prueba_Altitud y Cabeceoht(2): ON
+[ 7.7563] --- control_
+[ 7.7680] >>> collision_Detector
+[ 7.7912] --- collision_DetectorVelocidad98] ..# Speed:  1000
+[ 7.8285] ..# Joystick: -30 0
+[ 7.853
+[ 7.8580] >>> Prueba_Altitud y Cabeceo
+[ 7.8789] %Light(1): ON
+[ 7.9146] --- Prueba_Altitud y Cabeceo
+[ 7.9345] >>> control_Velocidad
+[ 7.9518] %Light(2): ON
+[ 7.9811] --- control_Velocidad9] ..# Pitch: -30
+[ 8.
+[ 8.0181] >>> collision_Detector
+[ 8.0413] --- collision_Detector
+[ 8.0581] >>> Prueba_Altitud y Cabeceo
+[ 8.0790] %Light(1): ON
+[ 8.1147] --- Prueba_Altitud y Cabeceo0156] ..# Roll:  0
+[ 8.1477] --- Monitoreo
+[ 8.1977] >>> Monitoreo
+[ 8.2146] ..# Altitude:  9680
+[ 8.2328] >>> control_Velocidad
+[ 8.2500] %Ligh
+[ 8.2582] >>> Prueb
+[ 8.2684] >>> collision_Detector
+[ 8.2916] --- collision_Detectora_Altitud y Cabeceo
+[ 8.3191] %Light(1): ON
+[ 8.3548] --- Prueba_Altitud y Cabeceot(2): ON
+[ 8.3957] --- control_Velocidad
+[ 8.4142] ..# Pilot_Power:  1022
+[ 8.4372] ..# Speed:  1000
+[ 
+[ 8.4581] >>> Prueba_Altitud y Cabeceo
+[ 8.4789] %Light(1): ON
+[ 8.51
+[ 8.5182] >>> collision_Detector
+[ 8.5413] --- collision_Detector46] --- Prueba_Altitud y Cabeceo
+[ 8.5746] >>> control_Velocidad
+[ 8.5919] %Light(2): ON
+[ 8.6210] --- control_Velocidad8.4566] ..# Joystick: -30 0
+[ 8.6616] >>> Prueba_Altitud y Cabeceo
+[ 8.6824] %Light(1): ON
+[ 8.7181] --- Prueba_Altitud y Cabeceo
+[ 8.7380] ..# Pitch: -30
+[ 8.7603] ..# R
+[ 8.7684] >>> collision_Detector
+[ 8.7916] --- collision_Detectoroll:  0
+[ 8.8159] --- Monitoreo
+[ 8.8327] >>> control_Velocidad
+[ 8.8500] %Ligh
+[ 8.8582] >>> Prueba_Altitud y Cabeceo
+[ 8.8790] %Light(1): ON
+[ 8.9147] --- Prueba_Altitud y Cabeceot(2): ON
+[ 8.9556] --- control_Velocidad
+[ 9.0178] >>> collision_Detector
+[ 9.0409] --- collision_Detector
+[ 9.0578] >>> Prueba_Altitud y Cabeceo
+[ 9.0785] ..# MSSG: No se puede superar los 30º de pitch
+[ 9.1122] %L(1): off
+[ 9.1465] --- Prueba_Altitud y Cabeceo
+[ 9.1665] >>> control_Velocidad
+[ 9.1838] %Light(2): ON
+[ 9.2153] --- control_Velocidad
+[ 9.2317] >>> Monitoreo
+[ 9.2486] ..# Alti
+[ 9.2583] >>> Prue
+[ 9.2680] >>> collision_Detector
+[ 9.2912] --- collision_Detectorba_Altitud y Cabeceo
+[ 9.3191] ..# MSSG: No se puede superar los 30º de pitch
+[ 9.3527] %Light(1): ON
+[ 9.3884] --- Prueba_Altitud y Cabeceotude:  9500
+[ 9.4196] ..# Pilot_Power:
+[ 9.4334] >>> control_Velocidad
+[ 9.4507] %Lig
+[ 9.4583] >>> Prueba_Altitud y Cabeceo
+[ 9.4791] ..# MSSG: No se puede superar los 30º de pitch
+[ 9.5127] 
+[ 9.5183] >>> collision_Detector
+[ 9.5414] --- collision_Detector%Light(1): ON
+[ 9.5884] --- Prueba_Altitud y Cabeceoht(2): ON
+[ 9.6298] --- control_Velocidad  1022
+[ 9.6
+[ 9.6584] >>> Prueba_Altitud y Cabeceo
+[ 9.6792] ..# MSSG: No se puede superar los 30º de pitch
+[ 9.7128] %Light(1): ON
+[ 9.7487] --- Prueba_Altitud y Cabece
+[ 9.7681] >>> collision_Detector
+[ 9.7913] --- collision_Detectoro
+[ 9.8087] >>> control_Velocidad
+[ 9.8260] %Light(2): ON
+[
+[ 9.8583] >>> Prueba_Altitud y Cabeceo
+[ 9.8791] ..# MSSG: No se puede superar los 30º de pitch
+[ 9.9127] %Light(1): ON
+[ 9.9484] --- Prueba_Altitud y Cabeceo 9.8573] --- control_Velocidad554] ..# Speed:  1000
+[ 10.000] ..# Joystick:  50-3
+[ 10.017] >>> collision_Detector
+[ 10.040] --- collision_Detector
+
+[ 10.058] >>> Prueba_Altitud y Cabeceo
+[ 10.079] %Light(1): ON
+[ 10.114] --- Prueba_Altitud y Cabeceo[ 10.134] >>> control_Velocidad
+[ 10.151] %Light(2): ON
+[ 10.180] --- control_Velocidad
+[ 10.204] ..# Pitch: -30
+[ 10.226] ..# Roll:  0
+[ 10.242] --- Monitoreo
+[ 10.25
+[ 10.258] >>> Prue
+[ 10.268] >>> collision_Detector
+[ 10.291] --- collision_Detectorba_Altitud y Cabeceo
+[ 10.319] %Light(1): ON
+[ 10.355] --- Prueba_Altitud y Cabeceo
+[ 10.375] >>> control_Velocidad
+[ 10.392] %Light(2): ON
+[ 10.421] --- control_Velocidad4] >>> Monitoreo
+[ 10.450] ..# 
+[ 10.458] >>> Prueba_Altitud y Cabeceo
+[ 10.479] %Light(1): ON
+[ 10.5
+[ 10.518] >>> collision_Detector
+[ 10.541] --- collision_Detector14] --- Prueba_Altitud y CabeceoAltitude:  9620
+[ 10.588] ..# Pilot_Power:  1022
+[ 10.611] ..# Speed:  1000
+[ 10
+[ 10.633] >>> control_Velocidad
+[ 10.650] %Ligh
+[ 10.658] >>> Prueba_Altitud y Cabeceo
+[ 10.679] %Light(1): ON
+[ 10.715] --- Prueba_Altitud y Cabeceot(2): ON
+[ 10.755] --- control_V
+[ 10.768] >>> collision_Detector
+[ 10.791] --- collision_Detectorelocidad.630] ..# Joystick: -30 0
+[ 10.835] ..# Pitch: -30
+[
+[ 10.858] >>> Prueba_Altitud y Cabeceo
+[ 10.879] %Light(1): ON
+[ 10.914] --- Prueba_Altitud y Cabeceo
+[ 10.934] >>> control_Velocidad
+[ 10.952] %Light(2): ON
+[ 10.981] --- control_Velocidad 10.857] ..# Roll:  0
+[ 11.012] 
+[ 11.018] >>> collision_Detector
+[ 11.041] --- collision_Detector
+[ 11.058] >>> Prueba_Altitud y Cabeceo
+[ 11.078] %L(1): off
+[ 11.113] --- Prueba_Altitud y Cabeceo--- Monitoreo
+[ 11.197] >>> Monitoreo
+[ 11.214] ..# Altitude:  9380
+[ 11.232] >>> control_Velocidad
+[ 11.250] %Ligh
+[ 11.258] >>> Prueb
+[ 11.268] >>> collision_Detector
+[ 11.291] --- collision_Detectora_Altitud y Cabeceo
+[ 11.319] %L(1): off
+[ 11.353] --- Prueba_Altitud y Cabeceot(2): ON
+[ 11.394] --- control_Velocidad
+[ 11.412] ..# Pilot_Power:  1022
+[ 11.435] ..# Speed:  1000
+[ 11.
+[ 11.458] >>> Prueba_Altitud y Cabeceo
+[ 11.478] %L(1): off
+[ 11.513]
+[ 11.518] >>> collision_Detector
+[ 11.541] --- collision_Detector --- Prueba_Altitud y Cabeceo
+[ 11.573] >>> control_Velocidad
+[ 11.590] %Light(2): ON
+[ 11.619] --- control_Velocidad455] ..# Joystick: -30 0
+[ 11.658] >>> Prueba_Altitud y Cabeceo
+[ 11.679] %L(1): off
+[ 11.713] --- Prueba_Altitud y Cabeceo
+[ 11.733] ..# Pitch: -30
+[ 11.755] ..# Roll:  0
+[ 11.767] >>> collision_Detector
+[ 11.790] --- collision_Detector
+[ 11.810] --- Monitoreo
+[ 11.832] >>> control_Velocidad
+[ 11.850] %Ligh
+[ 11.858] >>> Prueba_Altitud y Cabeceo
+[ 11.879] %L(1): off
+[ 11.913] --- Prueba_Altitud y Cabeceot(2): ON
+[ 11.954] --- control_Velocidad
+[ 12.017] >>> collision_Detector
+[ 12.040] --- collision_Detector
+[ 12.057] >>> Prueba_Altitud y Cabeceo
+[ 12.078] %L(1): off
+[ 12.112] --- Prueba_Altitud y Cabeceo
+[ 12.132] >>> control_Velocidad
+[ 12.150] %Light(2): ON
+[ 12.179] --- control_Velocidad
+[ 12.197] >>> Monitoreo
+[ 12.214] ..# Altitude:  9080
+[ 12.235] ..# Pilot_Power:  1022
+[ 12.258] >>> Prue
+[ 12.268] >>> collision_Detector
+[ 12.291] --- collision_Detectorba_Altitud y Cabeceo
+[ 12.319] %L(1): off
+[ 12.353] --- Prueba_Altitud y Cabeceo
+[ 12.373] ..# Speed:  1000
+[ 12.393] ..# Joystick: -30 0
+[ 12.418] ..# Pitch: -30
+[ 12.432] >>> control_Velocidad
+[ 12.450] %Ligh
+[ 12.458] >>> Prueba_Altitud y Cabeceo
+[ 12.479] %L(1): off
+[ 12.513]
+[ 12.518] >>> collision_Detector
+[ 12.541] --- collision_Detector --- Prueba_Altitud y Cabeceot(2): ON
+[ 12.594] --- control_Velocidad
+[ 12.617] ..# Roll:  0
+[ 12.633] --- Monitoreo
+[ 12.657] >>> Prueba_Altitud y Cabeceo
+[ 12.678] %L(1): off
+[ 12.712] --- Prueba_Altitud y Cabeceo
+[ 12.732] >>> control_Velocidad
+[ 12.750] %Light(2): ON
+[ 12.773] >>> collision_Detector
+[ 12.796] --- collision_Detector
+[ 12.818] --- control_Velocidad
+[ 12.857] >>> Prueba_Altitud y Cabeceo
+[ 12.882] %L(1): off
+[ 12.912] --- Prueba_Altitud y Cabeceo
+[ 13.017] >>> collision_Detector
+[ 13.040] --- collision_Detector
+
+[ 13.058] >>> Prueba_Altitud y Cabeceo
+[ 13.079] %L(1): off
+[ 13.113] --- Prueba_Altitud y Cabeceo[ 13.132] >>> control_Velocidad
+[ 13.150] %Light(2): ON
+[ 13.179] --- control_Velocidad
+[ 13.197] >>> Monitoreo
+[ 13.214] ..# Altitude:  8780
+[ 13.235] ..# Pilot_Power:  1022
+[ 13.258] >>> Prue
+[ 13.268] >>> collision_Detector
+[ 13.291] --- collision_Detectorba_Altitud y Cabeceo
+[ 13.319] %L(1): off
+[ 13.354] --- Prueba_Altitud y Cabeceo
+[ 13.373] >>> control_Velocidad
+[ 13.391] %Light(2): ON
+[ 13.420] --- control_Velocidad
+[ 13.436] ..# Speed:  1000
+[ 1
+[ 13.458] >>> Prueba_Altitud y Cabeceo
+[ 13.479] %L(1): off
+[ 13.513]
+[ 13.518] >>> collision_Detector
+[ 13.541] --- collision_Detector --- Prueba_Altitud y Cabeceo3.456] ..# Joystick: -30 0
+[ 13.596] ..# Pitch: -30
+[ 13.618] ..# Roll:  0
+[ 13.632] >>> control_Velocidad
+[ 13.650] %Ligh
+[ 13.658] >>> Prueba_Altitud y Cabeceo
+[ 13.679] %L(1): off
+[ 13.713] --- Prueba_Altitud y Cabeceot(2): ON
+[ 13.754] --- control_Veloc
+[ 13.768] >>> collision_Detector
+[ 13.791] --- collision_Detectoridad
+[ 13.811] --- Monitoreo
+[ 13.857] >>> Prueba_Altitud y Cabeceo
+[ 13.878] %L(1): off
+[ 13.912] --- Prueba_Altitud y Cabeceo
+[ 13.932] >>> control_Velocidad
+[ 13.950] %Light(2): ON
+[ 13.979] --- control_Velocidad
+[ 14.017] >>> collision_Detector
+[ 14.040] --- collision_Detector
+[ 14.057] >>> Prueba_Altitud y Cabeceo
+[ 14.078] %L(1): off
+[ 14.112] --- Prueba_Altitud y Cabeceo
+[ 14.197] >>> Monitoreo
+[ 14.214] ..# Altitude:  8480
+[ 14.232] >>> control_Velocidad
+[ 14.250] %Ligh
+[ 14.258] >>> Prueb
+[ 14.268] >>> collision_Detector
+[ 14.291] --- collision_Detectora_Altitud y Cabeceo
+[ 14.319] %L(1): off
+[ 14.353] --- Prueba_Altitud y Cabeceot(2): ON
+[ 14.394] --- control_Velocidad
+[ 14.412] ..# Pilot_Power:  1022
+[ 14.435] ..# Speed:  1000
+[ 14.
+[ 14.458] >>> Prueba_Altitud y Cabeceo
+[ 14.478] %L(1): off
+[ 14.513]
+[ 14.518] >>> collision_Detector
+[ 14.541] --- collision_Detector --- Prueba_Altitud y Cabeceo
+[ 14.573] >>> control_Velocidad
+[ 14.590] %Light(2): ON
+[ 14.619] --- control_Velocidad455] ..# Joystick: -30 0
+[ 14.658] >>> Prueba_Altitud y Cabeceo
+[ 14.679] %L(1): off
+[ 14.713] --- Prueba_Altitud y Cabeceo
+[ 14.733] ..# Pitch: -30
+[ 14.755] ..# Roll:  0
+[ 14.767] >>> collision_Detector
+[ 14.790] --- collision_Detector
+[ 14.810] --- Monitoreo
+[ 14.832] >>> control_Velocidad
+[ 14.850] %Ligh
+[ 14.858] >>> Prueba_Altitud y Cabeceo
+[ 14.879] %L(1): off
+[ 14.913] --- Prueba_Altitud y Cabeceot(2): ON
+[ 14.954] --- control_Velocidad
+[ 15.017] >>> collision_Detector
+[ 15.040] --- collision_Detector
+[ 15.057] >>> Prueba_Altitud y Cabeceo
+[ 15.078] %L(1): off
+[ 15.112] --- Prueba_Altitud y Cabeceo
+[ 15.132] >>> control_Velocidad
+[ 15.150] %Light(2): ON
+[ 15.179] --- control_Velocidad
+[ 15.197] >>> Monitoreo
+[ 15.214] ..# Altitude:  8180
+[ 15.235] ..# Pilot_Power:  1022
+[ 15.258] >>> Prue
+[ 15.268] >>> collision_Detector
+[ 15.291] --- collision_Detectorba_Altitud y Cabeceo
+[ 15.319] %L(1): off
+[ 15.353] --- Prueba_Altitud y Cabeceo
+[ 15.373] ..# Speed:  1000
+[ 15.393] ..# Joystick: -30 0
+[ 15.418] ..# Pitch: -30
+[ 15.432] >>> control_Velocidad
+[ 15.450] %Ligh
+[ 15.458] >>> Prueba_Altitud y Cabeceo
+[ 15.479] %L(1): off
+[ 15.513]
+[ 15.518] >>> collision_Detector
+[ 15.541] --- collision_Detector --- Prueba_Altitud y Cabeceot(2): ON
+[ 15.594] --- control_Velocidad
+[ 15.617] ..# Roll:  0
+[ 15.633] --- Monitoreo
+[ 15.657] >>> Prueba_Altitud y Cabeceo
+[ 15.678] %L(1): off
+[ 15.712] --- Prueba_Altitud y Cabeceo
+[ 15.732] >>> control_Velocidad
+[ 15.750] %Light(2): ON
+[ 15.773] >>> collision_Detector
+[ 15.796] --- collision_Detector
+[ 15.818] --- control_Velocidad
+[ 15.857] >>> Prueba_Altitud y Cabeceo
+[ 15.878] %L(1): off
+[ 15.912] --- Prueba_Altitud y Cabeceo
+[ 16.017] >>> collision_Detector
+[ 16.040] --- collision_Detector
+
+[ 16.058] >>> Prueba_Altitud y Cabeceo
+[ 16.079] %L(1): off
+[ 16.113] --- Prueba_Altitud y Cabeceo[ 16.132] >>> control_Velocidad
+[ 16.150] %Light(2): ON
+[ 16.179] --- control_Velocidad
+[ 16.197] >>> Monitoreo
+[ 16.214] ..# Altitude:  7880
+[ 16.235] ..# Pilot_Power:  1022
+[ 16.258] >>> Prue
+[ 16.268] >>> collision_Detector
+[ 16.291] --- collision_Detectorba_Altitud y Cabeceo
+[ 16.319] %L(1): off
+[ 16.354] --- Prueba_Altitud y Cabeceo
+[ 16.373] >>> control_Velocidad
+[ 16.391] %Light(2): ON
+[ 16.420] --- control_Velocidad
+[ 16.436] ..# Speed:  1000
+[ 1
+[ 16.458] >>> Prueba_Altitud y Cabeceo
+[ 16.479] %L(1): off
+[ 16.513]
+[ 16.518] >>> collision_Detector
+[ 16.541] --- collision_Detector --- Prueba_Altitud y Cabeceo6.456] ..# Joystick: -30 0
+[ 16.596] ..# Pitch: -30
+[ 16.618] ..# Roll:  0
+[ 16.632] >>> control_Velocidad
+[ 16.650] %Ligh
+[ 16.658] >>> Prueba_Altitud y Cabeceo
+[ 16.679] %L(1): off
+[ 16.713] --- Prueba_Altitud y Cabeceot(2): ON
+[ 16.754] --- control_Veloc
+[ 16.768] >>> collision_Detector
+[ 16.791] --- collision_Detectoridad
+[ 16.811] --- Monitoreo
+[ 16.857] >>> Prueba_Altitud y Cabeceo
+[ 16.878] %L(1): off
+[ 16.912] --- Prueba_Altitud y Cabeceo
+[ 16.932] >>> control_Velocidad
+[ 16.950] %Light(2): ON
+[ 16.979] --- control_Velocidad
+[ 17.017] >>> collision_Detector
+[ 17.040] --- collision_Detector
+[ 17.057] >>> Prueba_Altitud y Cabeceo
+[ 17.078] %L(1): off
+[ 17.112] --- Prueba_Altitud y Cabeceo
+[ 17.197] >>> Monitoreo
+[ 17.214] ..# Altitude:  7580
+[ 17.232] >>> control_Velocidad
+[ 17.250] %Ligh
+[ 17.258] >>> Prueb
+[ 17.268] >>> collision_Detector
+[ 17.291] --- collision_Detectora_Altitud y Cabeceo
+[ 17.319] %L(1): off
+[ 17.353] --- Prueba_Altitud y Cabeceot(2): ON
+[ 17.394] --- control_Velocidad
+[ 17.412] ..# Pilot_Power:  1022
+[ 17.435] ..# Speed:  1000
+[ 17.
+[ 17.458] >>> Prueba_Altitud y Cabeceo
+[ 17.478] %L(1): off
+[ 17.513]
+[ 17.518] >>> collision_Detector
+[ 17.541] --- collision_Detector --- Prueba_Altitud y Cabeceo
+[ 17.573] >>> control_Velocidad
+[ 17.590] %Light(2): ON
+[ 17.619] --- control_Velocidad455] ..# Joystick: -30 0
+[ 17.658] >>> Prueba_Altitud y Cabeceo
+[ 17.679] %L(1): off
+[ 17.713] --- Prueba_Altitud y Cabeceo
+[ 17.733] ..# Pitch: -30
+[ 17.755] ..# Roll:  0
+[ 17.767] >>> collision_Detector
+[ 17.790] --- collision_Detector
+[ 17.810] --- Monitoreo
+[ 17.832] >>> control_Velocidad
+[ 17.850] %Ligh
+[ 17.858] >>> Prueba_Altitud y Cabeceo
+[ 17.879] %L(1): off
+[ 17.913] --- Prueba_Altitud y Cabeceot(2): ON
+[ 17.954] --- control_Velocidad
+[ 18.017] >>> collision_Detector
+[ 18.040] --- collision_Detector
+[ 18.057] >>> Prueba_Altitud y Cabeceo
+[ 18.078] %L(1): off
+[ 18.112] --- Prueba_Altitud y Cabeceo
+[ 18.132] >>> control_Velocidad
+[ 18.150] %Light(2): ON
+[ 18.179] --- control_Velocidad
+[ 18.197] >>> Monitoreo
+[ 18.214] ..# Altitude:  7280
+[ 18.235] ..# Pilot_Power:  1022
+[ 18.258] >>> Prue
+[ 18.268] >>> collision_Detector
+[ 18.291] --- collision_Detectorba_Altitud y Cabeceo
+[ 18.319] %L(1): off
+[ 18.353] --- Prueba_Altitud y Cabeceo
+[ 18.373] ..# Speed:  1000
+[ 18.393] ..# Joystick: -30 0
+[ 18.418] ..# Pitch: -30
+[ 18.432] >>> control_Velocidad
+[ 18.450] %Ligh
+[ 18.458] >>> Prueba_Altitud y Cabeceo
+[ 18.479] %L(1): off
+[ 18.513]
+[ 18.518] >>> collision_Detector
+[ 18.541] --- collision_Detector --- Prueba_Altitud y Cabeceot(2): ON
+[ 18.594] --- control_Velocidad
+[ 18.617] ..# Roll:  0
+[ 18.633] --- Monitoreo
+[ 18.657] >>> Prueba_Altitud y Cabeceo
+[ 18.678] %L(1): off
+[ 18.712] --- Prueba_Altitud y Cabeceo
+[ 18.732] >>> control_Velocidad
+[ 18.750] %Light(2): ON
+[ 18.773] >>> collision_Detector
+[ 18.796] --- collision_Detector
+[ 18.818] --- control_Velocidad
+[ 18.857] >>> Prueba_Altitud y Cabeceo
+[ 18.878] %L(1): off
+[ 18.912] --- Prueba_Altitud y Cabeceo
+[ 19.017] >>> collision_Detector
+[ 19.040] --- collision_Detector
+
+[ 19.058] >>> Prueba_Altitud y Cabeceo
+[ 19.079] %L(1): off
+[ 19.113] --- Prueba_Altitud y Cabeceo[ 19.132] >>> control_Velocidad
+[ 19.150] %Light(2): ON
+[ 19.179] --- control_Velocidad
+[ 19.197] >>> Monitoreo
+[ 19.214] ..# Altitude:  6980
+[ 19.235] ..# Pilot_Power:  1022
+[ 19.258] >>> Prue
+[ 19.268] >>> collision_Detector
+[ 19.291] --- collision_Detectorba_Altitud y Cabeceo
+[ 19.323] %L(1): off
+[ 19.354] --- Prueba_Altitud y Cabeceo
+[ 19.373] >>> control_Velocidad
+[ 19.391] %Light(2): ON
+[ 19.420] --- control_Velocidad
+[ 19.436] ..# Speed:  1000
+[ 1
+[ 19.458] >>> Prueba_Altitud y Cabeceo
+[ 19.479] %L(1): off
+[ 19.513]
+[ 19.518] >>> collision_Detector
+[ 19.541] --- collision_Detector --- Prueba_Altitud y Cabeceo9.456] ..# Joystick: -30 0
+[ 19.596] ..# Pitch: -30
+[ 19.618] ..# Roll:  0
+[ 19.632] >>> control_Velocidad
+[ 19.650] %Ligh
+[ 19.658] >>> Prueba_Altitud y Cabeceo
+[ 19.679] %L(1): off
+[ 19.713] --- Prueba_Altitud y Cabeceot(2): ON
+[ 19.754] --- control_Veloc
+[ 19.768] >>> collision_Detector
+[ 19.791] --- collision_Detectoridad
+[ 19.811] --- Monitoreo
+[ 19.857] >>> Prueba_Altitud y Cabeceo
+[ 19.878] %L(1): off
+[ 19.912] --- Prueba_Altitud y Cabeceo
+[ 19.932] >>> control_Velocidad
+[ 19.950] %Light(2): ON
+[ 19.979] --- control_Velocidad
+[ 20.017] >>> collision_Detector
+[ 20.040] --- collision_Detector
+[ 20.057] >>> Prueba_Altitud y Cabeceo
+[ 20.078] %L(1): off
+[ 20.112] --- Prueba_Altitud y Cabeceo
+[ 20.197] >>> Monitoreo
+[ 20.214] ..# Altitude:  6800
+[ 20.232] >>> control_Velocidad
+[ 20.250] %Ligh
+[ 20.258] >>> Prueb
+[ 20.268] >>> collision_Detector
+[ 20.291] --- collision_Detectora_Altitud y Cabeceo
+[ 20.319] %L(1): off
+[ 20.353] --- Prueba_Altitud y Cabeceot(2): ON
+[ 20.396] --- control_Velocidad
+[ 20.414] ..# Pilot_Power:  1022
+[ 20.437] ..# Speed:  1000
+[
+[ 20.458] >>> Prueba_Altitud y Cabeceo
+[ 20.479] %L(1): off
+[ 20.513]
+[ 20.518] >>> collision_Detector
+[ 20.541] --- collision_Detector --- Prueba_Altitud y Cabeceo
+[ 20.573] >>> control_Velocidad
+[ 20.590] %Light(2): ON
+[ 20.621] --- control_Velocidad 20.457] ..# Joystick:  30 30
+[ 20.663] >>> Prueba_Altitud y Cabeceo
+[ 20.684] %L(1): off
+[ 20.718] --- Prueba_Altitud y Cabeceo
+[ 20.738] ..# Pitch:  30
+[ 20.760] ..# 
+[ 20.768] >>> collision_Detector
+[ 20.791] --- collision_DetectorRoll:  30
+[ 20.816] --- Monitoreo
+[ 20.832] >>> control_Velocidad
+[ 20.850] %Ligh
+[ 20.858] >>> Prueba_Altitud y Cabeceo
+[ 20.879] %L(1): off
+[ 20.913] --- Prueba_Altitud y Cabeceot(2): ON
+[ 20.956] --- control_Velocidad
+[ 21.017] >>> collision_Detector
+[ 21.040] --- collision_Detector
+[ 21.057] >>> Prueba_Altitud y Cabeceo
+[ 21.078] %L(1): off
+[ 21.112] --- Prueba_Altitud y Cabeceo
+[ 21.132] >>> control_Velocidad
+[ 21.150] %Light(2): ON
+[ 21.181] --- control_Velocidad
+[ 21.197] >>> Monitoreo
+[ 21.214] ..# Altitude:  7100
+[ 21.235] ..# Pilot_Power:  1022
+[ 21.258] >>> Pru
+[ 21.268] >>> collision_Detector
+[ 21.291] --- collision_Detectoreba_Altitud y Cabeceo
+[ 21.319] %L(1): off
+[ 21.353] --- Prueba_Altitud y Cabeceo
+[ 21.373] ..# Speed:  1000
+[ 21.393] ..# Joystick:  30 30
+[ 21.419] ..# Pitch:  30
+[ 21.432] >>> control_Velocidad
+[ 21.450] %Ligh
+[ 21.458] >>> Prueba_Altitud y Cabeceo
+[ 21.479] %L(1): off
+[ 21.513]
+[ 21.518] >>> collision_Detector
+[ 21.541] --- collision_Detector --- Prueba_Altitud y Cabeceot(2): ON
+[ 21.596] --- control_Velocidad
+[ 21.620] ..# Roll:  30
+[ 21.636] --- Monitoreo
+[ 21.657] >>> Prueba_Altitud y Cabeceo
+[ 21.678] %L(1): off
+[ 21.712] --- Prueba_Altitud y Cabeceo
+[ 21.732] >>> control_Velocidad
+[ 21.750] %Light(2): ON
+[ 21.773] >>> collision_Detector
+[ 21.796] --- collision_Detector
+[ 21.820] --- control_Velocidad
+[ 21.857] >>> Prueba_Altitud y Cabeceo
+[ 21.878] %L(1): off
+[ 21.912] --- Prueba_Altitud y Cabeceo
+[ 22.017] >>> collision_Detector
+[ 22.040] --- collision_Detector
+
+[ 22.058] >>> Prueba_Altitud y Cabeceo
+[ 22.079] %L(1): off
+[ 22.113] --- Prueba_Altitud y Cabeceo[ 22.132] >>> control_Velocidad
+[ 22.150] %Light(2): ON
+[ 22.181] --- control_Velocidad
+[ 22.197] >>> Monitoreo
+[ 22.214] ..# Altitude:  7400
+[ 22.235] ..# Pilot_Power:  1022
+[ 22.258] >>> Pru
+[ 22.268] >>> collision_Detector
+[ 22.291] --- collision_Detectoreba_Altitud y Cabeceo
+[ 22.319] %L(1): off
+[ 22.354] --- Prueba_Altitud y Cabeceo
+[ 22.374] >>> control_Velocidad
+[ 22.391] %Light(2): ON
+[ 22.422] --- control_Velocidad
+[ 22.439] ..# Speed:  1000
+[ 22.458] >>> Prueba_Altitud y Cabeceo
+[ 22.479] %L(1): off
+[ 22.513
+[ 22.518] >>> collision_Detector
+[ 22.541] --- collision_Detector] --- Prueba_Altitud y Cabeceo
+[ 22.573] ..# Joystick:  30 30
+[ 22.599] ..# Pitch:  30
+[ 22.621] ..# Roll:  
+[ 22.633] >>> control_Velocidad
+[ 22.650] %Lig
+[ 22.658] >>> Prueba_Altitud y Cabeceo
+[ 22.678] %L(1): off
+[ 22.713] --- Prueba_Altitud y Cabeceoht(2): ON
+[ 22.756] --- control_
+[ 22.768] >>> collision_Detector
+[ 22.791] --- collision_DetectorVelocidad30
+[ 22.818] --- Monitoreo
+[ 22.857] >>> Prueba_Altitud y Cabeceo
+[ 22.878] %L(1): off
+[ 22.912] --- Prueba_Altitud y Cabeceo
+[ 22.932] >>> control_Velocidad
+[ 22.950] %Light(2): ON
+[ 22.981] --- control_Velocidad
+[ 23.017] >>> collision_Detector
+[ 23.040] --- collision_Detector
+[ 23.057] >>> Prueba_Altitud y Cabeceo
+[ 23.078] %L(1): off
+[ 23.112] --- Prueba_Altitud y Cabeceo
+[ 23.197] >>> Monitoreo
+[ 23.214] ..# Altitude:  7700
+[ 23.232] >>> control_Velocidad
+[ 23.250] %Ligh
+[ 23.258] >>> Prueb
+[ 23.268] >>> collision_Detector
+[ 23.291] --- collision_Detectora_Altitud y Cabeceo
+[ 23.319] %L(1): off
+[ 23.353] --- Prueba_Altitud y Cabeceot(2): ON
+[ 23.396] --- control_Velocidad
+[ 23.414] ..# Pilot_Power:  1022
+[ 23.437] ..# Speed:  1000
+[
+[ 23.458] >>> Prueba_Altitud y Cabeceo
+[ 23.479] %L(1): off
+[ 23.513]
+[ 23.518] >>> collision_Detector
+[ 23.541] --- collision_Detector --- Prueba_Altitud y Cabeceo
+[ 23.573] >>> control_Velocidad
+[ 23.590] %Light(2): ON
+[ 23.621] --- control_Velocidad 23.457] ..# Joystick:  30 30
+[ 23.663] >>> Prueba_Altitud y Cabeceo
+[ 23.684] %L(1): off
+[ 23.718] --- Prueba_Altitud y Cabeceo
+[ 23.738] ..# Pitch:  30
+[ 23.760] ..# 
+[ 23.768] >>> collision_Detector
+[ 23.791] --- collision_DetectorRoll:  30
+[ 23.816] --- Monitoreo
+[ 23.832] >>> control_Velocidad
+[ 23.850] %Ligh
+[ 23.858] >>> Prueba_Altitud y Cabeceo
+[ 23.879] %L(1): off
+[ 23.913] --- Prueba_Altitud y Cabeceot(2): ON
+[ 23.956] --- control_Velocidad
+[ 24.017] >>> collision_Detector
+[ 24.040] --- collision_Detector
+[ 24.057] >>> Prueba_Altitud y Cabeceo
+[ 24.078] %L(1): off
+[ 24.112] --- Prueba_Altitud y Cabeceo
+[ 24.132] >>> control_Velocidad
+[ 24.150] %Light(2): ON
+[ 24.181] --- control_Velocidad
+[ 24.197] >>> Monitoreo
+[ 24.214] ..# Altitude:  8000
+[ 24.235] ..# Pilot_Power:  1022
+[ 24.258] >>> Pru
+[ 24.268] >>> collision_Detector
+[ 24.291] --- collision_Detectoreba_Altitud y Cabeceo
+[ 24.319] %L(1): off
+[ 24.353] --- Prueba_Altitud y Cabeceo
+[ 24.373] ..# Speed:  1000
+[ 24.393] ..# Joystick:  30 30
+[ 24.419] ..# Pitch:  30
+[ 24.432] >>> control_Velocidad
+[ 24.450] %Ligh
+[ 24.458] >>> Prueba_Altitud y Cabeceo
+[ 24.479] %L(1): off
+[ 24.513]
+[ 24.518] >>> collision_Detector
+[ 24.541] --- collision_Detector --- Prueba_Altitud y Cabeceot(2): ON
+[ 24.596] --- control_Velocidad
+[ 24.620] ..# Roll:  30
+[ 24.636] --- Monitoreo
+[ 24.657] >>> Prueba_Altitud y Cabeceo
+[ 24.678] %L(1): off
+[ 24.712] --- Prueba_Altitud y Cabeceo
+[ 24.732] >>> control_Velocidad
+[ 24.750] %Light(2): ON
+[ 24.773] >>> collision_Detector
+[ 24.796] --- collision_Detector
+[ 24.820] --- control_Velocidad
+[ 24.857] >>> Prueba_Altitud y Cabeceo
+[ 24.878] %L(1): off
+[ 24.912] --- Prueba_Altitud y Cabeceo
+[ 25.017] >>> collision_Detector
+[ 25.040] --- collision_Detector
+
+[ 25.058] >>> Prueba_Altitud y Cabeceo
+[ 25.079] %L(1): off
+[ 25.113] --- Prueba_Altitud y Cabeceo[ 25.132] >>> control_Velocidad
+[ 25.150] %Light(2): ON
+[ 25.181] --- control_Velocidad
+[ 25.197] >>> Monitoreo
+[ 25.214] ..# Altitude:  8300
+[ 25.235] ..# Pilot_Power:  1022
+[ 25.258] >>> Pru
+[ 25.268] >>> collision_Detector
+[ 25.291] --- collision_Detectoreba_Altitud y Cabeceo
+[ 25.319] %L(1): off
+[ 25.354] --- Prueba_Altitud y Cabeceo
+[ 25.374] >>> control_Velocidad
+[ 25.391] %Light(2): ON
+[ 25.422] --- control_Velocidad
+[ 25.439] ..# Speed:  1000
+[ 25.458] >>> Prueba_Altitud y Cabeceo
+[ 25.479] %L(1): off
+[ 25.513
+[ 25.518] >>> collision_Detector
+[ 25.541] --- collision_Detector] --- Prueba_Altitud y Cabeceo
+[ 25.573] ..# Joystick:  30 30
+[ 25.599] ..# Pitch:  30
+[ 25.621] ..# Roll:  
+[ 25.633] >>> control_Velocidad
+[ 25.650] %Lig
+[ 25.658] >>> Prueba_Altitud y Cabeceo
+[ 25.678] %L(1): off
+[ 25.713] --- Prueba_Altitud y Cabeceoht(2): ON
+[ 25.756] --- control_
+[ 25.768] >>> collision_Detector
+[ 25.791] --- collision_DetectorVelocidad30
+[ 25.818] --- Monitoreo
+[ 25.857] >>> Prueba_Altitud y Cabeceo
+[ 25.878] %L(1): off
+[ 25.912] --- Prueba_Altitud y Cabeceo
+[ 25.932] >>> control_Velocidad
+[ 25.950] %Light(2): ON
+[ 25.981] --- control_Velocidad
+[ 26.017] >>> collision_Detector
+[ 26.040] --- collision_Detector
+[ 26.057] >>> Prueba_Altitud y Cabeceo
+[ 26.078] ..# MSSG: No se puede superar los 30º de pitch
+[ 26.112] %L(1): off
+[ 26.146] --- Prueba_Altitud y Cabeceo
+[ 26.197] >>> Monitoreo
+[ 26.214] ..# Altitude:  8600
+[ 26.232] >>> control_Velocidad
+[ 26.250] %Ligh
+[ 26.258] >>> Prueb
+[ 26.268] >>> collision_Detector
+[ 26.291] --- collision_Detectora_Altitud y Cabeceo
+[ 26.319] ..# MSSG: No se puede superar los 30º de pitch
+[ 26.352] %L(1): off
+[ 26.386] --- Prueba_Altitud y Cabeceot(2): ON
+[ 26.427] --- control_Velocidad
+[ 26.446] ..# Pilot_Pow
+[ 26.458] >>> Prueba_Altitud y Cabeceo
+[ 26.479] ..# MSSG: No se puede superar los 30º de pitch
+[ 26.512] 
+[ 26.518] >>> collision_Detector
+[ 26.541] --- collision_Detector%L(1): off
+[ 26.587] --- Prueba_Altitud y Cabeceo
+[ 26.607] >>> control_Velocidad
+[ 26.624] %Light(2): ON
+[ 26.653]
+[ 26.658] >>> Prueba_Altitud y Cabeceo
+[ 26.679] ..# MSSG: No se puede superar los 30º de pitch
+[ 26.712] %L(1): off
+[ 26.747] --- Prueba_Altitud y Cabeceo -
+[ 26.768] >>> collision_Detector
+[ 26.791] --- collision_Detector-- control_Velocidader:  1022
+[ 26.82
+[ 26.833] >>> control_Velocidad
+[ 26.850] %Lig
+[ 26.858] >>> Prueba_Altitud y Cabeceo
+[ 26.878] ..# MSSG: No se puede superar los 30º de pitch
+[ 26.912] %L(1): off
+[ 26.946] --- Prueba_Altitud y Cabeceoht(2): ON
+[ 26.988] --- control_Velocidad9] ..# Speed:  1000
+[ 27.017] >>> collision_Detector
+[ 27.040] --- collision_Detector
+[ 27.059] >>> Prueba_Altitud y Cabeceo
+[ 27.080] %L(1): off
+[ 27.114] --- Prueba_Altitud y Cabeceo
+[ 27.134] >>> control_Velocidad
+[ 27.151] %Light(2): ON
+[ 27.180] --- control_Velocidad
+[ 27.197] ..# Joystick: -30 0
+[ 27.222] ..# Pitch: -30
+[ 27.244] ..# Roll:  0
+[ 27.257] >>> Prueb
+[ 27.268] >>> collision_Detector
+[ 27.291] --- collision_Detectora_Altitud y Cabeceo
+[ 27.318] %L(1): off
+[ 27.352] --- Prueba_Altitud y Cabeceo
+[ 27.374] --- Monitoreo
+[ 27.387] >>> Monitoreo
+[ 27.403] ..# Altitude:  8720
+[ 27.424] ..# P
+[ 27.433] >>> control_Velocidad
+[ 27.450] %Ligh
+[ 27.458] >>> Prueba_Altitud y Cabeceo
+[ 27.479] %L(1): off
+[ 27.513
+[ 27.518] >>> collision_Detector
+[ 27.541] --- collision_Detector] --- Prueba_Altitud y Cabeceot(2): ON
+[ 27.594] --- control_Velocidadilot_Power:  1022
+[ 27.625] ..# Speed:  1000
+[ 27.645] ..# Joystick: -
+[ 27.658] >>> Prueba_Altitud y Cabeceo
+[ 27.679] %L(1): off
+[ 27.713] --- Prueba_Altitud y Cabeceo
+[ 27.733] >>> control_Velocidad
+[ 27.750] %Light(2): ON
+[ 27.768] >>> collision_Detector
+[ 27.791] --- collision_Detector
+[ 27.819] --- control_Velocidad30 0
+[ 27.847] ..# Pitch:
+[ 27.858] >>> Prueba_Altitud y Cabeceo
+[ 27.879] %L(1): off
+[ 27.913] --- Prueba_Altitud y Cabeceo -30
+[ 27.944] ..# Roll:  0
+[ 27.960] --- Monitoreo
+[ 28.017] >>> collision_Detector
+[ 28.040] --- collision_Detector
+
+[ 28.058] >>> Prueba_Altitud y Cabeceo
+[ 28.079] %L(1): off
+[ 28.113] --- Prueba_Altitud y Cabeceo[ 28.132] >>> control_Velocidad
+[ 28.150] %Light(2): ON
+[ 28.179] --- control_Velocidad
+[ 28.197] >>> Monitoreo
+[ 28.214] ..# Altitude:  8480
+[ 28.235] ..# Pilot_Power:  1022
+[ 28.258] >>> Pru
+Interrupt!
+ Stopped at time 285006808 (2.036e+01 s)
+tsim> 
