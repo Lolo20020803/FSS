@@ -1,0 +1,967 @@
+
+ TSIM/ERC32 - remote SPARC simulator, version 1.0.10 (evaluation version)
+
+ Copyright (C) 2001, Gaisler Research - all rights reserved.
+ For latest updates, go to http://www.gaisler.com/
+ Comments or bug-reports to tsim@gaisler.com
+
+libreadline.so.3: cannot open shared object file: No such file or directory
+serial port A on stdin/stdout
+allocated 4096 K RAM memory
+allocated 2048 K ROM memory
+section: .text at 0x2000000, size 211344 bytes
+section: .data at 0x2033990, size 11772 bytes
+tsim> resuming at 0x02000000
+
+[ 0.0038] >>> Change Mode
+[ 0.0171] >>> Prueba_Altitud y Cabeceo
+[ 0.0379] %L(1): off
+[ 0.0721] --- Prueba_Altitud y Cabeceo
+[ 0.0920] >>> Monitoreo
+[ 0.1089] ..# Altitude:  7940
+[ 0.1299] ..# Pilot_Power:  1022
+[ 0.1528] ..# Speed:  0
+[ 0.1707] ..# Joystick: -30 35
+[ 0.1966] ..# Pitch: -30
+[ 0.2190] >>> Prueba_Altitud y Cabeceo
+[ 0.2399] %L(1): off
+[ 0.2740] --- Prueba_Altitud y Cabeceo
+[ 0.2940] ..# Roll:  0
+[ 0.3096] --- Monitoreo
+[ 0.4168] >>> Prueba_Altitud y Cabeceo
+[ 0.4376] %L(1): off
+[ 0.4718] --- Prueba_Altitud y Cabeceo
+[ 0.6168] >>> Prueba_Altitud y Cabeceo
+[ 0.6376] %L(1): off
+[ 0.6717] --- Prueba_Altitud y Cabeceo
+[ 0.8168] >>> Prueba_Altitud y Cabeceo
+[ 0.8376] %L(1): off
+[ 0.8718] --- Prueba_Altitud y Cabeceo
+[ 1.0168] >>> Prueba_Altitud y Cabeceo
+[ 1.0377] %L(1): off
+[ 1.0718] --- Prueba_Altitud y Cabeceo
+[ 1.0918] >>> Monitoreo
+[ 1.1087] ..# Altitude:  7640
+[ 1.1296] ..# Pilot_Power:  1022
+[ 1.1526] ..# Speed:  0
+[ 1.1704] ..# Joystick: -30 35
+[ 1.1964] ..# Pitch: -30
+[ 1.2188] >>> Prueba_Altitud y Cabeceo
+[ 1.2396] %L(1): off
+[ 1.2737] --- Prueba_Altitud y Cabeceo
+[ 1.2937] ..# Roll:  0
+[ 1.3093] --- Monitoreo
+[ 1.4168] >>> Prueba_Altitud y Cabeceo
+[ 1.4376] %L(1): off
+[ 1.4718] --- Prueba_Altitud y Cabeceo
+[ 1.6168] >>> Prueba_Altitud y Cabeceo
+[ 1.6376] %L(1): off
+[ 1.6718] --- Prueba_Altitud y Cabeceo
+[ 1.8168] >>> Prueba_Altitud y Cabeceo
+[ 1.8376] %L(1): off
+[ 1.8718] --- Prueba_Altitud y Cabeceo
+[ 2.0168] >>> Prueba_Altitud y Cabeceo
+[ 2.0377] %L(1): off
+[ 2.0718] --- Prueba_Altitud y Cabeceo
+[ 2.0918] >>> Monitoreo
+[ 2.1087] ..# Altitude:  7340
+[ 2.1296] ..# Pilot_Power:  1022
+[ 2.1526] ..# Speed:  0
+[ 2.1704] ..# Joystick: -30 35
+[ 2.1964] ..# Pitch: -30
+[ 2.2188] >>> Prueba_Altitud y Cabeceo
+[ 2.2396] %L(1): off
+[ 2.2737] --- Prueba_Altitud y Cabeceo
+[ 2.2937] ..# Roll:  0
+[ 2.3093] --- Monitoreo
+[ 2.4168] >>> Prueba_Altitud y Cabeceo
+[ 2.4376] %L(1): off
+[ 2.4718] --- Prueba_Altitud y Cabeceo
+[ 2.6168] >>> Prueba_Altitud y Cabeceo
+[ 2.6376] %L(1): off
+[ 2.6718] --- Prueba_Altitud y Cabeceo
+[ 2.8168] >>> Prueba_Altitud y Cabeceo
+[ 2.8376] %L(1): off
+[ 2.8718] --- Prueba_Altitud y Cabeceo
+[ 3.0168] >>> Prueba_Altitud y Cabeceo
+[ 3.0377] %L(1): off
+[ 3.0718] --- Prueba_Altitud y Cabeceo
+[ 3.0918] >>> Monitoreo
+[ 3.1087] ..# Altitude:  7040
+[ 3.1296] ..# Pilot_Power:  1022
+[ 3.1526] ..# Speed:  0
+[ 3.1704] ..# Joystick: -30 35
+[ 3.1964] ..# Pitch: -30
+[ 3.2188] >>> Prueba_Altitud y Cabeceo
+[ 3.2396] %L(1): off
+[ 3.2737] --- Prueba_Altitud y Cabeceo
+[ 3.2937] ..# Roll:  0
+[ 3.3093] --- Monitoreo
+[ 3.4168] >>> Prueba_Altitud y Cabeceo
+[ 3.4376] %L(1): off
+[ 3.4718] --- Prueba_Altitud y Cabeceo
+[ 3.6168] >>> Prueba_Altitud y Cabeceo
+[ 3.6376] %L(1): off
+[ 3.6718] --- Prueba_Altitud y Cabeceo
+[ 3.8168] >>> Prueba_Altitud y Cabeceo
+[ 3.8376] %L(1): off
+[ 3.8718] --- Prueba_Altitud y Cabeceo
+[ 4.0168] >>> Prueba_Altitud y Cabeceo
+[ 4.0377] %L(1): off
+[ 4.0718] --- Prueba_Altitud y Cabeceo
+[ 4.0918] >>> Monitoreo
+[ 4.1087] ..# Altitude:  6740
+[ 4.1296] ..# Pilot_Power:  1022
+[ 4.1526] ..# Speed:  0
+[ 4.1704] ..# Joystick: -30 35
+[ 4.1964] ..# Pitch: -30
+[ 4.2188] >>> Prueba_Altitud y Cabeceo
+[ 4.2396] %L(1): off
+[ 4.2737] --- Prueba_Altitud y Cabeceo
+[ 4.2937] ..# Roll:  0
+[ 4.3093] --- Monitoreo
+[ 4.4168] >>> Prueba_Altitud y Cabeceo
+[ 4.4376] %L(1): off
+[ 4.4718] --- Prueba_Altitud y Cabeceo
+[ 4.6168] >>> Prueba_Altitud y Cabeceo
+[ 4.6376] %L(1): off
+[ 4.6718] --- Prueba_Altitud y Cabeceo
+[ 4.8168] >>> Prueba_Altitud y Cabeceo
+[ 4.8376] %L(1): off
+[ 4.8718] --- Prueba_Altitud y Cabeceo
+[ 5.0168] >>> Prueba_Altitud y Cabeceo
+[ 5.0377] %L(1): off
+[ 5.0718] --- Prueba_Altitud y Cabeceo
+[ 5.0918] >>> Monitoreo
+[ 5.1087] ..# Altitude:  6440
+[ 5.1296] ..# Pilot_Power:  1022
+[ 5.1526] ..# Speed:  0
+[ 5.1704] ..# Joystick: -30 35
+[ 5.1964] ..# Pitch: -30
+[ 5.2188] >>> Prueba_Altitud y Cabeceo
+[ 5.2396] %L(1): off
+[ 5.2737] --- Prueba_Altitud y Cabeceo
+[ 5.2937] ..# Roll:  0
+[ 5.3093] --- Monitoreo
+[ 5.4168] >>> Prueba_Altitud y Cabeceo
+[ 5.4376] %L(1): off
+[ 5.4718] --- Prueba_Altitud y Cabeceo
+[ 5.6168] >>> Prueba_Altitud y Cabeceo
+[ 5.6376] %L(1): off
+[ 5.6718] --- Prueba_Altitud y Cabeceo
+[ 5.8168] >>> Prueba_Altitud y Cabeceo
+[ 5.8376] %L(1): off
+[ 5.8718] --- Prueba_Altitud y Cabeceo
+[ 6.0168] >>> Prueba_Altitud y Cabeceo
+[ 6.0377] %L(1): off
+[ 6.0718] --- Prueba_Altitud y Cabeceo
+[ 6.0918] >>> Monitoreo
+[ 6.1087] ..# Altitude:  6140
+[ 6.1296] ..# Pilot_Power:  1022
+[ 6.1526] ..# Speed:  0
+[ 6.1704] ..# Joystick: -30 35
+[ 6.1964] ..# Pitch: -30
+[ 6.2188] >>> Prueba_Altitud y Cabeceo
+[ 6.2396] %L(1): off
+[ 6.2737] --- Prueba_Altitud y Cabeceo
+[ 6.2937] ..# Roll:  0
+[ 6.3093] --- Monitoreo
+[ 6.4168] >>> Prueba_Altitud y Cabeceo
+[ 6.4418] %L(1): off
+[ 6.4718] --- Prueba_Altitud y Cabeceo
+[ 6.6168] >>> Prueba_Altitud y Cabeceo
+[ 6.6376] %L(1): off
+[ 6.6718] --- Prueba_Altitud y Cabeceo
+[ 6.8168] >>> Prueba_Altitud y Cabeceo
+[ 6.8376] %L(1): off
+[ 6.8718] --- Prueba_Altitud y Cabeceo
+[ 7.0168] >>> Prueba_Altitud y Cabeceo
+[ 7.0377] %L(1): off
+[ 7.0718] --- Prueba_Altitud y Cabeceo
+[ 7.0918] >>> Monitoreo
+[ 7.1087] ..# Altitude:  5840
+[ 7.1296] ..# Pilot_Power:  1022
+[ 7.1526] ..# Speed:  0
+[ 7.1704] ..# Joystick: -30 35
+[ 7.1964] ..# Pitch: -30
+[ 7.2188] >>> Prueba_Altitud y Cabeceo
+[ 7.2396] %L(1): off
+[ 7.2738] --- Prueba_Altitud y Cabeceo
+[ 7.2937] ..# Roll:  0
+[ 7.3094] --- Monitoreo
+[ 7.4168] >>> Prueba_Altitud y Cabeceo
+[ 7.4376] %L(1): off
+[ 7.4718] --- Prueba_Altitud y Cabeceo
+[ 7.6168] >>> Prueba_Altitud y Cabeceo
+[ 7.6376] %L(1): off
+[ 7.6718] --- Prueba_Altitud y Cabeceo
+[ 7.8168] >>> Prueba_Altitud y Cabeceo
+[ 7.8376] %L(1): off
+[ 7.8718] --- Prueba_Altitud y Cabeceo
+[ 8.0168] >>> Prueba_Altitud y Cabeceo
+[ 8.0377] %L(1): off
+[ 8.0718] --- Prueba_Altitud y Cabeceo
+[ 8.0918] >>> Monitoreo
+[ 8.1087] ..# Altitude:  5540
+[ 8.1296] ..# Pilot_Power:  1022
+[ 8.1526] ..# Speed:  0
+[ 8.1704] ..# Joystick: -30 35
+[ 8.1964] ..# Pitch: -30
+[ 8.2188] >>> Prueba_Altitud y Cabeceo
+[ 8.2396] %L(1): off
+[ 8.2738] --- Prueba_Altitud y Cabeceo
+[ 8.2937] ..# Roll:  0
+[ 8.3094] --- Monitoreo
+[ 8.4168] >>> Prueba_Altitud y Cabeceo
+[ 8.4376] %L(1): off
+[ 8.4718] --- Prueba_Altitud y Cabeceo
+[ 8.6168] >>> Prueba_Altitud y Cabeceo
+[ 8.6376] %L(1): off
+[ 8.6718] --- Prueba_Altitud y Cabeceo
+[ 8.8168] >>> Prueba_Altitud y Cabeceo
+[ 8.8376] %L(1): off
+[ 8.8718] --- Prueba_Altitud y Cabeceo
+[ 9.0168] >>> Prueba_Altitud y Cabeceo
+[ 9.0377] %L(1): off
+[ 9.0718] --- Prueba_Altitud y Cabeceo
+[ 9.0918] >>> Monitoreo
+[ 9.1087] ..# Altitude:  5240
+[ 9.1296] ..# Pilot_Power:  1022
+[ 9.1526] ..# Speed:  0
+[ 9.1704] ..# Joystick: -30 35
+[ 9.1964] ..# Pitch: -30
+[ 9.2188] >>> Prueba_Altitud y Cabeceo
+[ 9.2396] %L(1): off
+[ 9.2738] --- Prueba_Altitud y Cabeceo
+[ 9.2937] ..# Roll:  0
+[ 9.3094] --- Monitoreo
+[ 9.4168] >>> Prueba_Altitud y Cabeceo
+[ 9.4376] %L(1): off
+[ 9.4718] --- Prueba_Altitud y Cabeceo
+[ 9.6168] >>> Prueba_Altitud y Cabeceo
+[ 9.6376] %L(1): off
+[ 9.6718] --- Prueba_Altitud y Cabeceo
+[ 9.8168] >>> Prueba_Altitud y Cabeceo
+[ 9.8376] %L(1): off
+[ 9.8718] --- Prueba_Altitud y Cabeceo
+[ 10.016] >>> Prueba_Altitud y Cabeceo
+[ 10.037] %L(1): off
+[ 10.071] --- Prueba_Altitud y Cabeceo
+[ 10.091] >>> Monitoreo
+[ 10.108] ..# Altitude:  4940
+[ 10.129] ..# Pilot_Power:  1022
+[ 10.152] ..# Speed:  0
+[ 10.170] ..# Joystick: -30 35
+[ 10.196] ..# Pitch: -30
+[ 10.218] >>> Prueba_Altitud y Cabeceo
+[ 10.239] %L(1): off
+[ 10.273] --- Prueba_Altitud y Cabeceo
+[ 10.293] ..# Roll:  0
+[ 10.309] --- Monitoreo
+[ 10.416] >>> Prueba_Altitud y Cabeceo
+[ 10.437] %L(1): off
+[ 10.471] --- Prueba_Altitud y Cabeceo
+[ 10.616] >>> Prueba_Altitud y Cabeceo
+[ 10.637] %L(1): off
+[ 10.671] --- Prueba_Altitud y Cabeceo
+[ 10.816] >>> Prueba_Altitud y Cabeceo
+[ 10.837] %L(1): off
+[ 10.871] --- Prueba_Altitud y Cabeceo
+[ 11.016] >>> Prueba_Altitud y Cabeceo
+[ 11.037] %L(1): off
+[ 11.071] --- Prueba_Altitud y Cabeceo
+[ 11.091] >>> Monitoreo
+[ 11.108] ..# Altitude:  4640
+[ 11.129] ..# Pilot_Power:  1022
+[ 11.152] ..# Speed:  0
+[ 11.170] ..# Joystick: -30 35
+[ 11.196] ..# Pitch: -30
+[ 11.218] >>> Prueba_Altitud y Cabeceo
+[ 11.239] %L(1): off
+[ 11.273] --- Prueba_Altitud y Cabeceo
+[ 11.293] ..# Roll:  0
+[ 11.309] --- Monitoreo
+[ 11.416] >>> Prueba_Altitud y Cabeceo
+[ 11.437] %L(1): off
+[ 11.471] --- Prueba_Altitud y Cabeceo
+[ 11.616] >>> Prueba_Altitud y Cabeceo
+[ 11.637] %L(1): off
+[ 11.671] --- Prueba_Altitud y Cabeceo
+[ 11.816] >>> Prueba_Altitud y Cabeceo
+[ 11.837] %L(1): off
+[ 11.871] --- Prueba_Altitud y Cabeceo
+[ 12.016] >>> Prueba_Altitud y Cabeceo
+[ 12.037] %L(1): off
+[ 12.071] --- Prueba_Altitud y Cabeceo
+[ 12.091] >>> Monitoreo
+[ 12.108] ..# Altitude:  4340
+[ 12.129] ..# Pilot_Power:  1022
+[ 12.152] ..# Speed:  0
+[ 12.170] ..# Joystick: -30 35
+[ 12.196] ..# Pitch: -30
+[ 12.218] >>> Prueba_Altitud y Cabeceo
+[ 12.239] %L(1): off
+[ 12.273] --- Prueba_Altitud y Cabeceo
+[ 12.293] ..# Roll:  0
+[ 12.309] --- Monitoreo
+[ 12.416] >>> Prueba_Altitud y Cabeceo
+[ 12.437] %L(1): off
+[ 12.471] --- Prueba_Altitud y Cabeceo
+[ 12.616] >>> Prueba_Altitud y Cabeceo
+[ 12.637] %L(1): off
+[ 12.671] --- Prueba_Altitud y Cabeceo
+[ 12.816] >>> Prueba_Altitud y Cabeceo
+[ 12.837] %L(1): off
+[ 12.871] --- Prueba_Altitud y Cabeceo
+[ 13.016] >>> Prueba_Altitud y Cabeceo
+[ 13.037] %L(1): off
+[ 13.071] --- Prueba_Altitud y Cabeceo
+[ 13.091] >>> Monitoreo
+[ 13.108] ..# Altitude:  4040
+[ 13.129] ..# Pilot_Power:  1022
+[ 13.152] ..# Speed:  0
+[ 13.170] ..# Joystick: -30 35
+[ 13.196] ..# Pitch: -30
+[ 13.218] >>> Prueba_Altitud y Cabeceo
+[ 13.239] %L(1): off
+[ 13.273] --- Prueba_Altitud y Cabeceo
+[ 13.293] ..# Roll:  0
+[ 13.309] --- Monitoreo
+[ 13.416] >>> Prueba_Altitud y Cabeceo
+[ 13.437] %L(1): off
+[ 13.471] --- Prueba_Altitud y Cabeceo
+[ 13.616] >>> Prueba_Altitud y Cabeceo
+[ 13.637] %L(1): off
+[ 13.671] --- Prueba_Altitud y Cabeceo
+[ 13.816] >>> Prueba_Altitud y Cabeceo
+[ 13.837] %L(1): off
+[ 13.871] --- Prueba_Altitud y Cabeceo
+[ 14.016] >>> Prueba_Altitud y Cabeceo
+[ 14.037] %L(1): off
+[ 14.071] --- Prueba_Altitud y Cabeceo
+[ 14.091] >>> Monitoreo
+[ 14.108] ..# Altitude:  3740
+[ 14.129] ..# Pilot_Power:  1022
+[ 14.152] ..# Speed:  0
+[ 14.170] ..# Joystick: -30 35
+[ 14.196] ..# Pitch: -30
+[ 14.218] >>> Prueba_Altitud y Cabeceo
+[ 14.239] %L(1): off
+[ 14.273] --- Prueba_Altitud y Cabeceo
+[ 14.293] ..# Roll:  0
+[ 14.309] --- Monitoreo
+[ 14.416] >>> Prueba_Altitud y Cabeceo
+[ 14.437] %L(1): off
+[ 14.471] --- Prueba_Altitud y Cabeceo
+[ 14.616] >>> Prueba_Altitud y Cabeceo
+[ 14.637] %L(1): off
+[ 14.671] --- Prueba_Altitud y Cabeceo
+[ 14.816] >>> Prueba_Altitud y Cabeceo
+[ 14.837] %L(1): off
+[ 14.871] --- Prueba_Altitud y Cabeceo
+[ 15.016] >>> Prueba_Altitud y Cabeceo
+[ 15.037] %L(1): off
+[ 15.071] --- Prueba_Altitud y Cabeceo
+[ 15.091] >>> Monitoreo
+[ 15.108] ..# Altitude:  3440
+[ 15.129] ..# Pilot_Power:  1022
+[ 15.152] ..# Speed:  0
+[ 15.170] ..# Joystick: -30 35
+[ 15.196] ..# Pitch: -30
+[ 15.218] >>> Prueba_Altitud y Cabeceo
+[ 15.239] %L(1): off
+[ 15.273] --- Prueba_Altitud y Cabeceo
+[ 15.293] ..# Roll:  0
+[ 15.309] --- Monitoreo
+[ 15.416] >>> Prueba_Altitud y Cabeceo
+[ 15.437] %L(1): off
+[ 15.471] --- Prueba_Altitud y Cabeceo
+[ 15.616] >>> Prueba_Altitud y Cabeceo
+[ 15.637] %L(1): off
+[ 15.671] --- Prueba_Altitud y Cabeceo
+[ 15.816] >>> Prueba_Altitud y Cabeceo
+[ 15.837] %L(1): off
+[ 15.871] --- Prueba_Altitud y Cabeceo
+[ 16.016] >>> Prueba_Altitud y Cabeceo
+[ 16.037] %L(1): off
+[ 16.071] --- Prueba_Altitud y Cabeceo
+[ 16.091] >>> Monitoreo
+[ 16.108] ..# Altitude:  3140
+[ 16.129] ..# Pilot_Power:  1022
+[ 16.152] ..# Speed:  0
+[ 16.170] ..# Joystick: -30 35
+[ 16.196] ..# Pitch: -30
+[ 16.218] >>> Prueba_Altitud y Cabeceo
+[ 16.239] %L(1): off
+[ 16.273] --- Prueba_Altitud y Cabeceo
+[ 16.293] ..# Roll:  0
+[ 16.309] --- Monitoreo
+[ 16.416] >>> Prueba_Altitud y Cabeceo
+[ 16.437] %L(1): off
+[ 16.471] --- Prueba_Altitud y Cabeceo
+[ 16.616] >>> Prueba_Altitud y Cabeceo
+[ 16.637] %L(1): off
+[ 16.671] --- Prueba_Altitud y Cabeceo
+[ 16.816] >>> Prueba_Altitud y Cabeceo
+[ 16.837] %L(1): off
+[ 16.871] --- Prueba_Altitud y Cabeceo
+[ 17.016] >>> Prueba_Altitud y Cabeceo
+[ 17.037] %L(1): off
+[ 17.071] --- Prueba_Altitud y Cabeceo
+[ 17.091] >>> Monitoreo
+[ 17.108] ..# Altitude:  2840
+[ 17.129] ..# Pilot_Power:  1022
+[ 17.152] ..# Speed:  0
+[ 17.170] ..# Joystick: -30 35
+[ 17.196] ..# Pitch: -30
+[ 17.218] >>> Prueba_Altitud y Cabeceo
+[ 17.239] %L(1): off
+[ 17.273] --- Prueba_Altitud y Cabeceo
+[ 17.293] ..# Roll:  0
+[ 17.309] --- Monitoreo
+[ 17.416] >>> Prueba_Altitud y Cabeceo
+[ 17.437] %L(1): off
+[ 17.471] --- Prueba_Altitud y Cabeceo
+[ 17.616] >>> Prueba_Altitud y Cabeceo
+[ 17.637] %L(1): off
+[ 17.671] --- Prueba_Altitud y Cabeceo
+[ 17.816] >>> Prueba_Altitud y Cabeceo
+[ 17.837] %L(1): off
+[ 17.871] --- Prueba_Altitud y Cabeceo
+[ 18.016] >>> Prueba_Altitud y Cabeceo
+[ 18.037] %L(1): off
+[ 18.071] --- Prueba_Altitud y Cabeceo
+[ 18.091] >>> Monitoreo
+[ 18.108] ..# Altitude:  2540
+[ 18.129] ..# Pilot_Power:  1022
+[ 18.152] ..# Speed:  0
+[ 18.170] ..# Joystick: -30 35
+[ 18.196] ..# Pitch: -30
+[ 18.218] >>> Prueba_Altitud y Cabeceo
+[ 18.239] %L(1): off
+[ 18.273] --- Prueba_Altitud y Cabeceo
+[ 18.293] ..# Roll:  0
+[ 18.309] --- Monitoreo
+[ 18.416] >>> Prueba_Altitud y Cabeceo
+[ 18.437] %Light(1): ON
+[ 18.473] --- Prueba_Altitud y Cabeceo
+[ 18.616] >>> Prueba_Altitud y Cabeceo
+[ 18.637] %Light(1): ON
+[ 18.673] --- Prueba_Altitud y Cabeceo
+[ 18.816] >>> Prueba_Altitud y Cabeceo
+[ 18.837] %Light(1): ON
+[ 18.873] --- Prueba_Altitud y Cabeceo
+[ 19.016] >>> Prueba_Altitud y Cabeceo
+[ 19.037] %Light(1): ON
+[ 19.073] --- Prueba_Altitud y Cabeceo
+[ 19.093] >>> Monitoreo
+[ 19.110] ..# Altitude:  2240
+[ 19.131] ..# Pilot_Power:  1022
+[ 19.154] ..# Speed:  0
+[ 19.172] ..# Joystick: -30 35
+[ 19.197] ..# Pitch: -30
+[ 19.220] >>> Prueba_Altitud y Cabeceo
+[ 19.241] %Light(1): ON
+[ 19.276] --- Prueba_Altitud y Cabeceo
+[ 19.296] ..# Roll:  0
+[ 19.312] --- Monitoreo
+[ 19.416] >>> Prueba_Altitud y Cabeceo
+[ 19.437] %Light(1): ON
+[ 19.473] --- Prueba_Altitud y Cabeceo
+[ 19.616] >>> Prueba_Altitud y Cabeceo
+[ 19.637] %Light(1): ON
+[ 19.673] --- Prueba_Altitud y Cabeceo
+[ 19.816] >>> Prueba_Altitud y Cabeceo
+[ 19.837] %Light(1): ON
+[ 19.873] --- Prueba_Altitud y Cabeceo
+[ 20.016] >>> Prueba_Altitud y Cabeceo
+[ 20.037] ..# MSSG: Altura menor a 2000 no se puede descender mas
+[ 20.092] --- Prueba_Altitud y Cabeceo
+[ 20.112] >>> Monitoreo
+[ 20.129] ..# Altitude:  2000
+[ 20.150] ..# Pilot_Power:  1022
+[ 20.173] ..# Speed:  0
+[ 20.191] ..# Joystick: -30 30
+[ 20.217] >>> Prueba_Altitud y Cabeceo
+[ 20.238] ..# MSSG: Altura menor a 2000 no se puede descender mas
+[ 20.293] --- Prueba_Altitud y Cabeceo
+[ 20.313] ..# Pitch:  0
+[ 20.334] ..# Roll:  0
+[ 20.350] --- Monitoreo
+[ 20.416] >>> Prueba_Altitud y Cabeceo
+[ 20.437] ..# MSSG: Altura menor a 2000 no se puede descender mas
+[ 20.492] --- Prueba_Altitud y Cabeceo
+[ 20.616] >>> Prueba_Altitud y Cabeceo
+[ 20.637] ..# MSSG: Altura menor a 2000 no se puede descender mas
+[ 20.692] --- Prueba_Altitud y Cabeceo
+[ 20.816] >>> Prueba_Altitud y Cabeceo
+[ 20.837] ..# MSSG: Altura menor a 2000 no se puede descender mas
+[ 20.892] --- Prueba_Altitud y Cabeceo
+[ 21.016] >>> Prueba_Altitud y Cabeceo
+[ 21.037] ..# MSSG: Altura menor a 2000 no se puede descender mas
+[ 21.092] --- Prueba_Altitud y Cabeceo
+[ 21.112] >>> Monitoreo
+[ 21.129] ..# Altitude:  2000
+[ 21.150] ..# Pilot_Power:  1022
+[ 21.173] ..# Speed:  0
+[ 21.191] ..# Joystick: -30 30
+[ 21.217] >>> Prueba_Altitud y Cabeceo
+[ 21.238] ..# MSSG: Altura menor a 2000 no se puede descender mas
+[ 21.293] --- Prueba_Altitud y Cabeceo
+[ 21.313] ..# Pitch:  0
+[ 21.334] ..# Roll:  0
+[ 21.350] --- Monitoreo
+[ 21.416] >>> Prueba_Altitud y Cabeceo
+[ 21.437] ..# MSSG: Altura menor a 2000 no se puede descender mas
+[ 21.492] --- Prueba_Altitud y Cabeceo
+[ 21.616] >>> Prueba_Altitud y Cabeceo
+[ 21.637] ..# MSSG: Altura menor a 2000 no se puede descender mas
+[ 21.692] --- Prueba_Altitud y Cabeceo
+[ 21.816] >>> Prueba_Altitud y Cabeceo
+[ 21.837] ..# MSSG: Altura menor a 2000 no se puede descender mas
+[ 21.892] --- Prueba_Altitud y Cabeceo
+[ 22.016] >>> Prueba_Altitud y Cabeceo
+[ 22.037] ..# MSSG: Altura menor a 2000 no se puede descender mas
+[ 22.092] --- Prueba_Altitud y Cabeceo
+[ 22.112] >>> Monitoreo
+[ 22.129] ..# Altitude:  2000
+[ 22.150] ..# Pilot_Power:  1022
+[ 22.173] ..# Speed:  0
+[ 22.191] ..# Joystick: -30 30
+[ 22.217] >>> Prueba_Altitud y Cabeceo
+[ 22.238] ..# MSSG: Altura menor a 2000 no se puede descender mas
+[ 22.293] --- Prueba_Altitud y Cabeceo
+[ 22.313] ..# Pitch:  0
+[ 22.334] ..# Roll:  0
+[ 22.350] --- Monitoreo
+[ 22.416] >>> Prueba_Altitud y Cabeceo
+[ 22.437] ..# MSSG: Altura menor a 2000 no se puede descender mas
+[ 22.492] --- Prueba_Altitud y Cabeceo
+[ 22.616] >>> Prueba_Altitud y Cabeceo
+[ 22.637] ..# MSSG: Altura menor a 2000 no se puede descender mas
+[ 22.692] --- Prueba_Altitud y Cabeceo
+[ 22.816] >>> Prueba_Altitud y Cabeceo
+[ 22.837] ..# MSSG: Altura menor a 2000 no se puede descender mas
+[ 22.892] --- Prueba_Altitud y Cabeceo
+[ 23.016] >>> Prueba_Altitud y Cabeceo
+[ 23.037] ..# MSSG: Altura menor a 2000 no se puede descender mas
+[ 23.092] --- Prueba_Altitud y Cabeceo
+[ 23.112] >>> Monitoreo
+[ 23.129] ..# Altitude:  2000
+[ 23.150] ..# Pilot_Power:  1022
+[ 23.173] ..# Speed:  0
+[ 23.191] ..# Joystick: -30 30
+[ 23.217] >>> Prueba_Altitud y Cabeceo
+[ 23.238] ..# MSSG: Altura menor a 2000 no se puede descender mas
+[ 23.293] --- Prueba_Altitud y Cabeceo
+[ 23.313] ..# Pitch:  0
+[ 23.334] ..# Roll:  0
+[ 23.350] --- Monitoreo
+[ 23.416] >>> Prueba_Altitud y Cabeceo
+[ 23.437] ..# MSSG: Altura menor a 2000 no se puede descender mas
+[ 23.492] --- Prueba_Altitud y Cabeceo
+[ 23.621] >>> Prueba_Altitud y Cabeceo
+[ 23.637] ..# MSSG: Altura menor a 2000 no se puede descender mas
+[ 23.692] --- Prueba_Altitud y Cabeceo
+[ 23.816] >>> Prueba_Altitud y Cabeceo
+[ 23.837] ..# MSSG: Altura menor a 2000 no se puede descender mas
+[ 23.892] --- Prueba_Altitud y Cabeceo
+[ 24.016] >>> Prueba_Altitud y Cabeceo
+[ 24.037] ..# MSSG: Altura menor a 2000 no se puede descender mas
+[ 24.092] --- Prueba_Altitud y Cabeceo
+[ 24.112] >>> Monitoreo
+[ 24.129] ..# Altitude:  2000
+[ 24.150] ..# Pilot_Power:  1022
+[ 24.173] ..# Speed:  0
+[ 24.191] ..# Joystick: -30 30
+[ 24.217] >>> Prueba_Altitud y Cabeceo
+[ 24.238] ..# MSSG: Altura menor a 2000 no se puede descender mas
+[ 24.293] --- Prueba_Altitud y Cabeceo
+[ 24.313] ..# Pitch:  0
+[ 24.334] ..# Roll:  0
+[ 24.350] --- Monitoreo
+[ 24.416] >>> Prueba_Altitud y Cabeceo
+[ 24.437] ..# MSSG: Altura menor a 2000 no se puede descender mas
+[ 24.492] --- Prueba_Altitud y Cabeceo
+[ 24.616] >>> Prueba_Altitud y Cabeceo
+[ 24.637] ..# MSSG: Altura menor a 2000 no se puede descender mas
+[ 24.692] --- Prueba_Altitud y Cabeceo
+[ 24.816] >>> Prueba_Altitud y Cabeceo
+[ 24.837] ..# MSSG: Altura menor a 2000 no se puede descender mas
+[ 24.892] --- Prueba_Altitud y Cabeceo
+[ 25.000] --- Change Mode
+[ 25.014] >>> Change Mode
+[ 25.027] >>> Prueba_Altitud y Cabeceo
+[ 25.071] --- Prueba_Altitud y Cabeceo
+[ 25.091] >>> Monitoreo
+[ 25.108] ..# Altitude:  1940
+[ 25.129] ..# Pilot_Power:  1022
+[ 25.152] ..# Speed:  0
+[ 25.170] ..# Joystick: -30 35
+[ 25.196] ..# Pitch: -30
+[ 25.218] >>> Prueba_Altitud y Cabeceo
+[ 25.262] --- Prueba_Altitud y Cabeceo
+[ 25.282] ..# Roll:  0
+[ 25.298] --- Monitoreo
+[ 25.416] >>> Prueba_Altitud y Cabeceo
+[ 25.460] --- Prueba_Altitud y Cabeceo
+[ 25.616] >>> Prueba_Altitud y Cabeceo
+[ 25.660] --- Prueba_Altitud y Cabeceo
+[ 25.816] >>> Prueba_Altitud y Cabeceo
+[ 25.860] --- Prueba_Altitud y Cabeceo
+[ 26.016] >>> Prueba_Altitud y Cabeceo
+[ 26.060] --- Prueba_Altitud y Cabeceo
+[ 26.091] >>> Monitoreo
+[ 26.108] ..# Altitude:  1640
+[ 26.129] ..# Pilot_Power:  1022
+[ 26.152] ..# Speed:  0
+[ 26.170] ..# Joystick: -30 35
+[ 26.196] ..# Pitch: -30
+[ 26.218] >>> Prueba_Altitud y Cabeceo
+[ 26.262] --- Prueba_Altitud y Cabeceo
+[ 26.282] ..# Roll:  0
+[ 26.298] --- Monitoreo
+[ 26.416] >>> Prueba_Altitud y Cabeceo
+[ 26.460] --- Prueba_Altitud y Cabeceo
+[ 26.616] >>> Prueba_Altitud y Cabeceo
+[ 26.660] --- Prueba_Altitud y Cabeceo
+[ 26.816] >>> Prueba_Altitud y Cabeceo
+[ 26.860] --- Prueba_Altitud y Cabeceo
+[ 27.016] >>> Prueba_Altitud y Cabeceo
+[ 27.060] --- Prueba_Altitud y Cabeceo
+[ 27.091] >>> Monitoreo
+[ 27.108] ..# Altitude:  1340
+[ 27.129] ..# Pilot_Power:  1022
+[ 27.152] ..# Speed:  0
+[ 27.170] ..# Joystick: -30 35
+[ 27.196] ..# Pitch: -30
+[ 27.218] >>> Prueba_Altitud y Cabeceo
+[ 27.262] --- Prueba_Altitud y Cabeceo
+[ 27.282] ..# Roll:  0
+[ 27.298] --- Monitoreo
+[ 27.416] >>> Prueba_Altitud y Cabeceo
+[ 27.460] --- Prueba_Altitud y Cabeceo
+[ 27.616] >>> Prueba_Altitud y Cabeceo
+[ 27.660] --- Prueba_Altitud y Cabeceo
+[ 27.816] >>> Prueba_Altitud y Cabeceo
+[ 27.860] --- Prueba_Altitud y Cabeceo
+[ 28.016] >>> Prueba_Altitud y Cabeceo
+[ 28.060] --- Prueba_Altitud y Cabeceo
+[ 28.091] >>> Monitoreo
+[ 28.108] ..# Altitude:  1040
+[ 28.129] ..# Pilot_Power:  1022
+[ 28.152] ..# Speed:  0
+[ 28.170] ..# Joystick: -30 35
+[ 28.196] ..# Pitch: -30
+[ 28.218] >>> Prueba_Altitud y Cabeceo
+[ 28.262] --- Prueba_Altitud y Cabeceo
+[ 28.282] ..# Roll:  0
+[ 28.298] --- Monitoreo
+[ 28.416] >>> Prueba_Altitud y Cabeceo
+[ 28.460] --- Prueba_Altitud y Cabeceo
+[ 28.616] >>> Prueba_Altitud y Cabeceo
+[ 28.660] --- Prueba_Altitud y Cabeceo
+[ 28.816] >>> Prueba_Altitud y Cabeceo
+[ 28.860] --- Prueba_Altitud y Cabeceo
+[ 29.016] >>> Prueba_Altitud y Cabeceo
+[ 29.060] --- Prueba_Altitud y Cabeceo
+[ 29.091] >>> Monitoreo
+[ 29.108] ..# Altitude:  740
+[ 29.129] ..# Pilot_Power:  1022
+[ 29.152] ..# Speed:  0
+[ 29.169] ..# Joystick: -30 35
+[ 29.195] ..# Pitch: -30
+[ 29.218] >>> Prueba_Altitud y Cabeceo
+[ 29.262] --- Prueba_Altitud y Cabeceo
+[ 29.281] ..# Roll:  0
+[ 29.297] --- Monitoreo
+[ 29.416] >>> Prueba_Altitud y Cabeceo
+[ 29.460] --- Prueba_Altitud y Cabeceo
+[ 29.616] >>> Prueba_Altitud y Cabeceo
+[ 29.660] --- Prueba_Altitud y Cabeceo
+[ 29.816] >>> Prueba_Altitud y Cabeceo
+[ 29.860] --- Prueba_Altitud y Cabeceo
+[ 30.016] >>> Prueba_Altitud y Cabeceo
+[ 30.064] --- Prueba_Altitud y Cabeceo
+[ 30.091] >>> Monitoreo
+[ 30.108] ..# Altitude:  440
+[ 30.129] ..# Pilot_Power:  1022
+[ 30.152] ..# Speed:  0
+[ 30.169] ..# Joystick: -30 35
+[ 30.195] ..# Pitch: -30
+[ 30.218] >>> Prueba_Altitud y Cabeceo
+[ 30.262] --- Prueba_Altitud y Cabeceo
+[ 30.281] ..# Roll:  0
+[ 30.297] --- Monitoreo
+[ 30.416] >>> Prueba_Altitud y Cabeceo
+[ 30.460] --- Prueba_Altitud y Cabeceo
+[ 30.616] >>> Prueba_Altitud y Cabeceo
+[ 30.660] --- Prueba_Altitud y Cabeceo
+[ 30.816] >>> Prueba_Altitud y Cabeceo
+[ 30.860] --- Prueba_Altitud y Cabeceo
+[ 31.016] >>> Prueba_Altitud y Cabeceo
+[ 31.060] --- Prueba_Altitud y Cabeceo
+[ 31.091] >>> Monitoreo
+[ 31.108] ..# Altitude:  140
+[ 31.129] ..# Pilot_Power:  1022
+[ 31.152] ..# Speed:  0
+[ 31.169] ..# Joystick: -30 35
+[ 31.195] ..# Pitch: -30
+[ 31.218] >>> Prueba_Altitud y Cabeceo
+[ 31.262] --- Prueba_Altitud y Cabeceo
+[ 31.281] ..# Roll:  0
+[ 31.297] --- Monitoreo
+[ 31.416] >>> Prueba_Altitud y Cabeceo
+[ 31.460] --- Prueba_Altitud y Cabeceo
+[ 31.616] >>> Prueba_Altitud y Cabeceo
+[ 32.091] >>> Monitoreo
+[ 32.108] ..# Altitude:  20
+[ 32.128] ..# Pilot_Power:  1022
+[ 32.151] ..# Speed:  0
+[ 32.169] ..# Joystick: -30 35
+[ 32.195] ..# Pitch: -30
+[ 32.217] ..# Roll:  30
+[ 32.233] --- Monitoreo
+[ 33.091] >>> Monitoreo
+[ 33.108] ..# Altitude:  20
+[ 33.128] ..# Pilot_Power:  1022
+[ 33.151] ..# Speed:  0
+[ 33.169] ..# Joystick: -30 35
+[ 33.195] ..# Pitch: -30
+[ 33.217] ..# Roll:  30
+[ 33.233] --- Monitoreo
+[ 34.091] >>> Monitoreo
+[ 34.108] ..# Altitude:  20
+[ 34.128] ..# Pilot_Power:  1022
+[ 34.151] ..# Speed:  0
+[ 34.169] ..# Joystick: -30 35
+[ 34.195] ..# Pitch: -30
+[ 34.217] ..# Roll:  30
+[ 34.233] --- Monitoreo
+[ 35.091] >>> Monitoreo
+[ 35.108] ..# Altitude:  20
+[ 35.128] ..# Pilot_Power:  1022
+[ 35.151] ..# Speed:  0
+[ 35.169] ..# Joystick: -30 35
+[ 35.195] ..# Pitch: -30
+[ 35.217] ..# Roll:  30
+[ 35.233] --- Monitoreo
+[ 36.091] >>> Monitoreo
+[ 36.108] ..# Altitude:  20
+[ 36.128] ..# Pilot_Power:  1022
+[ 36.151] ..# Speed:  0
+[ 36.169] ..# Joystick: -30 35
+[ 36.195] ..# Pitch: -30
+[ 36.217] ..# Roll:  30
+[ 36.233] --- Monitoreo
+[ 37.091] >>> Monitoreo
+[ 37.108] ..# Altitude:  20
+[ 37.128] ..# Pilot_Power:  1022
+[ 37.151] ..# Speed:  0
+[ 37.169] ..# Joystick: -30 35
+[ 37.195] ..# Pitch: -30
+[ 37.217] ..# Roll:  30
+[ 37.233] --- Monitoreo
+[ 38.091] >>> Monitoreo
+[ 38.108] ..# Altitude:  20
+[ 38.128] ..# Pilot_Power:  1022
+[ 38.151] ..# Speed:  0
+[ 38.169] ..# Joystick: -30 35
+[ 38.195] ..# Pitch: -30
+[ 38.217] ..# Roll:  30
+[ 38.233] --- Monitoreo
+[ 39.091] >>> Monitoreo
+[ 39.108] ..# Altitude:  20
+[ 39.128] ..# Pilot_Power:  1022
+[ 39.151] ..# Speed:  0
+[ 39.169] ..# Joystick: -30 35
+[ 39.195] ..# Pitch: -30
+[ 39.217] ..# Roll:  30
+[ 39.233] --- Monitoreo
+[ 40.091] >>> Monitoreo
+[ 40.108] ..# Altitude:  20
+[ 40.128] ..# Pilot_Power:  1022
+[ 40.151] ..# Speed:  0
+[ 40.169] ..# Joystick: -30 35
+[ 40.195] ..# Pitch: -30
+[ 40.217] ..# Roll:  30
+[ 40.233] --- Monitoreo
+[ 41.091] >>> Monitoreo
+[ 41.108] ..# Altitude:  20
+[ 41.128] ..# Pilot_Power:  1022
+[ 41.151] ..# Speed:  0
+[ 41.169] ..# Joystick: -30 35
+[ 41.195] ..# Pitch: -30
+[ 41.217] ..# Roll:  30
+[ 41.233] --- Monitoreo
+[ 42.091] >>> Monitoreo
+[ 42.108] ..# Altitude:  20
+[ 42.128] ..# Pilot_Power:  1022
+[ 42.151] ..# Speed:  0
+[ 42.169] ..# Joystick: -30 35
+[ 42.195] ..# Pitch: -30
+[ 42.217] ..# Roll:  30
+[ 42.233] --- Monitoreo
+[ 43.091] >>> Monitoreo
+[ 43.108] ..# Altitude:  20
+[ 43.128] ..# Pilot_Power:  1022
+[ 43.151] ..# Speed:  0
+[ 43.169] ..# Joystick: -30 35
+[ 43.195] ..# Pitch: -30
+[ 43.217] ..# Roll:  30
+[ 43.233] --- Monitoreo
+[ 44.091] >>> Monitoreo
+[ 44.108] ..# Altitude:  20
+[ 44.128] ..# Pilot_Power:  1022
+[ 44.151] ..# Speed:  0
+[ 44.169] ..# Joystick: -30 35
+[ 44.195] ..# Pitch: -30
+[ 44.217] ..# Roll:  30
+[ 44.233] --- Monitoreo
+[ 45.095] >>> Monitoreo
+[ 45.108] ..# Altitude:  20
+[ 45.128] ..# Pilot_Power:  1022
+[ 45.151] ..# Speed:  0
+[ 45.169] ..# Joystick: -30 35
+[ 45.195] ..# Pitch: -30
+[ 45.217] ..# Roll:  30
+[ 45.233] --- Monitoreo
+[ 46.091] >>> Monitoreo
+[ 46.108] ..# Altitude:  20
+[ 46.128] ..# Pilot_Power:  1022
+[ 46.151] ..# Speed:  0
+[ 46.169] ..# Joystick: -30 35
+[ 46.195] ..# Pitch: -30
+[ 46.217] ..# Roll:  30
+[ 46.233] --- Monitoreo
+[ 47.091] >>> Monitoreo
+[ 47.108] ..# Altitude:  20
+[ 47.128] ..# Pilot_Power:  1022
+[ 47.151] ..# Speed:  0
+[ 47.169] ..# Joystick: -30 35
+[ 47.195] ..# Pitch: -30
+[ 47.217] ..# Roll:  30
+[ 47.233] --- Monitoreo
+[ 48.091] >>> Monitoreo
+[ 48.108] ..# Altitude:  20
+[ 48.128] ..# Pilot_Power:  1022
+[ 48.151] ..# Speed:  0
+[ 48.169] ..# Joystick: -30 35
+[ 48.195] ..# Pitch: -30
+[ 48.217] ..# Roll:  30
+[ 48.233] --- Monitoreo
+[ 49.091] >>> Monitoreo
+[ 49.108] ..# Altitude:  20
+[ 49.128] ..# Pilot_Power:  1022
+[ 49.151] ..# Speed:  0
+[ 49.169] ..# Joystick: -30 35
+[ 49.195] ..# Pitch: -30
+[ 49.217] ..# Roll:  30
+[ 49.233] --- Monitoreo
+[ 50.091] >>> Monitoreo
+[ 50.108] ..# Altitude:  20
+[ 50.128] ..# Pilot_Power:  1022
+[ 50.151] ..# Speed:  0
+[ 50.169] ..# Joystick: -30 35
+[ 50.195] ..# Pitch: -30
+[ 50.217] ..# Roll:  30
+[ 50.233] --- Monitoreo
+[ 51.091] >>> Monitoreo
+[ 51.108] ..# Altitude:  20
+[ 51.128] ..# Pilot_Power:  1022
+[ 51.151] ..# Speed:  0
+[ 51.169] ..# Joystick: -30 35
+[ 51.195] ..# Pitch: -30
+[ 51.217] ..# Roll:  30
+[ 51.233] --- Monitoreo
+[ 52.091] >>> Monitoreo
+[ 52.108] ..# Altitude:  20
+[ 52.128] ..# Pilot_Power:  1022
+[ 52.151] ..# Speed:  0
+[ 52.169] ..# Joystick: -30 35
+[ 52.195] ..# Pitch: -30
+[ 52.217] ..# Roll:  30
+[ 52.233] --- Monitoreo
+[ 53.091] >>> Monitoreo
+[ 53.108] ..# Altitude:  20
+[ 53.128] ..# Pilot_Power:  1022
+[ 53.151] ..# Speed:  0
+[ 53.169] ..# Joystick: -30 35
+[ 53.195] ..# Pitch: -30
+[ 53.217] ..# Roll:  30
+[ 53.233] --- Monitoreo
+[ 54.091] >>> Monitoreo
+[ 54.108] ..# Altitude:  20
+[ 54.128] ..# Pilot_Power:  1022
+[ 54.151] ..# Speed:  0
+[ 54.169] ..# Joystick: -30 35
+[ 54.195] ..# Pitch: -30
+[ 54.217] ..# Roll:  30
+[ 54.233] --- Monitoreo
+[ 55.091] >>> Monitoreo
+[ 55.108] ..# Altitude:  20
+[ 55.128] ..# Pilot_Power:  1022
+[ 55.151] ..# Speed:  0
+[ 55.169] ..# Joystick: -30 35
+[ 55.195] ..# Pitch: -30
+[ 55.217] ..# Roll:  30
+[ 55.233] --- Monitoreo
+[ 56.091] >>> Monitoreo
+[ 56.108] ..# Altitude:  20
+[ 56.128] ..# Pilot_Power:  1022
+[ 56.151] ..# Speed:  0
+[ 56.169] ..# Joystick: -30 35
+[ 56.195] ..# Pitch: -30
+[ 56.217] ..# Roll:  30
+[ 56.233] --- Monitoreo
+[ 57.091] >>> Monitoreo
+[ 57.108] ..# Altitude:  20
+[ 57.128] ..# Pilot_Power:  1022
+[ 57.151] ..# Speed:  0
+[ 57.169] ..# Joystick: -30 35
+[ 57.195] ..# Pitch: -30
+[ 57.217] ..# Roll:  30
+[ 57.233] --- Monitoreo
+[ 58.091] >>> Monitoreo
+[ 58.108] ..# Altitude:  20
+[ 58.128] ..# Pilot_Power:  1022
+[ 58.151] ..# Speed:  0
+[ 58.169] ..# Joystick: -30 35
+[ 58.195] ..# Pitch: -30
+[ 58.217] ..# Roll:  30
+[ 58.233] --- Monitoreo
+[ 59.091] >>> Monitoreo
+[ 59.108] ..# Altitude:  20
+[ 59.128] ..# Pilot_Power:  1022
+[ 59.151] ..# Speed:  0
+[ 59.169] ..# Joystick: -30 35
+[ 59.195] ..# Pitch: -30
+[ 59.217] ..# Roll:  30
+[ 59.233] --- Monitoreo
+[ 60.091] >>> Monitoreo
+[ 60.108] ..# Altitude:  20
+[ 60.128] ..# Pilot_Power:  1022
+[ 60.151] ..# Speed:  0
+[ 60.169] ..# Joystick: -30 35
+[ 60.195] ..# Pitch: -30
+[ 60.217] ..# Roll:  30
+[ 60.233] --- Monitoreo
+[ 61.091] >>> Monitoreo
+[ 61.108] ..# Altitude:  20
+[ 61.128] ..# Pilot_Power:  1022
+[ 61.151] ..# Speed:  0
+[ 61.169] ..# Joystick: -30 35
+[ 61.195] ..# Pitch: -30
+[ 61.217] ..# Roll:  30
+[ 61.233] --- Monitoreo
+[ 62.091] >>> Monitoreo
+[ 62.108] ..# Altitude:  20
+[ 62.128] ..# Pilot_Power:  1022
+[ 62.151] ..# Speed:  0
+[ 62.169] ..# Joystick: -30 35
+[ 62.195] ..# Pitch: -30
+[ 62.217] ..# Roll:  30
+[ 62.233] --- Monitoreo
+Interrupt!
+ Stopped at time 631179752 (4.508e+01 s)
+tsim> 
